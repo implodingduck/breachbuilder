@@ -1,0 +1,325 @@
+{
+  "classes": {
+    "arcane": {
+      "arcane_mender": {
+        "guardian_sprite": {
+          "type": "general",
+          "description": "",
+          "cooldown": 20,
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/55/Guardian_Sprite.png/100px-Guardian_Sprite.png?version=79259f3b1e59851d055143a23b1a0496"
+        },
+        "purification": {
+          "type": "general",
+          "description": "",
+          "cooldown": 20,
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/79/Purification.png/100px-Purification.png?version=c95d07d59ec28e827e85d2804dc1d7d9"
+        },
+        "transcendent_blast": {
+          "type": "general",
+          "description": "",
+          "cooldown": 0,
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/63/Transcendent_Blast.png/100px-Transcendent_Blast.png?version=e34dee2daf41ee56b759a23cf98a655a"
+        },
+        "heal": {
+          "type": "ultimate",
+          "description": "",
+          "charges": 2,
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/6e/Heal.png/100px-Heal.png?version=4dc54b2a1dcf533ce8413b7317993d88"
+        },
+        "mending_wave": {
+          "type": "signature",
+          "description": "",
+          "charges": 3,
+          "cooldown": 18,
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png?version=6841d774f4aa8b37da5dd6ad40d6f024"
+        }
+        
+      },
+      "chronomancer": {
+        "haste": {
+          "type": "general",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/35/Haste.png/100px-Haste.png?version=dcaccc88c7e290b8360533123efe75a1"
+        },
+        "temporal_field": {
+          "type": "general",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/62/Temporal_Field.png/100px-Temporal_Field.png?version=cca40974ad3991c779cd75211333c341"
+        
+        },
+        "chronoleap": {
+          "type": "general",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/8e/Chronoleap.png/100px-Chronoleap.png?version=ff0419e64dd8036c1d4a6ae1f7a9ef09"
+        },
+        "cease_continuum": {
+          "type": "ultimate",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/a/a0/Cease_Continuum.png/100px-Cease_Continuum.png?version=3a41df39b7bbe16866793fa655c11494"
+        },
+        "statis_beam": {
+          "type": "signature",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/2/26/Stasis_Beam.png/100px-Stasis_Beam.png?version=473e3d1b53809cea59ed09694207d5c7"
+        }
+      },
+      "elementalist": {
+        "meteor": {
+          "type": "general",
+          "cooldown": 13,
+          "description": "",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png?version=51f17e41972b3e20aa0f30073e199349"
+        },
+        "aqueous_globe": {
+          "type": "general",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/03/Aqueous_Globe.png/100px-Aqueous_Globe.png?version=ed1aa873a6a8ddb47541f65838e32487"
+        },
+        "quake": {
+          "type": "general",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b4/Quake.png/100px-Quake.png?version=7952df3f133bc25a3b37ef50da04133b"
+        },
+        "elemental_quintessence": {
+          "type": "ultimate",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/1/1a/Elemental_Quintessence.png/100px-Elemental_Quintessence.png?version=86c9429fec5e568dfedf17737a71cf61"
+        },
+        "glacial_armor": {
+          "type": "signature",
+          "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/a/a5/Glacial_Armor.png/100px-Glacial_Armor.png?version=9a2bd23d4ba1acca34ee178609059c37"
+        }
+      }
+    },
+    "battle":{
+      "auros_gladiator": {
+      
+      },
+      "mana_warrior": {
+      
+      },
+      "vanguard": {
+      
+      }
+    },
+    "dark": {
+      "lich": {
+      
+      },
+      "necromancer": {
+      
+      },
+      "reaper": {
+      
+      }
+    },
+    "hedge": {
+      "demon_hunter": {
+      
+      },
+      "exorcist": {
+      
+      },
+      "occultist": {
+      
+      }
+    },
+    "shadow": {
+      "bloodstalker": {
+      
+      },
+      "nighthawk": {
+      
+      },
+      "shadowblade": {
+      
+      }
+    },
+    "tech": {
+      "engineer": {
+      
+      },
+      "gunslinger": {
+      
+      },
+      "sniper": {
+      
+      }
+    },
+    "veil_demon": {
+      "chaos_weaver": {
+      
+      },
+      "dark_artificer": {
+      
+      },
+      "soulfiend": {
+      
+      },
+      "taskmaster": {
+      
+      },
+      "veil_shifter": {
+      
+      },
+      "worldshaper": {
+      
+      }
+    }
+    
+  },
+  "talents": {
+    "arcane": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "battle":{
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "dark": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "hedge": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "shadow": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "tech": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "general": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    },
+    "veil_demon": {
+      "1": [
+      
+      ],
+      "2": [
+      
+      ],
+      "3": [
+      
+      ],
+      "4": [
+      
+      ]
+    }
+  },
+  "gems": {
+    "arcane": {
+      "prismatic": {
+      
+      }
+    },
+    "battle":{
+      "prismatic": {
+      
+      }
+    },
+    "dark": {
+      "prismatic": {
+      
+      }
+    },
+    "hedge": {
+      "prismatic": {
+      
+      }
+    },
+    "shadow": {
+      "prismatic": {
+      
+      }
+    },
+    "tech": {
+      "prismatic": {
+      
+      }
+    },
+    "general": {
+      "blue": {
+      
+      },
+      "red": {
+      
+      },
+      "prismatic": {
+      
+      }
+    },
+    "veil_demon": {
+      "prismatic": {
+      
+      }
+    }
+  }
+}
