@@ -3,14 +3,13 @@
     <h1>Breach Builder</h1>
     <div style="display: none;">{{schoolList}}</div>
     <div>
-      <select v-model="selectedClass">
-        <optgroup v-for="(classList, school) in schoolList" :label="formatKey(school)" :key="classList">
-          <option v-for="c in classList" :value="c" :key="c">{{formatKey(c)}}</option>
+      <select v-model="selectedHeroId" @change="pushHeroId" >
+        <optgroup v-for="(heroList, school) in schoolList" :label="formatKey(school)" :key="school">
+          <option v-for="(hero, heroId) in heroList" :value="heroId" :key="heroId">{{hero.name}}</option>
         </optgroup>
       </select>
+      <pre>{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
     </div>
-    <h2>{{formatKey(selectedClass)}}</h2>
-    <Hotbar :defaultAbilities="defaultAbilities(selectedClass)"></Hotbar>
   </div>
 </template>
 
@@ -24,8 +23,8 @@ export default {
   },
   data () {
     return { 
-      selectedClass: 'arcane_mender',
-      classes: {},
+      selectedHeroId: '01',
+      heroes: {},
       talents: {},
       gems: {}
     }
@@ -35,20 +34,33 @@ export default {
   },
   created () {
     let $vm = this;
-    axios.get('/data.json').then((result) => {
-      $vm.classes = result.data.classes;
-      $vm.gems = result.data.gems;
-      $vm.talents = result.data.talents;
+    axios.get('/heroes.json').then((result) => {
+      $vm.heroes = result.data;
+      $vm.selectedHeroId = window.location.hash.substr(2);
+      $vm.pushHeroId()
     });
+    window.onpopstate = function(event) {
+      $vm.selectedHeroId = event.state.selectedHeroId
+    }
   },
   computed: {
     schoolList: function() {
-      let retVal = {};
-      for(let schoolKey of Object.keys(this.classes)){
-        let school = this.classes[schoolKey];
-        retVal[schoolKey] = Object.keys(school);
+      let unordered = {};
+      for(let heroId of Object.keys(this.heroes)){
+        let school = this.heroes[heroId].school;
+        if ( !unordered.hasOwnProperty(school) ){
+          unordered[school] = {}
+        }
+        unordered[school][heroId] = this.heroes[heroId]
       }
-      return retVal;
+      const retVal = {};
+      Object.keys(unordered).sort().forEach(function(key) {
+        retVal[key] = unordered[key];
+      });
+      return retVal
+    },
+    selectedHero: function(){
+      return this.heroes[this.selectedHeroId]
     }
   },
   methods: {
@@ -66,6 +78,9 @@ export default {
           }
         }
       }
+    },
+    pushHeroId: function(){
+      history.pushState({ "selectedHeroId": this.selectedHeroId }, this.heroes[this.selectedHeroId].name, "#/" + this.selectedHeroId);
     }
   }
 }
