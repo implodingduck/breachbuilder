@@ -20,6 +20,13 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #B3B4B7;
+  background-color: rgba(27,34,66,0.9);
+  display: block;
+  padding: 1em;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>

@@ -1,2 +1,79 @@
-{
-}
+[
+  {
+    "id": 1,
+    "name": "Guardian Sprite",
+    "school": "Arcane",
+    "type": "general",
+    "description": "",
+    "cooldown": 20,
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/55/Guardian_Sprite.png/100px-Guardian_Sprite.png?version=79259f3b1e59851d055143a23b1a0496"
+  },
+  {
+    "id": 2,
+    "name": "Purification",
+    "school": "Arcane",
+    "type": "general",
+    "description": "",
+    "cooldown": 20,
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/79/Purification.png/100px-Purification.png?version=c95d07d59ec28e827e85d2804dc1d7d9"
+  },
+  {
+    "id": 3,
+    "name": "Transcendent Blast",
+    "school": "Arcane",
+    "type": "general",
+    "description": "",
+    "cooldown": 0,
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/63/Transcendent_Blast.png/100px-Transcendent_Blast.png?version=e34dee2daf41ee56b759a23cf98a655a"
+  },
+  {
+    "id": 4,
+    "name": "Heal",
+    "school": "Arcane",
+    "type": "ultimate",
+    "description": "",
+    "charges": 2,
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/6e/Heal.png/100px-Heal.png?version=4dc54b2a1dcf533ce8413b7317993d88"
+  },
+  {
+    "id": 5,
+    "name": "Mending Wave",
+    "school": "Arcane",
+    "type": "signature",
+    "description": "",
+    "charges": 3,
+    "cooldown": 18,
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png?version=6841d774f4aa8b37da5dd6ad40d6f024"
+  },
+  {
+    "id": 6,
+    "name":"haste",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/35/Haste.png/100px-Haste.png?version=dcaccc88c7e290b8360533123efe75a1"
+  },
+  {
+    "id": 7,
+    "name": "temporal_field",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/62/Temporal_Field.png/100px-Temporal_Field.png?version=cca40974ad3991c779cd75211333c341"
+  
+  },
+  {
+    "id": 8,
+    "name": "chronoleap",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/8e/Chronoleap.png/100px-Chronoleap.png?version=ff0419e64dd8036c1d4a6ae1f7a9ef09"
+  },
+  {
+    "id": 9,
+    "name": "cease_continuum",
+    "type": "ultimate",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/a/a0/Cease_Continuum.png/100px-Cease_Continuum.png?version=3a41df39b7bbe16866793fa655c11494"
+  },
+  {
+    "id": 10,
+    "name": "statis_beam",
+    "type": "signature",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/2/26/Stasis_Beam.png/100px-Stasis_Beam.png?version=473e3d1b53809cea59ed09694207d5c7"
+  }
+]
