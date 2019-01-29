@@ -2,10 +2,10 @@
   <div class="hello">
     <h1>Breach Builder</h1>
     <div>
-      <select v-model="selectedHeroId" @change="pushHeroId" >
+      <select v-model="selectedHeroId" >
           <option v-for="hero in heroes" :value="hero.id" :key="hero.id">{{hero.name}}</option>
       </select>
-      <pre>{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
+      <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
       <Hotbar v-if="heroes.length > 0" :defaultAbilities="selectedHero.abilities" :signature="selectedHero.signature"></Hotbar>
     </div>
   </div>

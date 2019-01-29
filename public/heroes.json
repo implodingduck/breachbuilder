@@ -40,251 +40,251 @@
     "name": "Auros Gladiator",
     "school": "Battle",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 16,
+      "2": 17,
+      "3": 18,
+      "4": 19
     },
-    "signature": 15
+    "signature": 20
   },
   { 
     "id": 5,
     "name": "Mana Warrior",
     "school": "Battle",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 21,
+      "2": 22,
+      "3": 23,
+      "4": 24
     },
-    "signature": 15
+    "signature": 25
   },
   { 
     "id": 6,
     "name": "Vanguard",
     "school": "Battle",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 26,
+      "2": 27,
+      "3": 28,
+      "4": 29
     },
-    "signature": 15
+    "signature": 30
   },
   { 
     "id": 7,
     "name": "Lich",
     "school": "Dark",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 31,
+      "2": 32,
+      "3": 33,
+      "4": 34
     },
-    "signature": 15
+    "signature": 35
   },
   { 
     "id": 8,
     "name": "Necromancer",
     "school": "Dark",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 36,
+      "2": 37,
+      "3": 38,
+      "4": 39
     },
-    "signature": 15
+    "signature": 40
   },
   { 
     "id": 9,
     "name": "Reaper",
     "school": "Dark",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 41,
+      "2": 42,
+      "3": 43,
+      "4": 44
     },
-    "signature": 15
+    "signature": 45
   },
   { 
     "id": 10,
     "name": "Demon Hunter",
     "school": "Hedge",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 46,
+      "2": 47,
+      "3": 48,
+      "4": 49
     },
-    "signature": 15
+    "signature": 50
   },
   { 
     "id": 11,
     "name": "Exorcist",
     "school": "Hedge",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 51,
+      "2": 52,
+      "3": 53,
+      "4": 54
     },
-    "signature": 15
+    "signature": 55
   },
   { 
     "id": 12,
     "name": "Occultist",
     "school": "Hedge",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 56,
+      "2": 57,
+      "3": 58,
+      "4": 59
     },
-    "signature": 15
+    "signature": 60
   },
   { 
     "id": 13,
     "name": "Bloodstalker",
     "school": "Shadow",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 61,
+      "2": 62,
+      "3": 63,
+      "4": 64
     },
-    "signature": 15
+    "signature": 65
   },
   { 
     "id": 14,
     "name": "Nighthawk",
     "school": "Shadow",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 66,
+      "2": 67,
+      "3": 68,
+      "4": 69
     },
-    "signature": 15
+    "signature": 70
   },
   { 
     "id": 15,
     "name": "Shadowblade",
     "school": "Shadow",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 71,
+      "2": 72,
+      "3": 73,
+      "4": 74
     },
-    "signature": 15
+    "signature": 75
   },
   { 
     "id": 16,
     "name": "Engineer",
     "school": "Tech",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 76,
+      "2": 77,
+      "3": 78,
+      "4": 79
     },
-    "signature": 15
+    "signature": 80
   },
   { 
     "id": 17,
     "name": "Gunslinger",
     "school": "Tech",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 81,
+      "2": 82,
+      "3": 83,
+      "4": 84
     },
-    "signature": 15
+    "signature": 85
   },
   { 
     "id": 18,
     "name": "Sniper",
     "school": "Tech",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 86,
+      "2": 87,
+      "3": 88,
+      "4": 89
     },
-    "signature": 15
+    "signature": 90
   },
   { 
     "id": 19,
     "name": "Chaos Weaver",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 91,
+      "2": 92,
+      "3": 93,
+      "4": 94
     },
-    "signature": 15
+    "signature": 95
   },
   { 
     "id": 20,
     "name": "Dark Artificer",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 96,
+      "2": 97,
+      "3": 98,
+      "4": 99
     },
-    "signature": 15
+    "signature": 100
   },
   { 
     "id": 21,
     "name": "Soulfiend",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 101,
+      "2": 102,
+      "3": 103,
+      "4": 104
     },
-    "signature": 15
+    "signature": 105
   },
   { 
     "id": 22,
     "name": "Taskmaster",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 106,
+      "2": 107,
+      "3": 108,
+      "4": 109
     },
-    "signature": 15
+    "signature": 110
   },
   { 
     "id": 23,
     "name": "Veil Shifter",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 111,
+      "2": 112,
+      "3": 113,
+      "4": 114
     },
-    "signature": 15
+    "signature": 115
   },
   { 
     "id": 24,
     "name": "Worldshaper",
     "school": "Veil Demon",
     "abilities": {
-      "1": 11,
-      "2": 12,
-      "3": 13,
-      "4": 14
+      "1": 116,
+      "2": 117,
+      "3": 118,
+      "4": 119
     },
-    "signature": 15
+    "signature": 120
   }
 ]
