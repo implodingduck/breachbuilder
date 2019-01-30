@@ -57,7 +57,7 @@ export default {
   created () {
     let $vm = this;
     
-    axios.get('/heroes.json').then((result) => {
+    axios.get(process.env.BASE_URL + 'heroes.json').then((result) => {
       $vm.heroes = result.data.sort(function(o1, o2){
         let retVal = 0
         if (o1.name > o2.name) {

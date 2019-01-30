@@ -50,7 +50,7 @@ export default {
   },
   created (){
     let $vm = this;
-    axios.get('/talents.json').then((result) => {
+    axios.get(process.env.BASE_URL + 'talents.json').then((result) => {
       $vm.talentList = result.data;
     });
   },

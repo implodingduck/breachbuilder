@@ -44,7 +44,7 @@ export default {
   },
   created (){
     let $vm = this;
-    axios.get('/abilities.json').then((result) => {
+    axios.get(process.env.BASE_URL + 'abilities.json').then((result) => {
       $vm.abilities = result.data;
     });
   },
