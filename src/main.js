@@ -13,7 +13,7 @@ const router = new VueRouter({
   routes: [
   {
     path: '/',
-    redirect: '/01010203040102030o'
+    redirect: '/01010203040102030o000000000000'
   },
   {    
     path: '/:id',
