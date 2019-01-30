@@ -851,5 +851,48 @@
     "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/c0/Winds_of_Auros.png/100px-Winds_of_Auros.png"
+  },
+  {
+    "id": 121,
+    "name": "Wildfire",
+    "school": "Arcane",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
+  },
+  {
+    "id": 122,
+    "name": "Flamestrike",
+    "school": "Arcane",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
+  },
+  {
+    "id": 123,
+    "name": "Combust",
+    "school": "Arcane",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
+  },
+  {
+    "id": 123,
+    "name": "Wildfire",
+    "school": "Arcane",
+    "type": "general",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
+  },
+  {
+    "id": 124,
+    "name": "Inferno",
+    "school": "Arcane",
+    "type": "ultimate",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
+  },
+  {
+    "id": 125,
+    "name": "Firebolt",
+    "school": "Arcane",
+    "type": "signature",
+    "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/99/Meteor.png/100px-Meteor.png"
   }
+  
 ]

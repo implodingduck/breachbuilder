@@ -286,5 +286,17 @@
       "4": 119
     },
     "signature": 120
+  },
+  {
+    "id": 25,
+    "name": "Pyromancer",
+    "school": "Arcane",
+    "abilities": {
+      "1": 121,
+      "2": 122,
+      "3": 123,
+      "4": 124
+    },
+    "signature": 125
   }
 ]

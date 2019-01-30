@@ -2,17 +2,19 @@
   <div class="hello">
     <h1>Breach Builder</h1>
     <div>
+      
       <fieldset>
         <legend>Class</legend>
-        <select v-model="selectedHeroId" >
+        <select v-model="selectedHeroId" @change="setDefaultSelectedSlots" >
             <option v-for="hero in heroes" :value="hero.id" :key="hero.id">{{hero.name}}</option>
         </select>
       </fieldset>
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
-      <Hotbar v-if="heroes.length > 0" :defaultAbilities="selectedHero.abilities" :signature="selectedHero.signature"></Hotbar>
-      <Talents :selectedHero="selectedHero"></Talents>
-      <Gems :selectedHero="selectedHero"></Gems>
+      <Hotbar v-if="heroes.length > 0" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
+      <Talents :selectedHero="selectedHero" :selectedLvl1="selectedLvl1" :selectedLvl2="selectedLvl2" :selectedLvl3="selectedLvl3" :selectedLvl4="selectedLvl4" @talentChange='handleTalentChange'></Talents>
+      <Gems :selectedHero="selectedHero"></Gems> 
     </div>
+    <div style="font-family: 'Lucida Console'; margin-top: 2em;">ID: {{computedId}}</div>
   </div>
 </template>
 
@@ -27,16 +29,17 @@ export default {
   props: {
   },
   data () {
+  let routerId = this.$route.params.id
     return { 
-      selectedHeroId: 1,
-      selectedSlot1: 1,
-      selectedSlot2: 2,
-      selectedSlot3: 3,
-      selectedSlot4: 4,
-      selectedLvl1: 1,
-      selectedLvl2: 2,
-      selectedLvl3: 3,
-      selectedLvl4: 24,
+      selectedHeroId: this.parseRouterId(routerId, 0, 1),
+      selectedSlot1: this.parseRouterId(routerId, 1, 1),
+      selectedSlot2: this.parseRouterId(routerId, 2, 2),
+      selectedSlot3: this.parseRouterId(routerId, 3, 3),
+      selectedSlot4: this.parseRouterId(routerId, 4, 4),
+      selectedLvl1: this.parseRouterId(routerId, 5, 1),
+      selectedLvl2: this.parseRouterId(routerId, 6, 2),
+      selectedLvl3: this.parseRouterId(routerId, 7, 3),
+      selectedLvl4: this.parseRouterId(routerId, 8, 24),
       selectedSapp1: 0,
       selectedSapp2: 0,
       selectedRuby1: 0,
@@ -53,6 +56,7 @@ export default {
   },
   created () {
     let $vm = this;
+    
     axios.get('/heroes.json').then((result) => {
       $vm.heroes = result.data.sort(function(o1, o2){
         let retVal = 0
@@ -68,8 +72,8 @@ export default {
   },
   computed: {
     
-    selectedHero: function(){
-      let selHero = undefined;
+    selectedHero: function() {
+      let selHero = { "signature": 0 };
       for ( let hero of this.heroes){
         if ( hero.id == this.selectedHeroId){
           selHero = hero;
@@ -77,6 +81,19 @@ export default {
         }
       }
       return selHero
+    },
+    computedId: function() {
+      let retVal = '';
+      retVal += this.toBase32(this.selectedHeroId)
+      retVal += this.toBase32(this.selectedSlot1)
+      retVal += this.toBase32(this.selectedSlot2)
+      retVal += this.toBase32(this.selectedSlot3)
+      retVal += this.toBase32(this.selectedSlot4)
+      retVal += this.toBase32(this.selectedLvl1)
+      retVal += this.toBase32(this.selectedLvl2)
+      retVal += this.toBase32(this.selectedLvl3)
+      retVal += this.toBase32(this.selectedLvl4)
+      return retVal;
     }
   },
   methods: {
@@ -96,13 +113,74 @@ export default {
       }
     },
     toBase32(x){
-      xString = x.toString(32);
+      let xString = x.toString(32);
       if (xString.length % 2) {
         xString = '0' + xString;
       }
+      return xString
     },
     fromBase32(xString){
-      parseInt(xString, 32);
+      return parseInt(xString, 32);
+    },
+    setDefaultSelectedSlots() {
+      let thisHero = this.selectedHero
+      this.selectedSlot1 = thisHero.abilities['1'];
+      this.selectedSlot2 = thisHero.abilities['2'];
+      this.selectedSlot3 = thisHero.abilities['3'];
+      this.selectedSlot4 = thisHero.abilities['4'];
+      this.$router.push('/' + this.computedId)
+    },
+    handleSlotChange(e){
+      switch(e.slot){
+        case 1:
+          this.selectedSlot1 = e.abilityId;
+          break;
+        case 2:
+          this.selectedSlot2 = e.abilityId;
+          break;
+        case 3:
+          this.selectedSlot3 = e.abilityId;
+          break;
+        case 4:
+          this.selectedSlot4 = e.abilityId;
+          break;
+      }
+      this.$router.push('/' + this.computedId)
+    },
+    handleTalentChange(e){
+      switch(e.level){
+        case 1:
+          this.selectedLvl1 = e.talentId
+          break;
+        case 2:
+          this.selectedLvl2 = e.talentId
+          break;
+        case 3:
+          this.selectedLvl3 = e.talentId
+          break;
+        case 4:
+          this.selectedLvl4 = e.talentId
+          break;
+      }
+      this.$router.push('/' + this.computedId)
+    },
+    parseRouterId(routerId, index, defaultValue){
+      try{
+        console.log(routerId);
+        let idSubstr = routerId.substr(index*2, 2)
+        console.log(idSubstr);
+        console.log(this.fromBase32(idSubstr))
+        return this.fromBase32(idSubstr);
+      }catch(err){
+        return defaultValue
+      }
+      
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      console.log(to);
+      console.log(from);
     }
   }
 }
@@ -115,7 +193,8 @@ h1 {
   text-shadow: 0 0 0.3em rgba(1,130,240,0.75), 0 0 0.5em #0182f0;
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
+  text-align: center;
   padding-bottom: 10px;
   border-bottom: 0;
 }

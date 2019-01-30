@@ -2,10 +2,10 @@
   <div>
     <fieldset><legend>Abilities</legend>
     <div class="hotbar">
-      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="slot1" @click.native="toggleAbilityList(slot1, 1)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="slot2" @click.native="toggleAbilityList(slot2, 2)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="slot3" @click.native="toggleAbilityList(slot3, 3)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="slot4" @click.native="toggleAbilityList(slot4, 4)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @click.native="toggleAbilityList(getAbility(selectedSlot1), 1)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @click.native="toggleAbilityList(getAbility(selectedSlot2), 2)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="getAbility(selectedSlot3)" @click.native="toggleAbilityList(getAbility(selectedSlot3), 3)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="getAbility(selectedSlot4)" @click.native="toggleAbilityList(getAbility(selectedSlot4), 4)"></HotbarAbility>
       <HotbarAbility :ability="getAbility(signature)"></HotbarAbility>
     </div>
     </fieldset>
@@ -26,6 +26,10 @@ export default {
   name: 'Hotbar',
   props: {
     "defaultAbilities": Object,
+    "selectedSlot1": Number,
+    "selectedSlot2": Number,
+    "selectedSlot3": Number,
+    "selectedSlot4": Number,
     "signature": Number
   },
   components: {
@@ -34,10 +38,6 @@ export default {
   data () {
     return {
       abilities: [],
-      slot1: {},
-      slot2: {},
-      slot3: {},
-      slot4: {},
       selectedSlot: 0,
       abilityList: []
     }
@@ -46,10 +46,6 @@ export default {
     let $vm = this;
     axios.get('/abilities.json').then((result) => {
       $vm.abilities = result.data;
-      $vm.slot1 = $vm.getAbility($vm.defaultAbilities['1'])
-      $vm.slot2 = $vm.getAbility($vm.defaultAbilities['2'])
-      $vm.slot3 = $vm.getAbility($vm.defaultAbilities['3'])
-      $vm.slot4 = $vm.getAbility($vm.defaultAbilities['4'])
     });
   },
   methods: {
@@ -84,31 +80,8 @@ export default {
       return retVal;
     },
     selectAbility(abilityId, index){
-      let ability = this.getAbility(abilityId);
-      switch(index){
-        case 1:
-          this.slot1 = ability;
-          break;
-        case 2:
-          this.slot2 = ability;
-          break;
-        case 3:
-          this.slot3 = ability;
-          break;  
-        case 4:
-          this.slot4 = ability;
-          break;
-      }
       this.selectedSlot = 0;
-    }
-  },
-  watch: {
-    defaultAbilities (newVal){
-      this.slot1 = this.getAbility(newVal['1'])
-      this.slot2 = this.getAbility(newVal['2'])
-      this.slot3 = this.getAbility(newVal['3'])
-      this.slot4 = this.getAbility(newVal['4'])
-      
+      this.$emit('slotchange', { "slot": index, "abilityId": abilityId })
     }
   }
   
@@ -118,9 +91,10 @@ export default {
 <style scoped>
   .hotbar {
     overflow: auto;
+    height: 9.7em;
   }
   .abilityList {
-    margin-top: -1px;
+    margin-top: -30px;
     margin-left: 3px;
     padding: 1em;
     position: absolute;

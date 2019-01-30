@@ -3,22 +3,22 @@
     <fieldset>
       <legend>Talents</legend>
       <label>Level 1:</label>
-      <select>
+      <select v-model="lvl1" @change="talentChange(1)">
         <option v-for="t in level1Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
       <label>Level 2:</label> 
-      <select>
+      <select v-model="lvl2" @change="talentChange(2)">
         <option v-for="t in level2Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
       <label>Level 3:</label> 
-      <select>
+      <select v-model="lvl3" @change="talentChange(3)">
         <option v-for="t in level3Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
       <label>Level 4:</label> 
-      <select>
+      <select v-model="lvl4" @change="talentChange(4)">
         <option v-for="t in level4Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
     </fieldset>
@@ -32,11 +32,20 @@ import axios from 'axios'
 
 export default {
   props: {
-    "selectedHero": Object
+    "selectedHero": Object,
+    "selectedLvl1": Number,
+    "selectedLvl2": Number,
+    "selectedLvl3": Number,
+    "selectedLvl4": Number
   },
   data () {
     return {
-      talentList: []
+      talentList: [],
+      lvl1: this.selectedLvl1,
+      lvl2: this.selectedLvl2,
+      lvl3: this.selectedLvl3,
+      lvl4: this.selectedLvl4
+      
     }
   },
   created (){
@@ -58,6 +67,25 @@ export default {
         }
       }
       return retVal;
+    },
+    talentChange( level ){
+      let talentId = 0
+      switch(level){
+        case 1: 
+          talentId = this.lvl1;
+          break;
+        case 2: 
+          talentId = this.lvl2;
+          break;
+        case 3: 
+          talentId = this.lvl3;
+          break;
+        case 4: 
+          talentId = this.lvl4;
+          break;
+          
+      }
+      this.$emit('talentChange', { 'level': level, 'talentId': talentId })
     }
   },
   computed: {
