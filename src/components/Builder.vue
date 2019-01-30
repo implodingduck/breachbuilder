@@ -26,7 +26,21 @@ export default {
   data () {
     return { 
       selectedHeroId: 1,
-      heroes: []
+      selectedSlot1: 1,
+      selectedSlot2: 2,
+      selectedSlot3: 3,
+      selectedSlot4: 4,
+      selectedLvl1: 1,
+      selectedLvl2: 2,
+      selectedLvl3: 3,
+      selectedLvl4: 24,
+      selectedSapp1: 0,
+      selectedSapp2: 0,
+      selectedRuby1: 0,
+      selectedRuby2: 0,
+      selectedPris1: 0,
+      selectedPris2: 0,
+      heroes: [],
     }
   },
   components: {

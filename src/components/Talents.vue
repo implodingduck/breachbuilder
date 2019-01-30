@@ -48,16 +48,13 @@ export default {
   methods: {
     levelXTalents ( level ){
       let retVal = []
-      console.log('level ' + level + ' talents')
       let school = (this.selectedHero) ? this.selectedHero.school : '';
-      console.log(school)
       for( let t of this.talentList){
         if( 
           (t.school == school || 
             (t.school == 'mage' && school != 'Veil Demon')
           ) && t.levels.indexOf(level) > -1  ){
           retVal.push(t);  
-          console.log(t);
         }
       }
       return retVal;
