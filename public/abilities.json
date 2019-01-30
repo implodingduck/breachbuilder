@@ -224,631 +224,631 @@
   },
   {
     "id": 31,
-    "name": "",
-    "school": "",
+    "name": "Overwhelming Power",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/7f/Overwhelming_Power.png/100px-Overwhelming_Power.png"
   },
   {
     "id": 32,
-    "name": "",
-    "school": "",
+    "name": "Crippling Rake",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f3/Crippling_Rake.png/100px-Crippling_Rake.png"
   },
   {
     "id": 33,
-    "name": "",
-    "school": "",
+    "name": "Phylactery",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b8/Phylactery.png/100px-Phylactery.png"
   },
   {
     "id": 34,
-    "name": "",
-    "school": "",
+    "name": "Arcane Siphon",
+    "school": "Dark",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/85/Arcane_Siphon.png/100px-Arcane_Siphon.png"
   },
   {
     "id": 35,
-    "name": "",
-    "school": "",
+    "name": "Death Touch",
+    "school": "Dark",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/50/Death_Touch.png/100px-Death_Touch.png"
   },
   {
     "id": 36,
-    "name": "",
-    "school": "",
+    "name": "Command Minion",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/7d/Command_Minion.png/100px-Command_Minion.png"
   },
   {
     "id": 37,
-    "name": "",
-    "school": "",
+    "name": "Sacrifice Minion",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/40/Sacrifice_Minion.png/100px-Sacrifice_Minion.png"
   },
   {
     "id": 38,
-    "name": "",
-    "school": "",
+    "name": "Haunting Wraiths",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f3/Haunting_Wraiths.png/100px-Haunting_Wraiths.png"
   },
   {
     "id": 39,
-    "name": "",
-    "school": "",
+    "name": "Raise Dead",
+    "school": "Dark",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/0e/Raise_Dead.png/100px-Raise_Dead.png"
   },
   {
     "id": 40,
-    "name": "",
-    "school": "",
+    "name": "Frenzied Shambler",
+    "school": "Dark",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b6/Frenzied_Shambler.png/100px-Frenzied_Shambler.png"
   },
   {
     "id": 41,
-    "name": "",
-    "school": "",
+    "name": "Reap",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f8/Reap.png/100px-Reap.png"
   },
   {
     "id": 42,
-    "name": "",
-    "school": "",
+    "name": "Grasp of Death",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/cd/Grasp_of_Death.png/100px-Grasp_of_Death.png"
   },
   {
     "id": 43,
-    "name": "",
-    "school": "",
+    "name": "Death's Beckon",
+    "school": "Dark",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/8e/Death%27s_Beckon.png/100px-Death%27s_Beckon.png"
   },
   {
     "id": 44,
-    "name": "",
-    "school": "",
+    "name": "Grim Reaper Form",
+    "school": "Dark",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/02/Grim_Reaper_Form.png/100px-Grim_Reaper_Form.png"
   },
   {
     "id": 45,
-    "name": "",
-    "school": "",
+    "name": "Sow",
+    "school": "Dark",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d6/Sow.png/100px-Sow.png"
   },
   {
     "id": 46,
-    "name": "",
-    "school": "",
+    "name": "Marked Shot",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/51/Marked_Shot.png/100px-Marked_Shot.png"
   },
   {
     "id": 47,
-    "name": "",
-    "school": "",
+    "name": "Binding Circle",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/86/Binding_Circle.png/100px-Binding_Circle.png"
   },
   {
     "id": 48,
-    "name": "",
-    "school": "",
+    "name": "Banishing Relic",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/04/Banishing_Relic.png/100px-Banishing_Relic.png"
   },
   {
     "id": 49,
-    "name": "",
-    "school": "",
+    "name": "Siphoning Skull",
+    "school": "Hedge",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d3/Siphoning_Skull.png/100px-Siphoning_Skull.png"
   },
   {
     "id": 50,
-    "name": "",
-    "school": "",
+    "name": "Sticky Grenade",
+    "school": "Hedge",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/9d/Sticky_Grenade.png/100px-Sticky_Grenade.png"
   },
   {
     "id": 51,
-    "name": "",
-    "school": "",
+    "name": "Hallowed Spike",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/e5/Hallowed_Spike.png/100px-Hallowed_Spike.png"
   },
   {
     "id": 52,
-    "name": "",
-    "school": "",
+    "name": "Confound",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/e8/Confound.png/100px-Confound.png"
   },
   {
     "id": 53,
-    "name": "",
-    "school": "",
+    "name": "Explosive Shell",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/7f/Explosive_Shell.png/100px-Explosive_Shell.png"
   },
   {
     "id": 54,
-    "name": "",
-    "school": "",
+    "name": "Exilium Daemonium",
+    "school": "Hedge",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/47/Exilium_Daemonium.png/100px-Exilium_Daemonium.png"
   },
   {
     "id": 55,
-    "name": "",
-    "school": "",
+    "name": "Exorcism",
+    "school": "Hedge",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/78/Exorcism.png/100px-Exorcism.png"
   },
   {
     "id": 56,
-    "name": "",
-    "school": "",
+    "name": "Incendiary Shots",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/2/2d/Incendiary_Shots.png/100px-Incendiary_Shots.png"
   },
   {
     "id": 57,
-    "name": "",
-    "school": "",
+    "name": "Hellfire",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/4e/Hellfire.png/100px-Hellfire.png"
   },
   {
     "id": 58,
-    "name": "",
-    "school": "",
+    "name": "Projectile Ward",
+    "school": "Hedge",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/e4/Projectile_Ward.png/100px-Projectile_Ward.png"
   },
   {
     "id": 59,
-    "name": "",
-    "school": "",
+    "name": "Healing Pact",
+    "school": "Hedge",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/92/Healing_Pact.png/100px-Healing_Pact.png"
   },
   {
     "id": 60,
-    "name": "",
-    "school": "",
+    "name": "Tar Jar",
+    "school": "Hedge",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f5/Tar_Jar.png/100px-Tar_Jar.png"
   },
   {
     "id": 61,
-    "name": "",
-    "school": "",
+    "name": "Deathroot Dagger",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d0/Deathroot_Dagger.png/100px-Deathroot_Dagger.png"
   },
   {
     "id": 62,
-    "name": "",
-    "school": "",
+    "name": "Debilitating Wound",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b7/Debilitating_Wound.png/100px-Debilitating_Wound.png"
   },
   {
     "id": 63,
-    "name": "",
-    "school": "",
+    "name": "Lacerate",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/4d/Lacerate.png/100px-Lacerate.png"
   },
   {
     "id": 64,
-    "name": "",
-    "school": "",
+    "name": "Bloodlust",
+    "school": "Shadow",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/1/11/Bloodlust.png/100px-Bloodlust.png"
   },
   {
     "id": 65,
-    "name": "",
-    "school": "",
+    "name": "Cursed Strike",
+    "school": "Shadow",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/5b/Cursed_Strike.png/100px-Cursed_Strike.png"
   },
   {
     "id": 66,
-    "name": "",
-    "school": "",
+    "name": "Fleeting Talon",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/a/ad/Fleeting_Talon.png/100px-Fleeting_Talon.png"
   },
   {
     "id": 67,
-    "name": "",
-    "school": "",
+    "name": "Talon Frenzy",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/bf/Talon_Frenzy.png/100px-Talon_Frenzy.png"
   },
   {
     "id": 68,
-    "name": "",
-    "school": "",
+    "name": "Dive Bomb",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/69/Dive-Bomb.png/100px-Dive-Bomb.png"
   },
   {
     "id": 69,
-    "name": "",
-    "school": "",
+    "name": "Mob of Ravens",
+    "school": "Shadow",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/88/Mob_of_Ravens.png/100px-Mob_of_Ravens.png"
   },
   {
     "id": 70,
-    "name": "",
-    "school": "",
+    "name": "Bird of Prey",
+    "school": "Shadow",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/95/Bird_of_Prey.png/100px-Bird_of_Prey.png"
   },
   {
     "id": 71,
-    "name": "",
-    "school": "",
+    "name": "Lethal Strike",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/82/Lethal_Strike.png/100px-Lethal_Strike.png"
   },
   {
     "id": 72,
-    "name": "",
-    "school": "",
+    "name": "Assassinate",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/34/Assassinate.png/100px-Assassinate.png"
   },
   {
     "id": 73,
-    "name": "",
-    "school": "",
+    "name": "Vanish",
+    "school": "Shadow",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b6/Vanish.png/100px-Vanish.png"
   },
   {
     "id": 74,
-    "name": "",
-    "school": "",
+    "name": "Mass Ambush",
+    "school": "Shadow",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/ea/Mass_Ambush.png/100px-Mass_Ambush.png"
   },
   {
     "id": 75,
-    "name": "",
-    "school": "",
+    "name": "Ambush",
+    "school": "Shadow",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/30/Ambush.png/100px-Ambush.png"
   },
   {
     "id": 76,
-    "name": "",
-    "school": "",
+    "name": "Confusion Gas Grenade",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/73/Confusion_Gas_Grenade.png/100px-Confusion_Gas_Grenade.png"
   },
   {
     "id": 77,
-    "name": "",
-    "school": "",
+    "name": "Flash Grenade",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/68/Flash_Grenade.png/100px-Flash_Grenade.png"
   },
   {
     "id": 78,
-    "name": "",
-    "school": "",
+    "name": "Recall Dart",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f3/Recall_Dart.png/100px-Recall_Dart.png"
   },
   {
     "id": 79,
-    "name": "",
-    "school": "",
+    "name": "Kinetic Absorption Field",
+    "school": "Tech",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b6/Kinetic_Absorption_Field.png/100px-Kinetic_Absorption_Field.png"
   },
   {
     "id": 80,
-    "name": "",
-    "school": "",
+    "name": "Turret",
+    "school": "Tech",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/32/Turret.png/100px-Turret.png"
   },
   {
     "id": 81,
-    "name": "",
-    "school": "",
+    "name": "Quick Feet",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/1/1f/Quick_Feet.png/100px-Quick_Feet.png"
   },
   {
     "id": 82,
-    "name": "",
-    "school": "",
+    "name": "Ricochet Shot",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/ed/Ricochet_Shot.png/100px-Ricochet_Shot.png"
   },
   {
     "id": 83,
-    "name": "",
-    "school": "",
+    "name": "Rapid Fire Clip",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d0/Rapid_Fire_Clip.png/100px-Rapid_Fire_Clip.png"
   },
   {
     "id": 84,
-    "name": "",
-    "school": "",
+    "name": "Lead Storm",
+    "school": "Tech",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/3/38/Lead_Storm.png/100px-Lead_Storm.png"
   },
   {
     "id": 85,
-    "name": "",
-    "school": "",
+    "name": "Boom Shot",
+    "school": "Tech",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/76/Boom_Shot.png/100px-Boom_Shot.png"
   },
   {
     "id": 86,
-    "name": "",
-    "school": "",
+    "name": "Vortex Slug",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/77/Vortex_Slug.png/100px-Vortex_Slug.png"
   },
   {
     "id": 87,
-    "name": "",
-    "school": "",
+    "name": "Tactical Shot",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/ce/Tactical_Shot.png/100px-Tactical_Shot.png"
   },
   {
     "id": 88,
-    "name": "",
-    "school": "",
+    "name": "Snare Trap",
+    "school": "Tech",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d0/Snare_Trap.png/100px-Snare_Trap.png"
   },
   {
     "id": 89,
-    "name": "",
-    "school": "",
+    "name": "Precision Barrage",
+    "school": "Tech",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/5/55/Precision_Barrage.png/100px-Precision_Barrage.png"
   },
   {
     "id": 90,
-    "name": "",
-    "school": "",
+    "name": "Snipe",
+    "school": "Tech",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/40/Snipe.png/100px-Snipe.png"
   },
   {
     "id": 91,
-    "name": "",
-    "school": "",
+    "name": "Sheaths of Sorrow",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/e8/Sheaths_of_Sorrow.png/100px-Sheaths_of_Sorrow.png"
   },
   {
     "id": 92,
-    "name": "",
-    "school": "",
+    "name": "Paralyzing Field",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/0b/Paralyzing_Field.png/100px-Paralyzing_Field.png"
   },
   {
     "id": 93,
-    "name": "",
-    "school": "",
+    "name": "Frosts of Elivagar",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/c8/Frosts_of_Elivagar.png/100px-Frosts_of_Elivagar.png"
   },
   {
     "id": 94,
-    "name": "",
-    "school": "",
+    "name": "Grael Vitals",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/2/2a/Grael_Vitals.png/100px-Grael_Vitals.png"
   },
   {
     "id": 95,
-    "name": "",
-    "school": "",
+    "name": "Shards of Cerberus",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/92/Shards_of_Cerberus.png/100px-Shards_of_Cerberus.png"
   },
   {
     "id": 96,
-    "name": "",
-    "school": "",
+    "name": "Aethyr Coil",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/e9/Aethyr_Coil.png/100px-Aethyr_Coil.png"
   },
   {
     "id": 97,
-    "name": "",
-    "school": "",
+    "name": "Watcher",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/98/Watcher.png/100px-Watcher.png"
   },
   {
     "id": 98,
-    "name": "",
-    "school": "",
+    "name": "Grael Bedrock",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/8/81/Grael_Bedrock.png/100px-Grael_Bedrock.png"
   },
   {
     "id": 99,
-    "name": "",
-    "school": "",
+    "name": "Cursed Siphoning",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/09/Cursed_Siphoning.png/100px-Cursed_Siphoning.png"
   },
   {
     "id": 100,
-    "name": "",
-    "school": "",
+    "name": "Chronos Gem",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/66/Chronos_Gem.png/100px-Chronos_Gem.png"
   },
   {
     "id": 101,
-    "name": "",
-    "school": "",
+    "name": "Grael Heart",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/e/ea/Grael_Heart.png/100px-Grael_Heart.png"
   },
   {
     "id": 102,
-    "name": "",
-    "school": "",
+    "name": "Shadow Soul",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/b6/Shadow_Soul.png/100px-Shadow_Soul.png"
   },
   {
     "id": 103,
-    "name": "",
-    "school": "",
+    "name": "Burning Soul",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/1/1c/Burning_Soul.png/100px-Burning_Soul.png"
   },
   {
     "id": 104,
-    "name": "",
-    "school": "",
+    "name": "Frenzy",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f1/Frenzy.png/100px-Frenzy.png"
   },
   {
     "id": 105,
-    "name": "",
-    "school": "",
+    "name": "Soul Infusion",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/f/f2/Soul_Infusion.png/100px-Soul_Infusion.png"
   },
   {
     "id": 106,
-    "name": "",
-    "school": "",
+    "name": "Sacrifice",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/1/18/Sacrifice.png/100px-Sacrifice.png"
   },
   {
     "id": 107,
-    "name": "",
-    "school": "",
+    "name": "Translocate",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/c2/Translocate.png/100px-Translocate.png"
   },
   {
     "id": 108,
-    "name": "",
-    "school": "",
+    "name": "Pain Conduit",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/7c/Pain_Conduit.png/100px-Pain_Conduit.png"
   },
   {
     "id": 109,
-    "name": "",
-    "school": "",
+    "name": "Inspiring Presence",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/a/ac/Inspiring_Presence.png/100px-Inspiring_Presence.png"
   },
   {
     "id": 110,
-    "name": "",
-    "school": "",
+    "name": "Command",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/94/Command.png/100px-Command.png"
   },
   {
     "id": 111,
-    "name": "",
-    "school": "",
+    "name": "Veil Shroud",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/7/75/Veil_Shroud.png/100px-Veil_Shroud.png"
   },
   {
     "id": 112,
-    "name": "",
-    "school": "",
+    "name": "Veil Sight Curse",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/cb/Veil_Sight_Curse.png/100px-Veil_Sight_Curse.png"
   },
   {
     "id": 113,
-    "name": "",
-    "school": "",
+    "name": "Cerberus Core",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/4b/Cerberus_Core.png/100px-Cerberus_Core.png"
   },
   {
     "id": 114,
-    "name": "",
-    "school": "",
+    "name": "Veil Fade",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/0/09/Veil_Fade.png/100px-Veil_Fade.png"
   },
   {
     "id": 115,
-    "name": "",
-    "school": "",
+    "name": "Veil Rift",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/6/61/Veil_Rift.png/100px-Veil_Rift.png"
   },
   {
     "id": 116,
-    "name": "",
-    "school": "",
+    "name": "Fungal Spore",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/b/bc/Fungal_Spore.png/100px-Fungal_Spore.png"
   },
   {
     "id": 117,
-    "name": "",
-    "school": "",
+    "name": "Grael Cage",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/4/43/Grael_Cage.png/100px-Grael_Cage.png"
   },
   {
     "id": 118,
-    "name": "",
-    "school": "",
+    "name": "Cerberus Inferno",
+    "school": "Veil Demon",
     "type": "general",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/d/d9/Cerberus_Inferno.png/100px-Cerberus_Inferno.png"
   },
   {
     "id": 119,
-    "name": "",
-    "school": "",
+    "name": "Hasten Death",
+    "school": "Veil Demon",
     "type": "ultimate",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/9/92/Hasten_Death.png/100px-Hasten_Death.png"
   },
   {
     "id": 120,
-    "name": "",
-    "school": "",
+    "name": "Winds of Auros",
+    "school": "Veil Demon",
     "type": "signature",
     "icon": "https://d1u5p3l4wpay3k.cloudfront.net/breach_gamepedia_en/thumb/c/c0/Winds_of_Auros.png/100px-Winds_of_Auros.png"
   }

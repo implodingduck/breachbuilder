@@ -1,5 +1,6 @@
 <template>
   <div>
+    <fieldset><legend>Abilities</legend>
     <div class="hotbar">
       <HotbarAbility :ability="slot1" @click.native="toggleAbilityList(slot1, 1)"></HotbarAbility>
       <HotbarAbility :ability="slot2" @click.native="toggleAbilityList(slot2, 2)"></HotbarAbility>
@@ -7,6 +8,7 @@
       <HotbarAbility :ability="slot4" @click.native="toggleAbilityList(slot4, 4)"></HotbarAbility>
       <HotbarAbility :ability="getAbility(signature)"></HotbarAbility>
     </div>
+    </fieldset>
     <div v-if="selectedSlot > 0" class="abilityList">
       <span v-for="ability in abilityList" :key="ability.id">
          <HotbarAbility :ability="ability" @click.native="selectAbility(ability.id, selectedSlot)"></HotbarAbility>
@@ -114,12 +116,19 @@ export default {
 
 <style scoped>
   .hotbar {
-    margin-top: 3em;
     overflow: auto;
-    min-height: 7em;
   }
   .abilityList {
-    margin-top: 1em;
+    margin-top: -1px;
+    margin-left: 3px;
     padding: 1em;
+    position: absolute;
+    background-color: rgba(27,34,66,1.0);
+    border: 1px solid #B3B4B7;
+    width: 91%;
+    box-shadow: 3px 3px #333333;
+  }
+  fieldset {
+    margin-top: 2em;
   }
 </style>

@@ -7,6 +7,8 @@
       </select>
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
       <Hotbar v-if="heroes.length > 0" :defaultAbilities="selectedHero.abilities" :signature="selectedHero.signature"></Hotbar>
+      <Talents :selectedHero="selectedHero"></Talents>
+      <Gems :selectedHero="selectedHero"></Gems>
     </div>
   </div>
 </template>
@@ -14,6 +16,8 @@
 <script>
 import axios from 'axios'
 import Hotbar from './Hotbar.vue'
+import Talents from './Talents.vue'
+import Gems from './Gems.vue'
 
 export default {
   name: 'Builder',
@@ -26,7 +30,9 @@ export default {
     }
   },
   components: {
-    Hotbar
+    Hotbar,
+    Talents,
+    Gems
   },
   created () {
     let $vm = this;
