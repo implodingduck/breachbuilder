@@ -2,9 +2,12 @@
   <div class="hello">
     <h1>Breach Builder</h1>
     <div>
-      <select v-model="selectedHeroId" >
-          <option v-for="hero in heroes" :value="hero.id" :key="hero.id">{{hero.name}}</option>
-      </select>
+      <fieldset>
+        <legend>Class</legend>
+        <select v-model="selectedHeroId" >
+            <option v-for="hero in heroes" :value="hero.id" :key="hero.id">{{hero.name}}</option>
+        </select>
+      </fieldset>
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
       <Hotbar v-if="heroes.length > 0" :defaultAbilities="selectedHero.abilities" :signature="selectedHero.signature"></Hotbar>
       <Talents :selectedHero="selectedHero"></Talents>
@@ -91,6 +94,15 @@ export default {
           }
         }
       }
+    },
+    toBase32(x){
+      xString = x.toString(32);
+      if (xString.length % 2) {
+        xString = '0' + xString;
+      }
+    },
+    fromBase32(xString){
+      parseInt(xString, 32);
     }
   }
 }
@@ -98,6 +110,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  color: #eee;
+  text-shadow: 0 0 0.3em rgba(1,130,240,0.75), 0 0 0.5em #0182f0;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  border-bottom: 0;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -112,4 +133,8 @@ li {
 a {
   color: #42b983;
 }
+select {
+  height: 2em;
+  font-size: 1em;
+} 
 </style>
