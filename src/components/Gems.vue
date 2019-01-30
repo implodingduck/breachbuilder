@@ -58,7 +58,7 @@ export default {
   },
   created () {
     let $vm = this;
-    axios.get(process.env.publicPath + 'gems.json').then((result) => {
+    axios.get(process.env.BASE_URL + 'gems.json').then((result) => {
       $vm.gemList = result.data;
     });
   },
