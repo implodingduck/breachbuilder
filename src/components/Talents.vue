@@ -2,23 +2,23 @@
   <div style="margin-top: 1em;">
     <fieldset>
       <legend>Talents</legend>
-      <label>Level 1:</label>
-      <select v-model="lvl1" @change="talentChange(1)">
+      <label for="talent1">Level 1:</label>
+      <select id="talent1" v-model="lvl1" @change="talentChange(1)">
         <option v-for="t in level1Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
-      <label>Level 2:</label> 
-      <select v-model="lvl2" @change="talentChange(2)">
+      <label for="talent2">Level 2:</label> 
+      <select id="talent2" v-model="lvl2" @change="talentChange(2)">
         <option v-for="t in level2Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
-      <label>Level 3:</label> 
-      <select v-model="lvl3" @change="talentChange(3)">
+      <label for="talent3">Level 3:</label> 
+      <select id="talent3" v-model="lvl3" @change="talentChange(3)">
         <option v-for="t in level3Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
       
-      <label>Level 4:</label> 
-      <select v-model="lvl4" @change="talentChange(4)">
+      <label for="talent4">Level 4:</label> 
+      <select id="talent4" v-model="lvl4" @change="talentChange(4)">
         <option v-for="t in level4Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
       </select>
     </fieldset>
@@ -112,6 +112,7 @@ export default {
     width: 4.5em;
     float: left;
     clear: both;
+    margin-bottom: 1em;
   }
   
   select {

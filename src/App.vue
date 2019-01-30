@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import Builder from './components/Builder.vue'
 
 export default {
   name: 'app',

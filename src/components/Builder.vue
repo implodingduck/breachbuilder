@@ -12,9 +12,9 @@
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
       <Hotbar v-if="heroes.length > 0" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
       <Talents :selectedHero="selectedHero" :selectedLvl1="selectedLvl1" :selectedLvl2="selectedLvl2" :selectedLvl3="selectedLvl3" :selectedLvl4="selectedLvl4" @talentChange='handleTalentChange'></Talents>
-      <Gems :selectedHero="selectedHero"></Gems> 
+      <Gems :selectedHero="selectedHero" :selectedSapp1="selectedSapp1" :selectedSapp2="selectedSapp2" :selectedRuby1="selectedRuby1" :selectedRuby2="selectedRuby2" :selectedPris1="selectedPris1" :selectedPris2="selectedPris2" @gemChange="handleGemChange" ></Gems> 
     </div>
-    <div style="font-family: 'Lucida Console'; margin-top: 2em;">ID: {{computedId}}</div>
+    <div style="font-family: 'Lucida Console'; margin-top: 2em; display: none;">ID: {{computedId}}</div>
   </div>
 </template>
 
@@ -40,12 +40,12 @@ export default {
       selectedLvl2: this.parseRouterId(routerId, 6, 2),
       selectedLvl3: this.parseRouterId(routerId, 7, 3),
       selectedLvl4: this.parseRouterId(routerId, 8, 24),
-      selectedSapp1: 0,
-      selectedSapp2: 0,
-      selectedRuby1: 0,
-      selectedRuby2: 0,
-      selectedPris1: 0,
-      selectedPris2: 0,
+      selectedSapp1: this.parseRouterId(routerId, 9, 0),
+      selectedSapp2: this.parseRouterId(routerId, 10, 0),
+      selectedRuby1: this.parseRouterId(routerId, 11, 0),
+      selectedRuby2: this.parseRouterId(routerId, 12, 0),
+      selectedPris1: this.parseRouterId(routerId, 13, 0),
+      selectedPris2: this.parseRouterId(routerId, 14, 0),
       heroes: [],
     }
   },
@@ -93,6 +93,12 @@ export default {
       retVal += this.toBase32(this.selectedLvl2)
       retVal += this.toBase32(this.selectedLvl3)
       retVal += this.toBase32(this.selectedLvl4)
+      retVal += this.toBase32(this.selectedSapp1)
+      retVal += this.toBase32(this.selectedSapp2)
+      retVal += this.toBase32(this.selectedRuby1)
+      retVal += this.toBase32(this.selectedRuby2)
+      retVal += this.toBase32(this.selectedPris1)
+      retVal += this.toBase32(this.selectedPris2)
       return retVal;
     }
   },
@@ -164,23 +170,37 @@ export default {
       }
       this.$router.push('/' + this.computedId)
     },
+    handleGemChange(e){
+      switch(e.slot){
+        case 's1':
+          this.selectedSapp1 = e.gemId
+          break;
+        case 's2':
+          this.selectedSapp2 = e.gemId
+          break;
+        case 'r1':
+          this.selectedRuby1 = e.gemId
+          break;
+        case 'r2':
+          this.selectedRuby2 = e.gemId
+          break;
+        case 'p1':
+          this.selectedPris1 = e.gemId
+          break;
+        case 'p2':
+          this.selectedPris2 = e.gemId
+          break;
+      }
+      this.$router.push('/' + this.computedId)
+    },
     parseRouterId(routerId, index, defaultValue){
       try{
-        console.log(routerId);
         let idSubstr = routerId.substr(index*2, 2)
-        console.log(idSubstr);
-        console.log(this.fromBase32(idSubstr))
         return this.fromBase32(idSubstr);
       }catch(err){
         return defaultValue
       }
       
-    }
-  },
-  watch: {
-    '$route' (to, from) {
-      console.log(to);
-      console.log(from);
     }
   }
 }
