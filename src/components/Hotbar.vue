@@ -2,14 +2,14 @@
   <div>
     <fieldset><legend>Abilities</legend>
     <div class="hotbar">
-      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @click.native="toggleAbilityList(getAbility(selectedSlot1), 1)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @click.native="toggleAbilityList(getAbility(selectedSlot2), 2)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="getAbility(selectedSlot3)" @click.native="toggleAbilityList(getAbility(selectedSlot3), 3)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="getAbility(selectedSlot4)" @click.native="toggleAbilityList(getAbility(selectedSlot4), 4)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @click.native="toggleAbilityList(getAbility(selectedSlot1), 1, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @click.native="toggleAbilityList(getAbility(selectedSlot2), 2, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="getAbility(selectedSlot3)" @click.native="toggleAbilityList(getAbility(selectedSlot3), 3, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="getAbility(selectedSlot4)" @click.native="toggleAbilityList(getAbility(selectedSlot4), 4, $event)"></HotbarAbility>
       <HotbarAbility :ability="getAbility(signature)"></HotbarAbility>
     </div>
     </fieldset>
-    <div v-if="selectedSlot > 0" class="abilityList">
+    <div v-if="selectedSlot > 0" class="abilityList" :style="yPos">
       <div>Select an Ability</div>
       <span v-for="ability in abilityList" :key="ability.id">
          <HotbarAbility :ability="ability" @click.native="selectAbility(ability.id, selectedSlot)"></HotbarAbility>
@@ -39,7 +39,8 @@ export default {
     return {
       abilities: [],
       selectedSlot: 0,
-      abilityList: []
+      abilityList: [],
+      yPos: "top: 0px"
     }
   },
   created (){
@@ -59,12 +60,13 @@ export default {
       }
       return { "icon": "" }
     },
-    toggleAbilityList (slotAbility, index){
+    toggleAbilityList (slotAbility, index, event){
       if( this.selectedSlot == index ) {
         this.selectedSlot = 0;
       }else{
         this.selectedSlot = index;
         this.abilityList = this.findAbilities(slotAbility.school, slotAbility.type); 
+        this.yPos = 'top: ' + (event.target.getBoundingClientRect().bottom + 30 + window.scrollY) + 'px;'
       }
       
     },
@@ -89,18 +91,14 @@ export default {
 </script>
 
 <style scoped>
-  .hotbar {
-    overflow: auto;
-    height: 9.7em;
-  }
+  
   .abilityList {
-    margin-top: -30px;
     margin-left: 3px;
-    padding: 1em;
+    padding: .5em;
     position: absolute;
     background-color: rgba(27,34,66,1.0);
     border: 1px solid #B3B4B7;
-    width: 91%;
+    width: 88%;
     box-shadow: 3px 3px #333333;
   }
   fieldset {
@@ -113,7 +111,9 @@ export default {
     font-variant: small-caps;
     font-weight: bold;
     font-size: 1.2em;
-    padding-bottom: 10px;
     border-bottom: 0;
+    margin-left: -.3em;
+    position: absolute;
   }
+
 </style>

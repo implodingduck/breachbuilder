@@ -1,9 +1,11 @@
 <template>
   <div class="hello">
     <h1>Breach Builder</h1>
+    <button style="float: right; margin-bottom: 1em;" @click.prevent="toggleShare">Share</button>
+    <a v-if="showShare" class="sharelink" :href="'#/' + computedId">https://implodingduck.github.io/breachbuilder/#/{{computedId}}</a>
     <div>
       
-      <fieldset>
+      <fieldset style="clear: right; ">
         <legend>Class</legend>
         <select v-model="selectedHeroId" @change="setDefaultSelectedSlots" >
             <option v-for="hero in heroes" :value="hero.id" :key="hero.id">{{hero.name}}</option>
@@ -47,6 +49,7 @@ export default {
       selectedPris1: this.parseRouterId(routerId, 13, 0),
       selectedPris2: this.parseRouterId(routerId, 14, 0),
       heroes: [],
+      showShare: false
     }
   },
   components: {
@@ -201,6 +204,9 @@ export default {
         return defaultValue
       }
       
+    },
+    toggleShare(){
+      this.showShare = !this.showShare
     }
   }
 }
@@ -231,6 +237,17 @@ li {
 }
 a {
   color: #42b983;
+}
+.sharelink {
+  clear: right; 
+  font-family: 'Lucida Console'; 
+  float: right; 
+  border: 1px solid #eee; 
+  background-color: #222; 
+  padding: .3em;
+}
+a.sharelink  {
+  color: #B3B4B7;
 }
 select {
   height: 2em;
