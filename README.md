@@ -5,6 +5,12 @@ https://implodingduck.github.io/breachbuilder/
 ## About
 A Character Builder for Breach (https://playbreach.com)
 
+## Updates
+### 2019-01-31
+* Pyro Gems and Talents Added
+
+### 2019-01-30
+* Initial Release
 
 ## Project setup
 ```
