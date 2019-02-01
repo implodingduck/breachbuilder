@@ -1356,5 +1356,26 @@
 		"name": "Winds of Auros Pushback",
 		"type": "prismatic",
 		"desc": "Winds of Auros +25% Charge Cooldown Pushback is no longer based on distance away."
+	},
+  {
+		"id": 195,
+		"school": "Arcane",
+		"name": "Firebolt Burn Stacks",
+		"type": "prismatic",
+		"desc": "Firebolt -50% Bonus Damage +1 Burn Stacks Applied"
+	},
+  {
+		"id": 196,
+		"school": "Arcane",
+		"name": "Flamestrike Damage",
+		"type": "prismatic",
+		"desc": "Flamestrike -2 Stun +1,060% Bonus Damage"
+	},
+  {
+		"id": 197,
+		"school": "Arcane",
+		"name": "Wildfire Damage",
+		"type": "prismatic",
+		"desc": "Wildfire +540% Bonus Damage +75% Cooldown"
 	}
 ]

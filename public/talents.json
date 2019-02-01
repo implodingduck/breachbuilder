@@ -856,5 +856,23 @@
     "talent":"You are now immune to Slow effects while possessing.",
     "levels": [4],
     "school": "Veil Demon"
+  },
+  {
+    "id": 144,
+    "talent": "Enemies who die from Combust now explode, dealing 180 fire damage to nearby enemies.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 145,
+    "talent": "Combust now also heals the caster for 100 health per Burn stack consumed.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 146,
+    "talent": "Killing an enemy with Firebolt now refunds a charge of Firebolt.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
   }
 ]
