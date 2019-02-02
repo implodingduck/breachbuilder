@@ -28,7 +28,8 @@
 </template>
 
 <script>
-import axios from 'axios'
+
+import TalentsJson from '../../public/talents.json'
 
 export default {
   props: {
@@ -40,7 +41,7 @@ export default {
   },
   data () {
     return {
-      talentList: [],
+      talentList: TalentsJson,
       lvl1: this.selectedLvl1,
       lvl2: this.selectedLvl2,
       lvl3: this.selectedLvl3,
@@ -49,10 +50,7 @@ export default {
     }
   },
   created (){
-    let $vm = this;
-    axios.get(process.env.BASE_URL + 'talents.json').then((result) => {
-      $vm.talentList = result.data;
-    });
+
   },
   methods: {
     levelXTalents ( level ){

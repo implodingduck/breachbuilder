@@ -21,10 +21,10 @@
 </template>
 
 <script>
-import axios from 'axios'
 import Hotbar from './Hotbar.vue'
 import Talents from './Talents.vue'
 import Gems from './Gems.vue'
+import HeroesJson from '../../public/heroes.json'
 
 export default {
   name: 'Builder',
@@ -60,16 +60,14 @@ export default {
   created () {
     let $vm = this;
     
-    axios.get(process.env.BASE_URL + 'heroes.json').then((result) => {
-      $vm.heroes = result.data.sort(function(o1, o2){
-        let retVal = 0
-        if (o1.name > o2.name) {
-          retVal = 1;
-        }else if (o1.name < o2.name){
-          retVal = -1
-        }
-        return retVal;
-      });
+    $vm.heroes = HeroesJson.sort(function(o1, o2){
+      let retVal = 0
+      if (o1.name > o2.name) {
+        retVal = 1;
+      }else if (o1.name < o2.name){
+        retVal = -1
+      }
+      return retVal;
     });
     
   },

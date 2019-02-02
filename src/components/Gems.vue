@@ -33,7 +33,8 @@
 </template>
 
 <script>
-import axios from 'axios'
+
+import GemsJson from '../../public/gems.json'
 
 export default {
   props: {
@@ -47,7 +48,7 @@ export default {
   },
   data () {
     return {
-      gemList: [],
+      gemList: GemsJson,
       s1: this.selectedSapp1,
       s2: this.selectedSapp2,
       r1: this.selectedRuby1,
@@ -57,10 +58,7 @@ export default {
     }
   },
   created () {
-    let $vm = this;
-    axios.get(process.env.BASE_URL + 'gems.json').then((result) => {
-      $vm.gemList = result.data;
-    });
+
   },
   computed: {
     sapphireGems () {

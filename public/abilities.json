@@ -857,35 +857,35 @@
     "name": "Wildfire",
     "school": "Arcane",
     "type": "general",
-    "icon": "https://implodingduck.github.io/breachbuilder/images/100px-Wildfire.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d0/Wildfire.png/100px-Wildfire.png"
   },
   {
     "id": 122,
     "name": "Flamestrike",
     "school": "Arcane",
     "type": "general",
-    "icon": "https://implodingduck.github.io/breachbuilder/images/100px-Flamestrike.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d9/Flamestrike.png/100px-Flamestrike.png"
   },
   {
     "id": 123,
     "name": "Combust",
     "school": "Arcane",
     "type": "general",
-    "icon": "https://implodingduck.github.io/breachbuilder/images/100px-Combust.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/e/e7/Combust.png/100px-Combust.png"
   },
   {
     "id": 124,
     "name": "Inferno",
     "school": "Arcane",
     "type": "ultimate",
-    "icon": "https://implodingduck.github.io/breachbuilder/images/100px-Inferno.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/be/Inferno.png/100px-Inferno.png"
   },
   {
     "id": 125,
     "name": "Firebolt",
     "school": "Arcane",
     "type": "signature",
-    "icon": "https://implodingduck.github.io/breachbuilder/images/100px-Firebolt.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/0f/Firebolt.png/100px-Firebolt.png"
   }
   
 ]

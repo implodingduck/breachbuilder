@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import axios from 'axios'
 import HotbarAbility from './HotbarAbility'
+import AbilitiesJson from '../../public/abilities.json'
 
 export default {
   name: 'Hotbar',
@@ -37,17 +37,14 @@ export default {
   },
   data () {
     return {
-      abilities: [],
+      abilities: AbilitiesJson,
       selectedSlot: 0,
       abilityList: [],
       yPos: "top: 0px"
     }
   },
   created (){
-    let $vm = this;
-    axios.get(process.env.BASE_URL + 'abilities.json').then((result) => {
-      $vm.abilities = result.data;
-    });
+  
   },
   methods: {
     getAbility (abilityId){
