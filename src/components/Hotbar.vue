@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div style="position: relative;">
     <fieldset><legend>Abilities</legend>
     <div class="hotbar">
-      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @click.native="toggleAbilityList(getAbility(selectedSlot1), 1, $event)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @click.native="toggleAbilityList(getAbility(selectedSlot2), 2, $event)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="getAbility(selectedSlot3)" @click.native="toggleAbilityList(getAbility(selectedSlot3), 3, $event)"></HotbarAbility>
-      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="getAbility(selectedSlot4)" @click.native="toggleAbilityList(getAbility(selectedSlot4), 4, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot1), 1, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot2), 2, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 3 }" :ability="getAbility(selectedSlot3)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot3), 3, $event)"></HotbarAbility>
+      <HotbarAbility :class="{ selected: selectedSlot == 4 }" :ability="getAbility(selectedSlot4)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot4), 4, $event)"></HotbarAbility>
       <HotbarAbility :ability="getAbility(signature)"></HotbarAbility>
     </div>
     </fieldset>
@@ -62,8 +62,9 @@ export default {
         this.selectedSlot = 0;
       }else{
         this.selectedSlot = index;
-        this.abilityList = this.findAbilities(slotAbility.school, slotAbility.type); 
-        this.yPos = 'top: ' + (event.target.getBoundingClientRect().bottom + 30 + window.scrollY) + 'px;'
+        this.abilityList = this.findAbilities(slotAbility.school, slotAbility.type);
+        console.log(event.target.getBoundingClientRect())        
+        this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120) + 'px;'
       }
       
     },

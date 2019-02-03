@@ -1,6 +1,6 @@
 <template>
   <div class="hotbarAbility">
-    <img :src="ability.icon" :alt="ability.name" />
+    <button @click.prevent="abilityClicked"><img :src="ability.icon" :alt="ability.name" /></button>
     <div class="abilityName">{{ability.name}}</div>
   </div>
 </template>
@@ -21,7 +21,9 @@ export default {
     }
   },
   methods: {
-    
+    abilityClicked: function(e) {
+      this.$emit('abilityClicked', e)
+    }
   }
   
 }
@@ -37,5 +39,13 @@ export default {
     width: 10em;
     position: relative;
     text-align: center;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+  }
+  img:focus, button:focus {
+    border: none;
+    outline:0;
   }
 </style>

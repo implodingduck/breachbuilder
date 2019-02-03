@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Breach Builder</h1>
+    
     <button style="float: right; margin-bottom: 1em;" @click.prevent="toggleShare">Share</button>
     <a v-if="showShare" class="sharelink" :href="'#/' + computedId">https://implodingduck.github.io/breachbuilder/#/{{computedId}}</a>
     <div>
@@ -212,16 +212,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-  color: #eee;
-  text-shadow: 0 0 0.3em rgba(1,130,240,0.75), 0 0 0.5em #0182f0;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 0;
-}
+
 h3 {
   margin: 40px 0 0;
 }
