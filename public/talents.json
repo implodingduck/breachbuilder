@@ -2,13 +2,13 @@
   {
     "id":1,
     "talent":"+1 Dodge charges.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
     "id":2,
     "talent":"A guardian angel cleanses and heals you for 40% of your max health instead of being downed. Can only occur once per match.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -32,7 +32,7 @@
   {
     "id":6,
     "talent":"After using Dodge your Movement Speed is increased by 40% for 3s.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -44,7 +44,7 @@
   {
     "id":8,
     "talent":"Breaches cannot be placed within 5m of you.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -68,13 +68,13 @@
   {
     "id":12,
     "talent":"Health Potion also grants 2s of Damage Immunity.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
     "id":13,
     "talent":"Health Potion now also cleanses all negative effects.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -86,7 +86,7 @@
   {
     "id":15,
     "talent":"Instantly grants +1 Health Potion.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -116,7 +116,7 @@
   {
     "id":20,
     "talent":"Gain an Ultimate charge and increase Ultimate accrual rate by 25%.",
-    "levels": [3],
+    "levels": [3, 4],
     "school": "mage"
   },
   {
@@ -614,7 +614,7 @@
   {
     "id":103,
     "talent":"A second Dodge is free while possessing if used within 3s of the first.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "Veil Demon"
   },
   {
@@ -758,7 +758,7 @@
   {
     "id":127,
     "talent":"You are now invisible to enemy heroes.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "Veil Demon"
   },
   {
