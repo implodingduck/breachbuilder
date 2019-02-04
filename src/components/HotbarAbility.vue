@@ -37,6 +37,7 @@ export default {
   .hotbarAbility {
     float: left;
     width: 10em;
+    margin-bottom: 1em;
     position: relative;
     text-align: center;
   }

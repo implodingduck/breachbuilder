@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     
-    <button style="float: right; margin-bottom: 1em;" @click.prevent="toggleShare">Share</button>
+    <button style="float: right; margin-bottom: 1em; background-color: rgb(221, 221, 221);" @click.prevent="toggleShare">Share</button>
     <a v-if="showShare" class="sharelink" :href="'#/' + computedId">{{shareLinkUrl}}#/{{computedId}}</a>
     <div>
       

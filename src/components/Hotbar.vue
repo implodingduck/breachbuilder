@@ -10,9 +10,9 @@
     </div>
     </fieldset>
     <div v-if="selectedSlot > 0" class="abilityList" :style="yPos">
-      <div>Select an Ability</div>
+      <div>Select an Ability for Slot {{selectedSlot}}</div>
       <span v-for="ability in abilityList" :key="ability.id">
-         <HotbarAbility :ability="ability" @click.native="selectAbility(ability.id, selectedSlot)"></HotbarAbility>
+         <HotbarAbility :ability="ability" @abilityClicked="selectAbility(ability.id, selectedSlot)"></HotbarAbility>
       </span>
     </div>
   </div>
@@ -63,8 +63,12 @@ export default {
       }else{
         this.selectedSlot = index;
         this.abilityList = this.findAbilities(slotAbility.school, slotAbility.type);
-        console.log(event.target.getBoundingClientRect())        
-        this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120) + 'px;'
+        if( location.host == 'breach.gamepedia.com'){
+          this.yPos = 'top: 25px;'
+        }else{
+          this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120) + 'px;'
+        }
+        
       }
       
     },

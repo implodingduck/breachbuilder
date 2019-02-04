@@ -76,14 +76,5 @@ legend {
 select {
   background-color: #ffffff;
 }
-h1 {
-  color: #eee;
-  text-shadow: 0 0 0.3em rgba(1,130,240,0.75), 0 0 0.5em #0182f0;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 0;
-}
+
 </style>
