@@ -140,21 +140,49 @@ export default {
       this.selectedSlot4 = thisHero.abilities['4'];
       this.$router.push('/' + this.computedId)
     },
-    handleSlotChange(e){
-      switch(e.slot){
+    setSelectedSlotAbility(slot, abilityId){
+      switch(slot){
         case 1:
-          this.selectedSlot1 = e.abilityId;
+          this.selectedSlot1 = abilityId;
           break;
         case 2:
-          this.selectedSlot2 = e.abilityId;
+          this.selectedSlot2 = abilityId;
           break;
         case 3:
-          this.selectedSlot3 = e.abilityId;
+          this.selectedSlot3 = abilityId;
           break;
         case 4:
-          this.selectedSlot4 = e.abilityId;
+          this.selectedSlot4 = abilityId;
           break;
       }
+    },
+    getSelectedSlotAbility(slot){
+      let retVal = -1
+      switch(slot){
+        case 1:
+          retVal = this.selectedSlot1;
+          break;
+        case 2:
+          retVal = this.selectedSlot2;
+          break;
+        case 3:
+          retVal = this.selectedSlot3;
+          break;
+        case 4:
+          retVal = this.selectedSlot4;
+          break;
+      }
+      return retVal;
+    },
+    handleSlotChange(e){
+      let isAbilityAlreadyChosen = ['', this.selectedSlot1, this.selectedSlot2, this.selectedSlot3, this.selectedSlot4].indexOf(e.abilityId)
+      if (isAbilityAlreadyChosen > -1){
+        if(e.slot != isAbilityAlreadyChosen){
+          this.setSelectedSlotAbility(isAbilityAlreadyChosen, this.getSelectedSlotAbility(e.slot))
+        }
+      }
+      this.setSelectedSlotAbility(e.slot, e.abilityId)
+      
       this.$router.push('/' + this.computedId)
     },
     handleTalentChange(e){
