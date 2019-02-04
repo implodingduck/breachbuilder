@@ -2,7 +2,7 @@
   <div class="hello">
     
     <button style="float: right; margin-bottom: 1em;" @click.prevent="toggleShare">Share</button>
-    <a v-if="showShare" class="sharelink" :href="'#/' + computedId">https://implodingduck.github.io/breachbuilder/#/{{computedId}}</a>
+    <a v-if="showShare" class="sharelink" :href="'#/' + computedId">{{shareLinkUrl}}#/{{computedId}}</a>
     <div>
       
       <fieldset style="clear: right; ">
@@ -101,6 +101,9 @@ export default {
       retVal += this.toBase32(this.selectedPris1)
       retVal += this.toBase32(this.selectedPris2)
       return retVal;
+    },
+    shareLinkUrl: function(){
+      return location.protocol + '//' + location.host + location.pathname
     }
   },
   methods: {
