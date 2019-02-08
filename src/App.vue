@@ -76,5 +76,19 @@ legend {
 select {
   background-color: #ffffff;
 }
+fieldset .ui.fluid.search.selection.dropdown {
+    background-color: #ffffff;
+    width: 80%;
+    float: left;
+    min-height: 1em;
+    margin: .25em;
+    padding: .25em;
+}
+#app fieldset .dropdown.icon {
+  top:  4px;
+}
+#app fieldset input.search {
+  padding: .25em;
+}
 
 </style>

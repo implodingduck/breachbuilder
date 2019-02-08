@@ -66,7 +66,7 @@ export default {
         if( location.host == 'breach.gamepedia.com'){
           this.yPos = 'top: 25px;'
         }else{
-          this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120) + 'px;'
+          this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120 + window.scrollY) + 'px;'
         }
         
       }
