@@ -3,24 +3,20 @@
     <fieldset>
       <legend>Talents</legend>
       <label for="talent1">Level 1:</label>
-      <select id="talent1" v-model="lvl1" @change="talentChange(1)">
-        <option v-for="t in level1Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
-      </select>
+      <model-select id="talent1" v-model="lvl1" :options="level1Talents" placeholder="Select a Talent" @input="talentChange(1)">
+      </model-select>
       
       <label for="talent2">Level 2:</label> 
-      <select id="talent2" v-model="lvl2" @change="talentChange(2)">
-        <option v-for="t in level2Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
-      </select>
+      <model-select id="talent2" v-model="lvl2" :options="level2Talents" placeholder="Select a Talent" @input="talentChange(2)">
+      </model-select>
       
       <label for="talent3">Level 3:</label> 
-      <select id="talent3" v-model="lvl3" @change="talentChange(3)">
-        <option v-for="t in level3Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
-      </select>
+      <model-select id="talent3" v-model="lvl3" :options="level3Talents" placeholder="Select a Talent" @input="talentChange(3)">
+      </model-select>
       
       <label for="talent4">Level 4:</label> 
-      <select id="talent4" v-model="lvl4" @change="talentChange(4)">
-        <option v-for="t in level4Talents" :key="t.id" :value="t.id">{{t.talent}}</option>
-      </select>
+      <model-select id="talent4" v-model="lvl4" :options="level4Talents" placeholder="Select a Talent" @input="talentChange(4)">
+      </model-select>
     </fieldset>
            
     
@@ -28,7 +24,7 @@
 </template>
 
 <script>
-
+import { ModelSelect } from 'vue-search-select'
 import TalentsJson from '../../public/talents.json'
 
 export default {
@@ -38,6 +34,9 @@ export default {
     "selectedLvl2": Number,
     "selectedLvl3": Number,
     "selectedLvl4": Number
+  },
+  components: {
+    ModelSelect
   },
   data () {
     return {
@@ -61,7 +60,10 @@ export default {
           (t.school == school || 
             (t.school == 'mage' && school != 'Veil Demon')
           ) && t.levels.indexOf(level) > -1  ){
-          retVal.push(t);  
+          retVal.push({
+            "value": t.id,
+            "text": t.talent
+          });  
         }
       }
       return retVal;
@@ -110,6 +112,7 @@ export default {
     width: 4.5em;
     float: left;
     clear: both;
+    margin-top: .25em;
     margin-bottom: 1em;
   }
   

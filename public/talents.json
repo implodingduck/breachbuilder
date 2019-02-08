@@ -121,7 +121,7 @@
   },
   {
     "id":21,
-    "talent":"+1 Health Potion charges. You can now use it while downed to revive yourself at 10% of max health.",
+    "talent":"You can now use it while downed to revive yourself at 10% of max health.",
     "levels": [4],
     "school": "mage"
   },
@@ -697,7 +697,7 @@
   },
   {
     "id":117,
-    "talent":"Every enemy captured within Grael Cage grants +0.5 charge for that breach.",
+    "talent":"Every enemy captured within Grael Cage grants 25% Health",
     "levels": [1, 2, 3],
     "school": "Veil Demon"
   },

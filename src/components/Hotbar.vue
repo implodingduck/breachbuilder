@@ -66,7 +66,7 @@ export default {
         if( location.host == 'breach.gamepedia.com'){
           this.yPos = 'top: 25px;'
         }else{
-          this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120) + 'px;'
+          this.yPos = 'top: ' + (event.target.getBoundingClientRect().top - 120 + window.scrollY) + 'px;'
         }
         
       }
@@ -102,6 +102,7 @@ export default {
     border: 1px solid #B3B4B7;
     width: 88%;
     box-shadow: 3px 3px #333333;
+    z-index: 99;
   }
   fieldset {
     margin-top: 2em;
