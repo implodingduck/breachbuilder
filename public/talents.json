@@ -518,7 +518,7 @@
   {
     "id":87,
     "talent":"Mob of Ravens clones are now permanent.",
-    "levels": [1, 2, 3],
+    "levels": [4],
     "school": "Shadow"
   },
   {
