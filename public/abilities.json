@@ -43,7 +43,10 @@
     "description": "",
     "charges": 3,
     "cooldown": 18,
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png",
+    "stats": {
+      "Health": 500
+    }
   },
   {
     "id": 6,

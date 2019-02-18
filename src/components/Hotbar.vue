@@ -20,7 +20,7 @@
 
 <script>
 import HotbarAbility from './HotbarAbility'
-import AbilitiesJson from '../../public/abilities.json'
+
 
 export default {
   name: 'Hotbar',
@@ -30,14 +30,14 @@ export default {
     "selectedSlot2": Number,
     "selectedSlot3": Number,
     "selectedSlot4": Number,
-    "signature": Number
+    "signature": Number,
+    "abilities": Array
   },
   components: {
     HotbarAbility
   },
   data () {
     return {
-      abilities: AbilitiesJson,
       selectedSlot: 0,
       abilityList: [],
       yPos: "top: 0px"
