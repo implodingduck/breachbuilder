@@ -3,7 +3,10 @@
     "id":1,
     "talent":"+1 Dodge charges.",
     "levels": [1, 2, 3, 4],
-    "school": "mage"
+    "school": "mage",
+    "stats": {
+      "Dodges": 1
+    }
   },
   {
     "id":2,
@@ -51,7 +54,10 @@
     "id":9,
     "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "mage"
+    "school": "mage",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -12.5
+    }
   },
   {
     "id":10,
@@ -87,7 +93,10 @@
     "id":15,
     "talent":"Instantly grants +1 Health Potion.",
     "levels": [1, 2, 3, 4],
-    "school": "mage"
+    "school": "mage",
+    "stats": {
+      "Potions": 1
+    }
   },
   {
     "id":16,
@@ -117,7 +126,10 @@
     "id":20,
     "talent":"Gain an Ultimate charge and increase Ultimate accrual rate by 25%.",
     "levels": [3, 4],
-    "school": "mage"
+    "school": "mage",
+    "stats":{
+      "Ultimate Accrual": 25
+    }
   },
   {
     "id":21,
@@ -147,7 +159,10 @@
     "id":25,
     "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "mage"
+    "school": "mage",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -25
+    }
   },
   {
     "id":26,
@@ -645,31 +660,46 @@
     "id":108,
     "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -12.5
+    }
   },
   {
     "id":109,
     "talent":"Cooldown and charge accrual for breach spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Breach Spells": -15
+    }
   },
   {
     "id":110,
     "talent":"Cooldown and charge accrual for conjuring spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Conjuring Spells": -15
+    }
   },
   {
     "id":111,
     "talent":"Cooldown and charge accrual for dominion spells reduced by 15%. Stacks with similar talents. maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Dominion Spells": -15
+    }
   },
   {
     "id":112,
     "talent":"Cooldown and charge accrual for minion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [1, 2, 3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Minion Spells": -15
+    }
   },
   {
     "id":113,
@@ -771,7 +801,10 @@
     "id":129,
     "talent":"Gain a summon elite charge and increase its charge rate by 25%.",
     "levels": [3],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Elite Charge Rate": 25
+    }
   },
   {
     "id":130,
@@ -801,31 +834,46 @@
     "id":134,
     "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -25
+    }
   },
   {
     "id":135,
     "talent":"Cooldown and charge accrual for breach spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Breach Spells": -30
+    }
   },
   {
     "id":136,
     "talent":"Cooldown and charge accrual for conjuring spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Conjuring Spells": -30
+    }
   },
   {
     "id":137,
     "talent":"Cooldown and charge accrual for dominion spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Dominion Spells": -30
+    }
   },
   {
     "id":138,
     "talent":"Cooldown and charge accrual for minion spells while possessing reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
     "levels": [4],
-    "school": "Veil Demon"
+    "school": "Veil Demon",
+    "stats": {
+      "Cooldown And Charge Accrual For Minion Spells": -30
+    }
   },
   {
     "id":139,

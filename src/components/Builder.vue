@@ -18,7 +18,8 @@
       <div>
         <fieldset>
           <legend>Stats</legend>
-          <div v-for="(val, key) in compStats" v-if="val != 0 && val != ''">{{key}}: {{val}}</div>
+          <div style="margin-bottom: .5em;"><label for="level">Level:</label><select id="level" v-model="level"> <option v-for="i in [1, 2, 3, 4, 5, 6]">{{i}}</option> </select></div>
+          <div v-for="(val, key) in compStats" v-if="val != 0 && val != ''">{{key}}: {{val}}<span v-if="['Health', 'Potions', 'Dodges', 'Impact Resistance', 'Aerial Combat'].indexOf(key) == -1">%</span></div>
         </fieldset>
       </div>
     </div>
@@ -67,7 +68,8 @@ export default {
         "Dodges": 2,
         "Impact Resistance": "",
         "Potions": 2,
-      }
+      },
+      level: 4
     }
   },
   components: {
@@ -91,7 +93,7 @@ export default {
   },
   computed: {
     compStats: function(){
-      let stats = JSON.parse(JSON.stringify(this.base_stats));
+      let stats = (this.selectedHero.school == 'Veil Demon') ? {} : JSON.parse(JSON.stringify(this.base_stats));
       let listOfThings = []
       listOfThings.push(this.lookUpAbility(this.selectedHero.signature))
       listOfThings.push(this.lookUpAbility(this.selectedSlot1))
@@ -99,9 +101,15 @@ export default {
       listOfThings.push(this.lookUpAbility(this.selectedSlot3))
       listOfThings.push(this.lookUpAbility(this.selectedSlot4))
       listOfThings.push(this.lookUpTalent(this.selectedLvl1))
-      listOfThings.push(this.lookUpTalent(this.selectedLvl2))
-      listOfThings.push(this.lookUpTalent(this.selectedLvl3))
-      listOfThings.push(this.lookUpTalent(this.selectedLvl4))
+      if ( this.level >= 2 ){
+        listOfThings.push(this.lookUpTalent(this.selectedLvl2))
+      }
+      if ( this.level >= 3) {
+        listOfThings.push(this.lookUpTalent(this.selectedLvl3))
+      }
+      if ( this.level >= 4) {
+        listOfThings.push(this.lookUpTalent(this.selectedLvl4))
+      }
       listOfThings.push(this.lookUpGem(this.selectedSapp1))
       listOfThings.push(this.lookUpGem(this.selectedSapp2))
       listOfThings.push(this.lookUpGem(this.selectedRuby1))
@@ -111,6 +119,18 @@ export default {
       for ( let thing of listOfThings ){
         if(thing.stats){
           console.log('I found stats! ' + JSON.stringify(thing.stats))
+          for( let key of Object.keys(thing.stats) ){
+            let val = thing.stats[key];            
+            if( !stats.hasOwnProperty(key) ){
+              stats[key] = 0;
+            }
+            if( Number.isFinite(val) ){
+              stats[key] += (thing.hasOwnProperty('name') && thing.name.indexOf('Empowering') == 0 ) ? val * this.level : val;
+            }else{
+              stats[key] = val;
+            }
+            
+          }
           
         }
       }

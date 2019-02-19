@@ -298,5 +298,17 @@
       "4": 124
     },
     "signature": 125
+  },
+  {
+    "id": 26,
+    "name": "Medic",
+    "school": "Tech",
+    "abilities": {
+      "1": 126,
+      "2": 127,
+      "3": 128,
+      "4": 129
+    },
+    "signature": 130
   }
 ]
