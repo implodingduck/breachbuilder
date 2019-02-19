@@ -18,8 +18,9 @@
       <div>
         <fieldset>
           <legend>Stats</legend>
-          <div style="margin-bottom: .5em;"><label for="level">Level:</label><select id="level" v-model="level"> <option v-for="i in [1, 2, 3, 4, 5, 6]">{{i}}</option> </select></div>
-          <div v-for="(val, key) in compStats" v-if="val != 0 && val != ''">{{key}}: {{val}}<span v-if="['Health', 'Potions', 'Dodges', 'Impact Resistance', 'Aerial Combat'].indexOf(key) == -1">%</span></div>
+          <div style="margin-bottom: .5em;"><label for="level">Level:</label><select id="level" v-model="level"> <option v-for="i in [1, 2, 3, 4, 5, 6]" 
+          :key="i">{{i}}</option> </select></div>
+          <div v-for="(val, key) in compStats" :key="key">{{key}}: {{val}}<span v-if="['Health', 'Potions', 'Dodges', 'Impact Resistance', 'Aerial Combat'].indexOf(key) == -1">%</span></div>
         </fieldset>
       </div>
     </div>
@@ -66,7 +67,6 @@ export default {
       base_stats: {
         "Health": 2500,
         "Dodges": 2,
-        "Impact Resistance": "",
         "Potions": 2,
       },
       level: 4
@@ -118,7 +118,6 @@ export default {
       listOfThings.push(this.lookUpGem(this.selectedPris2))
       for ( let thing of listOfThings ){
         if(thing.stats){
-          console.log('I found stats! ' + JSON.stringify(thing.stats))
           for( let key of Object.keys(thing.stats) ){
             let val = thing.stats[key];            
             if( !stats.hasOwnProperty(key) ){
