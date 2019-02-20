@@ -4,700 +4,1000 @@
     "school": "Universal",
     "name": "Sapphire of Recurrence",
     "type": "sapphire",
-    "desc": "-2.25% Cooldown And Charge Accrual For All Spells"
+    "desc": "-2.25% Cooldown And Charge Accrual For All Spells",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -2.25
+    }
   },
   {
     "id": 2,
     "school": "Universal",
     "name": "Ruby of Recurrence",
     "type": "ruby",
-    "desc": "-4.5% Cooldown And Charge Accrual For All Spells"
+    "desc": "-4.5% Cooldown And Charge Accrual For All Spells",
+    "stats": {
+      "Cooldown And Charge Accrual For All Spells": -4.5
+    }
   },
   {
     "id": 3,
     "school": "Universal",
     "name": "Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+2.5% Bonus Damage"
+    "desc": "+2.5% Bonus Damage",
+    "stats": {
+      "Bonus Damage": 2.5
+    }
   },
   {
     "id": 4,
     "school": "Universal",
     "name": "Lethality Ruby ",
     "type": "ruby",
-    "desc": "+5% Bonus Damage"
+    "desc": "+5% Bonus Damage",
+    "stats": {
+      "Bonus Damage": 5
+    }
   },
   {
     "id": 5,
     "school": "Universal",
     "name": "Empowering Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+0.75% Bonus Damage per Team Level"
+    "desc": "+0.75% Bonus Damage per Team Level",
+    "stats": {
+      "Bonus Damage": 0.75
+    }
   },
   {
     "id": 6,
     "school": "Universal",
     "name": "Empowering Lethality Ruby",
     "type": "ruby",
-    "desc": "+1.75% Bonus Damage per Team Level"
+    "desc": "+1.75% Bonus Damage per Team Level",
+    "stats": {
+      "Bonus Damage": 1.75
+    }
   },
   {
     "id": 7,
     "school": "Universal",
     "name": "Radial Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+3.75% Bonus AoE Damage"
+    "desc": "+3.75% Bonus AoE Damage",
+    "stats": {
+      "Bonus AoE Damage": 3.75
+    }
   },
   {
     "id": 8,
     "school": "Universal",
     "name": "Radial Lethality Ruby",
     "type": "ruby",
-    "desc": "+7.5% Bonus AoE Damage"
+    "desc": "+7.5% Bonus AoE Damage",
+    "stats": {
+      "Bonus AoE Damage": 7.5
+    }
   },
   {
     "id": 9,
     "school": "Universal",
     "name": "Empowering Radial Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+1.25% Bonus AoE Damage per Team Level"
+    "desc": "+1.25% Bonus AoE Damage per Team Level",
+    "stats": {
+      "Bonus AoE Damage": 1.25
+    }
   },
   {
     "id": 10,
     "school": "Universal",
     "name": "Empowering Radial Lethality Ruby",
     "type": "ruby",
-    "desc": "+2.5% Bonus AoE Damage per Team Level"
+    "desc": "+2.5% Bonus AoE Damage per Team Level",
+    "stats": {
+      "Bonus AoE Damage": 2.5
+    }
   },
   {
     "id": 11,
     "school": "Universal",
     "name": "Sapphire of the Wolf",
     "type": "sapphire",
-    "desc": "+5% Bonus Damage to CC'd Targets"
+    "desc": "+5% Bonus Damage to CC'd Targets",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 5
+    }
   },
   {
     "id": 12,
     "school": "Universal",
     "name": "Ruby of the Wolf",
     "type": "ruby",
-    "desc": "+10% Bonus Damage to CC'd Targets"
+    "desc": "+10% Bonus Damage to CC'd Targets",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 10
+    }
   },
   {
     "id": 13,
     "school": "Universal",
     "name": "Empowering Sapphire of the Wolf",
     "type": "sapphire",
-    "desc": "+1.75% Bonus Damage to CC'd Targets per Team Level"
+    "desc": "+1.75% Bonus Damage to CC'd Targets per Team Level",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 1.75
+    }
   },
   {
     "id": 14,
     "school": "Universal",
     "name": "Empowering Ruby of the Wolf",
     "type": "ruby",
-    "desc": "+3.25% Bonus Damage to CC'd Targets per Team Level"
+    "desc": "+3.25% Bonus Damage to CC'd Targets per Team Level",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 3.25
+    }
   },
   {
     "id": 15,
     "school": "Universal",
     "name": "Focused Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+3.75% Bonus Targeted Damage"
+    "desc": "+3.75% Bonus Targeted Damage",
+    "stats": {
+      "Bonus Targeted Damage": 3.75
+    }
   },
   {
     "id": 16,
     "school": "Universal",
     "name": "Focused Lethality Ruby",
     "type": "ruby",
-    "desc": "+7.5% Bonus Targeted Damage"
+    "desc": "+7.5% Bonus Targeted Damage",
+    "stats": {
+      "Bonus Targeted Damage": 7.5
+    }
   },
   {
     "id": 17,
     "school": "Universal",
     "name": "Empowering Focused Lethality Sapphire",
     "type": "sapphire",
-    "desc": "+1.25% Bonus Targeted Damage per Team Level"
+    "desc": "+1.25% Bonus Targeted Damage per Team Level",
+    "stats": {
+      "Bonus Targeted Damage": 1.25
+    }
   },
   {
     "id": 18,
     "school": "Universal",
     "name": "Empowering Focused Lethality Ruby",
     "type": "ruby",
-    "desc": "+2.5% Bonus Targeted Damage per Team Level"
+    "desc": "+2.5% Bonus Targeted Damage per Team Level",
+    "stats": {
+      "Bonus Targeted Damage": 2.5
+    }
   },
   {
     "id": 19,
     "school": "Universal",
     "name": "Sapphire of Recovery",
     "type": "sapphire",
-    "desc": "+5% Bonus Healing"
+    "desc": "+5% Bonus Healing",
+    "stats": {
+      "Bonus Healing": 5
+    }
   },
   {
     "id": 20,
     "school": "Universal",
     "name": "Ruby of Recovery",
     "type": "ruby",
-    "desc": "+2.5% Bonus Healing"
+    "desc": "+2.5% Bonus Healing",
+    "stats": {
+      "Bonus Healing": 2.5
+    }
   },
   {
     "id": 21,
     "school": "Universal",
     "name": "Empowering Sapphire of Recovery",
     "type": "sapphire",
-    "desc": "+1.75% Bonus Healing per Team Level"
+    "desc": "+1.75% Bonus Healing per Team Level",
+    "stats": {
+      "Bonus Healing": 1.75
+    }
   },
   {
     "id": 22,
     "school": "Universal",
     "name": "Empowering Ruby of Recovery",
     "type": "ruby",
-    "desc": "+0.75% Bonus Healing per Team Level"
+    "desc": "+0.75% Bonus Healing per Team Level",
+    "stats": {
+      "Bonus Healing": 0.75
+    }
   },
   {
     "id": 23,
     "school": "Universal",
     "name": "Radial Recovery Sapphire",
     "type": "sapphire",
-    "desc": "+7.5% Bonus AoE Healing"
+    "desc": "+7.5% Bonus AoE Healing",
+    "stats": {
+      "Bonus AoE Healing": 7.5
+    }
   },
   {
     "id": 24,
     "school": "Universal",
     "name": "Radial Recovery Ruby",
     "type": "ruby",
-    "desc": "+3.75% Bonus AoE Healing"
+    "desc": "+3.75% Bonus AoE Healing",
+    "stats": {
+      "Bonus AoE Healing": 3.75
+    }
   },
   {
     "id": 25,
     "school": "Universal",
     "name": "Empowering Radial Recovery Sapphire",
     "type": "sapphire",
-    "desc": "+2.5% Bonus AoE Healing per Team Level"
+    "desc": "+2.5% Bonus AoE Healing per Team Level",
+    "stats": {
+      "Bonus AoE Healing": 2.5
+    }
   },
   {
     "id": 26,
     "school": "Universal",
     "name": "Empowering Radial Recovery Ruby",
     "type": "ruby",
-    "desc": "+1.25% Bonus AoE Healing per Team Level"
+    "desc": "+1.25% Bonus AoE Healing per Team Level",
+    "stats": {
+      "Bonus AoE Healing": 1.25
+    }
   },
   {
     "id": 27,
     "school": "Universal",
     "name": "Focused Recovery Sapphire",
     "type": "sapphire",
-    "desc": "+7.5% Bonus Targeted Healing"
+    "desc": "+7.5% Bonus Targeted Healing",
+    "stats": {
+      "Bonus Targeted Healing": 7.5
+    }
   },
   {
     "id": 28,
     "school": "Universal",
     "name": "Focused Recovery Ruby",
     "type": "ruby",
-    "desc": "+3.75% Bonus Targeted Healing"
+    "desc": "+3.75% Bonus Targeted Healing",
+    "stats": {
+      "Bonus Targeted Healing": 3.75
+    }
   },
   {
     "id": 29,
     "school": "Universal",
     "name": "Empowering Focused Recovery Sapphire",
     "type": "sapphire",
-    "desc": "+2.5% Bonus Targeted Healing per Team Level"
+    "desc": "+2.5% Bonus Targeted Healing per Team Level",
+    "stats": {
+      "Bonus Targeted Healing": 2.5
+    }
   },
   {
     "id": 30,
     "school": "Universal",
     "name": "Empowering Focused Recovery Ruby",
     "type": "ruby",
-    "desc": "+1.25% Bonus Targeted Healing per Team Level"
+    "desc": "+1.25% Bonus Targeted Healing per Team Level",
+    "stats": {
+      "Bonus Targeted Healing": 1.25
+    }
   },
   {
     "id": 31,
     "school": "Universal",
     "name": "Sapphire of the Cheetah",
     "type": "sapphire",
-    "desc": "+5% Movement Speed"
+    "desc": "+5% Movement Speed",
+    "stats": {
+      "Movement Speed": 5
+    }
   },
   {
     "id": 32,
     "school": "Universal",
     "name": "Ruby of the Cheetah",
     "type": "ruby",
-    "desc": "+10% Movement Speed"
+    "desc": "+10% Movement Speed",
+    "stats": {
+      "Movement Speed": 10
+    }
   },
   {
     "id": 33,
     "school": "Universal",
     "name": "Sapphire of the Vulture",
     "type": "sapphire",
-    "desc": "+2.5% CC Effect Duration"
+    "desc": "+2.5% CC Effect Duration",
+    "stats": {
+      "CC Effect Duration": 2.5
+    }
   },
   {
     "id": 34,
     "school": "Universal",
     "name": "Ruby of the Vulture",
     "type": "ruby",
-    "desc": "+5% CC Effect Duration"
+    "desc": "+5% CC Effect Duration",
+    "stats": {
+      "CC Effect Duration": 5
+    }
   },
   {
     "id": 35,
     "school": "Hero",
     "name": "Light Sapphire of the Tiger",
     "type": "sapphire",
-    "desc": "+3.25% Bonus Melee Damage"
+    "desc": "+3.25% Bonus Melee Damage",
+    "stats": {
+      "Bonus Melee Damage": 3.25
+    }
   },
   {
     "id": 36,
     "school": "Hero",
     "name": "Light Ruby of the Tiger",
     "type": "ruby",
-    "desc": "+6.25% Bonus Melee Damage"
+    "desc": "+6.25% Bonus Melee Damage",
+    "stats": {
+      "Bonus Melee Damage": 6.25
+    }
   },
   {
     "id": 37,
     "school": "Hero",
     "name": "Empowering Light Sapphire of the Tiger",
     "type": "sapphire",
-    "desc": "+1% Bonus Melee Damage per Team Level"
+    "desc": "+1% Bonus Melee Damage per Team Level",
+    "stats": {
+      "Bonus Melee Damage": 1
+    }
   },
   {
     "id": 38,
     "school": "Hero",
     "name": "Empowering Light Ruby of the Tiger",
     "type": "ruby",
-    "desc": "+2% Bonus Melee Damage per Team Level"
+    "desc": "+2% Bonus Melee Damage per Team Level",
+    "stats": {
+      "Bonus Melee Damage": 2
+    }
   },
   {
     "id": 39,
     "school": "Hero",
     "name": "Light Sapphire of the Hawk",
     "type": "sapphire",
-    "desc": "+3.25% Bonus Ranged Damage"
+    "desc": "+3.25% Bonus Ranged Damage",
+    "stats": {
+      "Bonus Ranged Damage": 3.25
+    }
   },
   {
     "id": 40,
     "school": "Hero",
     "name": "Light Ruby of the Hawk",
     "type": "ruby",
-    "desc": "+6.25% Bonus Ranged Damage"
+    "desc": "+6.25% Bonus Ranged Damage",
+    "stats": {
+      "Bonus Ranged Damage": 6.25
+    }
   },
   {
     "id": 41,
     "school": "Hero",
     "name": "Empowering Light Sapphire of the Hawk",
     "type": "sapphire",
-    "desc": "+1% Bonus Ranged Damage per Team Level"
+    "desc": "+1% Bonus Ranged Damage per Team Level",
+    "stats": {
+      "Bonus Ranged Damage": 1
+    }
   },
   {
     "id": 42,
     "school": "Hero",
     "name": "Empowering Light Ruby of the Hawk",
     "type": "ruby",
-    "desc": "+2% Bonus Ranged Damage per Team Level"
+    "desc": "+2% Bonus Ranged Damage per Team Level",
+    "stats": {
+      "Bonus Ranged Damage": 2
+    }
   },
   {
     "id": 43,
     "school": "Hero",
     "name": "Vigilant Light Sapphire",
     "type": "sapphire",
-    "desc": "+3.75% Haste"
+    "desc": "+3.75% Haste",
+    "stats": {
+      "Haste": 3.75
+    }
   },
   {
     "id": 44,
     "school": "Hero",
     "name": "Vigilant Light Ruby",
     "type": "ruby",
-    "desc": "+7.5% Haste"
+    "desc": "+7.5% Haste",
+    "stats": {
+      "Haste": 7.5
+    }
   },
   {
     "id": 45,
     "school": "Hero",
     "name": "Draining Light Sapphire",
     "type": "sapphire",
-    "desc": "+2.5% Lifesteal"
+    "desc": "+2.5% Lifesteal",
+    "stats": {
+      "Lifesteal": 2.5
+    }
   },
   {
     "id": 46,
     "school": "Hero",
     "name": "Draining Light Ruby",
     "type": "ruby",
-    "desc": "+1.25% Lifesteal"
+    "desc": "+1.25% Lifesteal",
+    "stats": {
+      "Lifesteal": 1.25
+    }
   },
   {
     "id": 47,
     "school": "Hero",
     "name": "Vitality Sapphire",
     "type": "sapphire",
-    "desc": "+730 Health"
+    "desc": "+730 Health",
+    "stats": {
+      "Health": 730
+    }
   },
   {
     "id": 48,
     "school": "Hero",
     "name": "Vitality Ruby",
     "type": "ruby",
-    "desc": "+365 Health"
+    "desc": "+365 Health",
+    "stats": {
+      "Health": 365
+    }
   },
   {
     "id": 49,
     "school": "Hero",
     "name": "Defensive Sapphire",
     "type": "sapphire",
-    "desc": "+4.75% Damage Resistance"
+    "desc": "+4.75% Damage Resistance",
+    "stats": {
+      "Damage Resistance": 4.75
+    }
   },
   {
     "id": 50,
     "school": "Hero",
     "name": "Defensive Ruby",
     "type": "ruby",
-    "desc": "+2.5% Damage Resistance"
+    "desc": "+2.5% Damage Resistance",
+    "stats": {
+      "Damage Resistance": 2.5
+    }
   },
   {
     "id": 51,
     "school": "Hero",
     "name": "Empowering Defensive Sapphire",
     "type": "sapphire",
-    "desc": "+1.5% Damage Resistance per Team Level"
+    "desc": "+1.5% Damage Resistance per Team Level",
+    "stats": {
+      "Damage Resistance": 1.5
+    }
   },
   {
     "id": 52,
     "school": "Hero",
     "name": "Empowering Defensive Ruby",
     "type": "ruby",
-    "desc": "+0.75% Damage Resistance per Team Level"
+    "desc": "+0.75% Damage Resistance per Team Level",
+    "stats": {
+      "Damage Resistance": 0.75
+    }
   },
   {
     "id": 53,
     "school": "Hero",
     "name": "Healing Sapphire",
     "type": "sapphire",
-    "desc": "+7.25% Bonus Healing Received"
+    "desc": "+7.25% Bonus Healing Received",
+    "stats": {
+      "Bonus Healing Received": 7.25
+    }
   },
   {
     "id": 54,
     "school": "Hero",
     "name": "Healing Ruby",
     "type": "ruby",
-    "desc": "+3.5% Bonus Healing Received"
+    "desc": "+3.5% Bonus Healing Received",
+    "stats": {
+      "Bonus Healing Received": 3.5
+    }
   },
   {
     "id": 55,
     "school": "Hero",
     "name": "Empowering Healing Sapphire",
     "type": "sapphire",
-    "desc": "+2.5% Bonus Healing Received per Team Level"
+    "desc": "+2.5% Bonus Healing Received per Team Level",
+    "stats": {
+      "Bonus Healing Received": 2.5
+    }
   },
   {
     "id": 56,
     "school": "Hero",
     "name": "Empowering Healing Ruby",
     "type": "ruby",
-    "desc": "+1.25% Bonus Healing Received per Team Level"
+    "desc": "+1.25% Bonus Healing Received per Team Level",
+    "stats": {
+      "Bonus Healing Received": 1.25
+    }
   },
   {
     "id": 57,
     "school": "Hero",
     "name": "Light Sapphire of Advancement",
     "type": "sapphire",
-    "desc": "+7.5% Ultimate Accrual Rate"
+    "desc": "+7.5% Ultimate Accrual Rate",
+    "stats": {
+      "Ultimate Accrual": 7.5
+    }
   },
   {
     "id": 58,
     "school": "Hero",
     "name": "Light Ruby of Advancement",
     "type": "ruby",
-    "desc": "+15.25% Ultimate Accrual Rate"
+    "desc": "+15.25% Ultimate Accrual Rate",
+    "stats": {
+      "Ultimate Accrual": 15.25
+    }
   },
   {
     "id": 59,
     "school": "Hero",
     "name": "Empowering Light Sapphire of Advancement",
     "type": "sapphire",
-    "desc": "+2.5% Ultimate Accrual Rate per Team Level"
+    "desc": "+2.5% Ultimate Accrual Rate per Team Level",
+    "stats": {
+      "Ultimate Accrual": 2.5
+    }
   },
   {
     "id": 60,
     "school": "Hero",
     "name": "Empowering Light Ruby of Advancement",
     "type": "ruby",
-    "desc": "+5% Ultimate Accrual Rate per Team Level"
+    "desc": "+5% Ultimate Accrual Rate per Team Level",
+    "stats": {
+      "Ultimate Accrual": 5
+    }
   },
   {
     "id": 61,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for minion spells while possessing"
+    "desc": "-2.75% Cooldown and Charge Accrual for minion spells while possessing",
+    "stats":{
+      "Cooldown And Charge Accrual For Minion Spells": -2.75
+    }
   },
   {
     "id": 62,
     "school": "Veil Demon",
     "name": "Dark Ruby of Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for minion spells while possessing"
+    "desc": "-5.5% Cooldown and Charge Accrual for minion spells while possessing",
+    "stats":{
+      "Cooldown And Charge Accrual For Minion Spells": -5.5
+    }
   },
   {
     "id": 63,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Breach Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells"
+    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Breach Spells": -2.75
+    }
   },
   {
     "id": 64,
     "school": "Veil Demon",
     "name": "Dark Ruby of Breach Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells"
+    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Breach Spells": -5.5
+    }
   },
   {
     "id": 65,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Conjuring Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Conjuring spells"
+    "desc": "-2.75% Cooldown and Charge Accrual for Conjuring spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Conjuring Spells": -2.75
+    }
   },
   {
     "id": 66,
     "school": "Veil Demon",
     "name": "Dark Ruby of Conjuring Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Conjuring spells"
+    "desc": "-5.5% Cooldown and Charge Accrual for Conjuring spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Conjuring Spells": -5.5
+    }
   },
   {
     "id": 67,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Dominion Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells"
+    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Breach Spells": -2.75
+    }
   },
   {
     "id": 68,
     "school": "Veil Demon",
     "name": "Dark Ruby of Dominion Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells"
+    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells",
+    "stats":{
+      "Cooldown And Charge Accrual For Breach Spells": -5.5
+    }
   },
   {
     "id": 69,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Advancement",
     "type": "sapphire",
-    "desc": "+3.75% Summon Elite Accrual Rate"
+    "desc": "+3.75% Summon Elite Accrual Rate",
+    "stats":{
+      "Elite Charge Rate": 3.75
+    }
   },
   {
     "id": 70,
     "school": "Veil Demon",
     "name": "Dark Ruby of Advancement",
     "type": "ruby",
-    "desc": "+7.5% Summon Elite Accrual Rate"
+    "desc": "+7.5% Summon Elite Accrual Rate",
+    "stats":{
+      "Elite Charge Rate": 7.5
+    }
   },
   {
     "id": 71,
     "school": "Veil Demon",
     "name": "Empowering Dark Sapphire of Advancement",
     "type": "sapphire",
-    "desc": "+1.25% Summon Elite Accrual Rate per Team Level"
+    "desc": "+1.25% Summon Elite Accrual Rate per Team Level",
+    "stats":{
+      "Elite Charge Rate": 1.25
+    }
   },
   {
     "id": 72,
     "school": "Veil Demon",
     "name": "Empowering Dark Ruby of Advancement",
     "type": "ruby",
-    "desc": "+2.5% Summon Elite Accrual Rate per Team Level"
+    "desc": "+2.5% Summon Elite Accrual Rate per Team Level",
+    "stats":{
+      "Elite Charge Rate": 2.5
+    }
   },
   {
     "id": 73,
     "school": "Veil Demon",
     "name": "Dark Lethal Breach Sapphire",
     "type": "sapphire",
-    "desc": "+3.25% Bonus Breach Damage"
+    "desc": "+3.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 3.25
+    }
   },
   {
     "id": 74,
     "school": "Veil Demon",
     "name": "Dark Lethal Breach Ruby",
     "type": "ruby",
-    "desc": "+6.25% Bonus Breach Damage"
+    "desc": "+6.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 6.25
+    }
   },
   {
     "id": 75,
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Breach Sapphire",
     "type": "sapphire",
-    "desc": "+1% Bonus Breach Damage per Team Level"
+    "desc": "+1% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 1
+    }
   },
   {
     "id": 76,
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Breach Ruby",
     "type": "ruby",
-    "desc": "+2% Bonus Breach Damage per Team Level"
+    "desc": "+2% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 2
+    }
   },
   {
     "id": 77,
     "school": "Veil Demon",
     "name": "Dark Lethal Conjuring Sapphire",
     "type": "sapphire",
-    "desc": "+3.25% Bonus Breach Damage"
+    "desc": "+3.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 3.25
+    }
   },
   {
     "id": 78,
     "school": "Veil Demon",
     "name": "Dark Lethal Conjuring Ruby",
     "type": "ruby",
-    "desc": "+6.25% Bonus Breach Damage"
+    "desc": "+6.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 6.25
+    }
   },
   {
     "id": 79,
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Conjuring Sapphire",
     "type": "sapphire",
-    "desc": "+1% Bonus Breach Damage per Team Level"
+    "desc": "+1% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 1
+    }
   },
   {
     "id": 80,
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Conjuring Ruby",
     "type": "ruby",
-    "desc": "+2% Bonus Breach Damage per Team Level"
+    "desc": "+2% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 2
+    }
   },
   {
     "id": 81,
     "school": "Veil Demon",
     "name": "Dark Sapphire of the Tiger",
     "type": "sapphire",
-    "desc": "+3.75% Bonus Melee Damage while possessing"
+    "desc": "+3.75% Bonus Melee Damage while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 3.75
+    }
   },
   {
     "id": 82,
     "school": "Veil Demon",
     "name": "Dark Ruby of the Tiger",
     "type": "ruby",
-    "desc": "+7.5% Bonus Melee Damage while possessing"
+    "desc": "+7.5% Bonus Melee Damage while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 7.5
+    }
   },
   {
     "id": 83,
     "school": "Veil Demon",
     "name": "Empowering Dark Sapphire of the Tiger",
     "type": "sapphire",
-    "desc": "+1.25% Bonus Melee Damage per Team Level while possessing"
+    "desc": "+1.25% Bonus Melee Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 1.25
+    }
   },
   {
     "id": 84,
     "school": "Veil Demon",
     "name": "Empowering Dark Ruby of the Tiger",
     "type": "ruby",
-    "desc": "+2.5% Bonus Melee Damage per Team Level while possessing"
+    "desc": "+2.5% Bonus Melee Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 2.5
+    }
   },
   {
     "id": 85,
     "school": "Veil Demon",
     "name": "Dark Sapphire of the Hawk",
     "type": "sapphire",
-    "desc": "+3.75% Bonus Ranged Damage while possessing"
+    "desc": "+3.75% Bonus Ranged Damage while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 3.75
+    }
   },
   {
     "id": 86,
     "school": "Veil Demon",
     "name": "Dark Ruby of the Hawk",
     "type": "ruby",
-    "desc": "+7.5% Bonus Ranged Damage while possessing"
+    "desc": "+7.5% Bonus Ranged Damage while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 7.5
+    }
   },
   {
     "id": 87,
     "school": "Veil Demon",
     "name": "Empowering Dark Sapphire of the Hawk",
     "type": "sapphire",
-    "desc": "+1.25% Bonus Ranged Damage per Team Level while possessing"
+    "desc": "+1.25% Bonus Ranged Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 1.25
+    }
   },
   {
     "id": 88,
     "school": "Veil Demon",
     "name": "Empowering Dark Ruby of the Hawk",
     "type": "ruby",
-    "desc": "+2.5% Bonus Ranged Damage per Team Level while possessing"
+    "desc": "+2.5% Bonus Ranged Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 2.5
+    }
   },
   {
     "id": 89,
     "school": "Veil Demon",
     "name": "Dark Sapphire of Recovery",
     "type": "sapphire",
-    "desc": "+15.25% Bonus Healing while possessing"
+    "desc": "+15.25% Bonus Healing while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 15.25
+    }
   },
   {
     "id": 90,
     "school": "Veil Demon",
     "name": "Dark Ruby of Recovery",
     "type": "ruby",
-    "desc": "+7.5% Bonus Healing while possessing"
+    "desc": "+7.5% Bonus Healing while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 7.5
+    }
   },
   {
     "id": 91,
     "school": "Veil Demon",
     "name": "Empowering Dark Sapphire of Recovery",
     "type": "sapphire",
-    "desc": "+5% Bonus Healing per Team Level while possessing"
+    "desc": "+5% Bonus Healing per Team Level while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 5
+    }
   },
   {
     "id": 92,
     "school": "Veil Demon",
     "name": "Empowering Dark Ruby of Recovery",
     "type": "ruby",
-    "desc": "+2.5% Bonus Healing per Team Level while possessing"
+    "desc": "+2.5% Bonus Healing per Team Level while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 2.5
+    }
   },
   {
     "id": 93,
     "school": "Veil Demon",
     "name": "Vigilant Dark Sapphire",
     "type": "sapphire",
-    "desc": "+3.75% Haste while possessing"
+    "desc": "+3.75% Haste while possessing",
+    "stats":{
+      "Haste While Possessing": 3.75
+    }
   },
   {
     "id": 94,
     "school": "Veil Demon",
     "name": "Vigilant Dark Ruby",
     "type": "ruby",
-    "desc": "+7.5% Haste while possessing"
+    "desc": "+7.5% Haste while possessing",
+    "stats":{
+      "Haste While Possessing": 7.5
+    }
   },
   {
     "id": 95,
     "school": "Veil Demon",
     "name": "Draining Dark Sapphire",
     "type": "sapphire",
-    "desc": "+3.25% Lifesteal while possessing"
+    "desc": "+3.25% Lifesteal while possessing",
+    "stats":{
+      "Lifesteal While Possessing": 3.25
+    }
   },
   {
     "id": 96,
     "school": "Veil Demon",
     "name": "Draining Dark Ruby",
     "type": "ruby",
-    "desc": "+1.5% Lifesteal while possessing"
+    "desc": "+1.5% Lifesteal while possessing",
+    "stats":{
+      "Lifesteal While Possessing": 1.5
+    }
   },
   {
     "id": 97,
     "school": "Veil Demon",
     "name": "Defensive Dark Sapphire",
     "type": "sapphire",
-    "desc": "+6% Damage Resistance while possessing"
+    "desc": "+6% Damage Resistance while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 6
+    }
   },
   {
     "id": 98,
     "school": "Veil Demon",
     "name": "Defensive Dark Ruby",
     "type": "ruby",
-    "desc": "+3% Damage Resistance while possessing"
+    "desc": "+3% Damage Resistance while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 3
+    }
   },
   {
     "id": 99,
     "school": "Veil Demon",
     "name": "Empowering Defensive Dark Sapphire",
     "type": "sapphire",
-    "desc": "+2% Damage Resistance per Team Level while possessing"
+    "desc": "+2% Damage Resistance per Team Level while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 2
+    }
   },
   {
     "id": 100,
     "school": "Veil Demon",
     "name": "Empowering Defensive Dark Ruby",
     "type": "ruby",
-    "desc": "+1% Damage Resistance per Team Level while possessing"
+    "desc": "+1% Damage Resistance per Team Level while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 1
+    }
   },
     {
 		"id": 101,
@@ -1377,5 +1677,33 @@
 		"name": "Wildfire Damage",
 		"type": "prismatic",
 		"desc": "Wildfire +540% Bonus Damage +75% Cooldown"
-	}
+	},
+  {
+    "id": 198,
+    "school": "Tech",
+    "name": "Healing Microbots Heal",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing per tick +20% Charge Cooldown"
+  },
+  {
+    "id": 199,
+    "school": "Tech",
+    "name": "Lockdown Duration",
+    "type": "prismatic",
+    "desc": "-25% Root Duration -25% Cooldown"
+  },
+  {
+    "id": 200,
+    "school": "Tech",
+    "name": "Reconstruction Healing",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing +20% Cooldown"
+  },
+  {
+    "id": 201,
+    "school": "Tech",
+    "name": "Arcane Converter Damage",
+    "type": "prismatic",
+    "desc": "+20% Bonus Damage +20% Cooldown"
+  }
 ]

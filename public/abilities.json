@@ -43,7 +43,11 @@
     "description": "",
     "charges": 3,
     "cooldown": 18,
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png",
+    "stats": {
+      "Health": 500,
+      "Potions": 0
+    }
   },
   {
     "id": 6,
@@ -72,14 +76,22 @@
     "name": "Cease Continuum",
     "school": "Arcane",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a0/Cease_Continuum.png/100px-Cease_Continuum.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a0/Cease_Continuum.png/100px-Cease_Continuum.png",
+    "stats": {
+      "Ultimate Accrual": -50,
+      "Potion Crates": 1
+    }
   },
   {
     "id": 10,
     "name": "Statis Beam",
     "school": "Arcane",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/2/26/Stasis_Beam.png/100px-Stasis_Beam.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/2/26/Stasis_Beam.png/100px-Stasis_Beam.png",
+    "stats": {
+      "Health": 500,
+      "Potions": 2
+    }
   },
   {
     "id": 11,
@@ -115,7 +127,11 @@
     "name": "Glacial Armor",
     "school": "Arcane",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a5/Glacial_Armor.png/100px-Glacial_Armor.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a5/Glacial_Armor.png/100px-Glacial_Armor.png",
+    "stats": {
+      "Health": 500,
+      "Potions": 1
+    }
   },
   {
     "id": 16,
@@ -143,14 +159,24 @@
     "name": "Gladiator's Wrath",
     "school": "Battle",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/6/67/Gladiator%27s_Wrath.png/100px-Gladiator%27s_Wrath.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/6/67/Gladiator%27s_Wrath.png/100px-Gladiator%27s_Wrath.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 20,
     "name": "Zephyr Strike",
     "school": "Battle",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/9f/Zephyr_Strike.png/100px-Zephyr_Strike.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/9f/Zephyr_Strike.png/100px-Zephyr_Strike.png",
+    "stats": {
+      "Impact Resistance": "Light",
+      "Bonus Basic Attack Damage": 15,
+      "Dodges": 1,
+      "Aerial Combat": "+75% Damage Resistance, Heavy Impact Resistance",
+      "Potions": 2
+    }
   },
   {
     "id": 21,
@@ -178,14 +204,24 @@
     "name": "Titan's First",
     "school": "Battle",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/39/Titan%27s_Fist.png/100px-Titan%27s_Fist.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/39/Titan%27s_Fist.png/100px-Titan%27s_Fist.png",
+    "stats": {
+      "Ultimate Accrual": 50,
+      "Potion Crates": 1
+    }
   },
   {
     "id": 25,
     "name": "Mana Strike",
     "school": "Battle",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/7a/Mana_Strike.png/100px-Mana_Strike.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/7a/Mana_Strike.png/100px-Mana_Strike.png",
+    "stats": {
+      "Health": 750,
+      "Dodges": 1,
+      "Impact Resistance": "Heavy",
+      "Potions": 1
+    }
   },
   {
     "id": 26,
@@ -213,14 +249,23 @@
     "name": "Strike of the Aegis",
     "school": "Battle",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/30/Strike_of_the_Aegis.png/100px-Strike_of_the_Aegis.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/30/Strike_of_the_Aegis.png/100px-Strike_of_the_Aegis.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 30,
     "name": "Resolute Block",
     "school": "Battle",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/02/Resolute_Block.png/100px-Resolute_Block.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/02/Resolute_Block.png/100px-Resolute_Block.png",
+    "stats": {
+      "Health": 750,
+      "Dodges": 1,
+      "Impact Resistance": "Heavy",
+      "Potions": 1
+    }
   },
   {
     "id": 31,
@@ -248,14 +293,23 @@
     "name": "Arcane Siphon",
     "school": "Dark",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/8/85/Arcane_Siphon.png/100px-Arcane_Siphon.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/8/85/Arcane_Siphon.png/100px-Arcane_Siphon.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 35,
     "name": "Death Touch",
     "school": "Dark",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/50/Death_Touch.png/100px-Death_Touch.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/50/Death_Touch.png/100px-Death_Touch.png",
+    "stats": {
+      "Impact Resistance": "Light",
+      "Dodges": 1,
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 36,
@@ -283,14 +337,21 @@
     "name": "Raise Dead",
     "school": "Dark",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/0e/Raise_Dead.png/100px-Raise_Dead.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/0e/Raise_Dead.png/100px-Raise_Dead.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 40,
     "name": "Frenzied Shambler",
     "school": "Dark",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/b6/Frenzied_Shambler.png/100px-Frenzied_Shambler.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/b6/Frenzied_Shambler.png/100px-Frenzied_Shambler.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 41,
@@ -318,14 +379,23 @@
     "name": "Grim Reaper Form",
     "school": "Dark",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/02/Grim_Reaper_Form.png/100px-Grim_Reaper_Form.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/02/Grim_Reaper_Form.png/100px-Grim_Reaper_Form.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 45,
     "name": "Sow",
     "school": "Dark",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d6/Sow.png/100px-Sow.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d6/Sow.png/100px-Sow.png",
+    "stats": {
+      "Health": 750,
+      "Dodges": 1,
+      "Impact Resistance": "Heavy",
+      "Potions": 1
+    }
   },
   {
     "id": 46,
@@ -353,14 +423,21 @@
     "name": "Siphoning Skull",
     "school": "Hedge",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d3/Siphoning_Skull.png/100px-Siphoning_Skull.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d3/Siphoning_Skull.png/100px-Siphoning_Skull.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 50,
     "name": "Sticky Grenade",
     "school": "Hedge",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/9d/Sticky_Grenade.png/100px-Sticky_Grenade.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/9d/Sticky_Grenade.png/100px-Sticky_Grenade.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 51,
@@ -388,14 +465,21 @@
     "name": "Exilium Daemonium",
     "school": "Hedge",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/47/Exilium_Daemonium.png/100px-Exilium_Daemonium.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/47/Exilium_Daemonium.png/100px-Exilium_Daemonium.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 55,
     "name": "Exorcism",
     "school": "Hedge",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/78/Exorcism.png/100px-Exorcism.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/78/Exorcism.png/100px-Exorcism.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 56,
@@ -430,7 +514,12 @@
     "name": "Tar Jar",
     "school": "Hedge",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/f/f5/Tar_Jar.png/100px-Tar_Jar.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/f/f5/Tar_Jar.png/100px-Tar_Jar.png",
+    "stats": {
+      "Impact Resistance": "Moderate",
+      "Dodges": 1,
+      "Potions": 2
+    }
   },
   {
     "id": 61,
@@ -458,14 +547,23 @@
     "name": "Bloodlust",
     "school": "Shadow",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/1/11/Bloodlust.png/100px-Bloodlust.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/1/11/Bloodlust.png/100px-Bloodlust.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 65,
     "name": "Cursed Strike",
     "school": "Shadow",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/5b/Cursed_Strike.png/100px-Cursed_Strike.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/5b/Cursed_Strike.png/100px-Cursed_Strike.png",
+    "stats": {
+      "Health": 750,
+      "Dodges": 1,
+      "Impact Resistance": "Heavy",
+      "Potions": 0
+    }
   },
   {
     "id": 66,
@@ -493,14 +591,23 @@
     "name": "Mob of Ravens",
     "school": "Shadow",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/8/88/Mob_of_Ravens.png/100px-Mob_of_Ravens.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/8/88/Mob_of_Ravens.png/100px-Mob_of_Ravens.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 70,
     "name": "Bird of Prey",
     "school": "Shadow",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/95/Bird_of_Prey.png/100px-Bird_of_Prey.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/9/95/Bird_of_Prey.png/100px-Bird_of_Prey.png",
+    "stats": {
+      "Impact Resistance": "Light",
+      "Bonus Basic Attack Damage": 15,
+      "Dodges": 1,
+      "Potions": 2
+    }
   },
   {
     "id": 71,
@@ -528,14 +635,23 @@
     "name": "Mass Ambush",
     "school": "Shadow",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/e/ea/Mass_Ambush.png/100px-Mass_Ambush.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/e/ea/Mass_Ambush.png/100px-Mass_Ambush.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 75,
     "name": "Ambush",
     "school": "Shadow",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/30/Ambush.png/100px-Ambush.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/30/Ambush.png/100px-Ambush.png",
+    "stats": {
+      "Impact Resistance": "Light",
+      "Bonus Basic Attack Damage": 15,
+      "Dodges": 1,
+      "Potions": 2
+    }
   },
   {
     "id": 76,
@@ -563,14 +679,21 @@
     "name": "Kinetic Absorption Field",
     "school": "Tech",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/b6/Kinetic_Absorption_Field.png/100px-Kinetic_Absorption_Field.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/b6/Kinetic_Absorption_Field.png/100px-Kinetic_Absorption_Field.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 80,
     "name": "Turret",
     "school": "Tech",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/32/Turret.png/100px-Turret.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/32/Turret.png/100px-Turret.png",
+    "stats": {
+      "Health": 500,
+      "Potions": 2
+    }
   },
   {
     "id": 81,
@@ -598,14 +721,21 @@
     "name": "Lead Storm",
     "school": "Tech",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/38/Lead_Storm.png/100px-Lead_Storm.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/38/Lead_Storm.png/100px-Lead_Storm.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 85,
     "name": "Boom Shot",
     "school": "Tech",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/76/Boom_Shot.png/100px-Boom_Shot.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/76/Boom_Shot.png/100px-Boom_Shot.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 86,
@@ -633,14 +763,21 @@
     "name": "Precision Barrage",
     "school": "Tech",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/55/Precision_Barrage.png/100px-Precision_Barrage.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/5/55/Precision_Barrage.png/100px-Precision_Barrage.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 90,
     "name": "Snipe",
     "school": "Tech",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/40/Snipe.png/100px-Snipe.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/40/Snipe.png/100px-Snipe.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
   },
   {
     "id": 91,
@@ -857,7 +994,10 @@
     "name": "Wildfire",
     "school": "Arcane",
     "type": "general",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d0/Wildfire.png/100px-Wildfire.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/d/d0/Wildfire.png/100px-Wildfire.png",
+    "stats": {
+      "Bonus Spell Damage": 10
+    }
   },
   {
     "id": 122,
@@ -878,14 +1018,60 @@
     "name": "Inferno",
     "school": "Arcane",
     "type": "ultimate",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/be/Inferno.png/100px-Inferno.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/b/be/Inferno.png/100px-Inferno.png",
+    "stats": {
+      "Potion Crates": 1
+    }
   },
   {
     "id": 125,
     "name": "Firebolt",
     "school": "Arcane",
     "type": "signature",
-    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/0f/Firebolt.png/100px-Firebolt.png"
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/0/0f/Firebolt.png/100px-Firebolt.png",
+    "stats": {
+      "Bonus Basic Attack Damage": 15,
+      "Potions": 2
+    }
+  },
+  {
+    "id": 126,
+    "name": "Reconstruction",
+    "school": "Tech",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a8/Reconstruction.png/100px-Reconstruction.png"
+  },
+  {
+    "id": 128,
+    "name": "Arcane Converter",
+    "school": "Tech",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/c/cf/Arcane_Converter.png/100px-Arcane_Converter.png"
+  },
+  {
+    "id": 127,
+    "name": "Lockdown",
+    "school": "Tech",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/7c/Lockdown.png/100px-Lockdown.png"
+  },
+  {
+    "id": 129,
+    "name": "Microbots Triage",
+    "school": "Tech",
+    "type": "ultimate",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/7d/Microbots_Triage.png/100px-Microbots_Triage.png"
+  },
+  {
+    "id": 130,
+    "name": "Healing Microbots",
+    "school": "Tech",
+    "type": "signature",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/c/c0/Healing_Microbots.png/100px-Healing_Microbots.png",
+    "stats": {
+      "Health": 500,
+      "Potions": 0
+    }
   }
   
 ]

@@ -12,9 +12,17 @@
         </select>
       </fieldset>
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
-      <Hotbar v-if="heroes.length > 0" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
-      <Talents :selectedHero="selectedHero" :selectedLvl1="selectedLvl1" :selectedLvl2="selectedLvl2" :selectedLvl3="selectedLvl3" :selectedLvl4="selectedLvl4" @talentChange='handleTalentChange'></Talents>
-      <Gems :selectedHero="selectedHero" :selectedSapp1="selectedSapp1" :selectedSapp2="selectedSapp2" :selectedRuby1="selectedRuby1" :selectedRuby2="selectedRuby2" :selectedPris1="selectedPris1" :selectedPris2="selectedPris2" @gemChange="handleGemChange" ></Gems> 
+      <Hotbar v-if="heroes.length > 0" :abilities="abilities" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
+      <Talents :talentList="talents" :selectedHero="selectedHero" :selectedLvl1="selectedLvl1" :selectedLvl2="selectedLvl2" :selectedLvl3="selectedLvl3" :selectedLvl4="selectedLvl4" @talentChange='handleTalentChange'></Talents>
+      <Gems :gemList="gems" :selectedHero="selectedHero" :selectedSapp1="selectedSapp1" :selectedSapp2="selectedSapp2" :selectedRuby1="selectedRuby1" :selectedRuby2="selectedRuby2" :selectedPris1="selectedPris1" :selectedPris2="selectedPris2" @gemChange="handleGemChange" ></Gems>
+      <div>
+        <fieldset>
+          <legend>Stats</legend>
+          <div style="margin-bottom: .5em;"><label for="level">Level:</label><select id="level" v-model="level"> <option v-for="i in [1, 2, 3, 4, 5, 6]" 
+          :key="i">{{i}}</option> </select></div>
+          <div v-for="(val, key) in compStats" :key="key">{{key}}: {{val}}<span v-if="['Health', 'Potions', 'Dodges', 'Impact Resistance', 'Aerial Combat', 'Potion Crates'].indexOf(key) == -1">%</span></div>
+        </fieldset>
+      </div>
     </div>
     <div style="font-family: 'Lucida Console'; margin-top: 2em; display: none;">ID: {{computedId}}</div>
   </div>
@@ -25,6 +33,9 @@ import Hotbar from './Hotbar.vue'
 import Talents from './Talents.vue'
 import Gems from './Gems.vue'
 import HeroesJson from '../../public/heroes.json'
+import AbilitiesJson from '../../public/abilities.json'
+import TalentsJson from '../../public/talents.json'
+import GemsJson from '../../public/gems.json'
 
 export default {
   name: 'Builder',
@@ -49,7 +60,15 @@ export default {
       selectedPris1: this.parseRouterId(routerId, 13, 0),
       selectedPris2: this.parseRouterId(routerId, 14, 0),
       heroes: [],
-      showShare: false
+      abilities: AbilitiesJson,
+      talents: TalentsJson,
+      gems: GemsJson,
+      showShare: false,
+      base_stats: {
+        "Health": 2500,
+        "Dodges": 2,
+      },
+      level: 4
     }
   },
   components: {
@@ -72,7 +91,49 @@ export default {
     
   },
   computed: {
-    
+    compStats: function(){
+      let stats = (this.selectedHero.school == 'Veil Demon') ? {} : JSON.parse(JSON.stringify(this.base_stats));
+      let listOfThings = []
+      listOfThings.push(this.lookUpAbility(this.selectedHero.signature))
+      listOfThings.push(this.lookUpAbility(this.selectedSlot1))
+      listOfThings.push(this.lookUpAbility(this.selectedSlot2))
+      listOfThings.push(this.lookUpAbility(this.selectedSlot3))
+      listOfThings.push(this.lookUpAbility(this.selectedSlot4))
+      listOfThings.push(this.lookUpTalent(this.selectedLvl1))
+      if ( this.level >= 2 ){
+        listOfThings.push(this.lookUpTalent(this.selectedLvl2))
+      }
+      if ( this.level >= 3) {
+        listOfThings.push(this.lookUpTalent(this.selectedLvl3))
+      }
+      if ( this.level >= 4) {
+        listOfThings.push(this.lookUpTalent(this.selectedLvl4))
+      }
+      listOfThings.push(this.lookUpGem(this.selectedSapp1))
+      listOfThings.push(this.lookUpGem(this.selectedSapp2))
+      listOfThings.push(this.lookUpGem(this.selectedRuby1))
+      listOfThings.push(this.lookUpGem(this.selectedRuby2))
+      listOfThings.push(this.lookUpGem(this.selectedPris1))
+      listOfThings.push(this.lookUpGem(this.selectedPris2))
+      for ( let thing of listOfThings ){
+        if(thing.stats){
+          for( let key of Object.keys(thing.stats) ){
+            let val = thing.stats[key];            
+            if( !stats.hasOwnProperty(key) ){
+              stats[key] = 0;
+            }
+            if( Number.isFinite(val) ){
+              stats[key] += (thing.hasOwnProperty('name') && thing.name.indexOf('Empowering') == 0 ) ? val * this.level : val;
+            }else{
+              stats[key] = val;
+            }
+            
+          }
+          
+        }
+      }
+      return stats;
+    },
     selectedHero: function() {
       let selHero = { "signature": 0 };
       for ( let hero of this.heroes){
@@ -236,6 +297,36 @@ export default {
     },
     toggleShare(){
       this.showShare = !this.showShare
+    },
+    lookUpAbility(id){
+      let retVal = {}
+      for( let a of this.abilities ){
+        if( a.id == id){
+          retVal = a;
+          break;
+        }
+      }
+      return retVal;
+    },
+    lookUpTalent(id){
+      let retVal = {}
+      for( let a of this.talents ){
+        if( a.id == id){
+          retVal = a;
+          break;
+        }
+      }
+      return retVal;
+    },
+    lookUpGem(id){
+      let retVal = {}
+      for( let a of this.gems ){
+        if( a.id == id){
+          retVal = a;
+          break;
+        }
+      }
+      return retVal;
     }
   }
 }
@@ -273,4 +364,16 @@ select {
   height: 2em;
   font-size: 1em;
 } 
+label {
+  display: block;
+  width: 4.5em;
+  float: left;
+  clear: both;
+  margin-top: .25em;
+  margin-bottom: 1em;
+}
+
+fieldset {
+  margin-top: 2em;
+}
 </style>

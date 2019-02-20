@@ -31,7 +31,7 @@
 
 <script>
 import { ModelSelect } from 'vue-search-select'
-import GemsJson from '../../public/gems.json'
+
 
 export default {
   props: {
@@ -42,13 +42,13 @@ export default {
     "selectedRuby2": Number,
     "selectedPris1": Number,
     "selectedPris2": Number,
+    "gemList": Array
   },
   components: {
     ModelSelect
   },
   data () {
     return {
-      gemList: GemsJson,
       s1: this.selectedSapp1,
       s2: this.selectedSapp2,
       r1: this.selectedRuby1,

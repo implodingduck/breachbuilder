@@ -25,7 +25,7 @@
 
 <script>
 import { ModelSelect } from 'vue-search-select'
-import TalentsJson from '../../public/talents.json'
+
 
 export default {
   props: {
@@ -33,14 +33,14 @@ export default {
     "selectedLvl1": Number,
     "selectedLvl2": Number,
     "selectedLvl3": Number,
-    "selectedLvl4": Number
+    "selectedLvl4": Number,
+    "talentList": Array
   },
   components: {
     ModelSelect
   },
   data () {
     return {
-      talentList: TalentsJson,
       lvl1: this.selectedLvl1,
       lvl2: this.selectedLvl2,
       lvl3: this.selectedLvl3,
