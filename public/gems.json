@@ -1677,5 +1677,33 @@
 		"name": "Wildfire Damage",
 		"type": "prismatic",
 		"desc": "Wildfire +540% Bonus Damage +75% Cooldown"
-	}
+	},
+  {
+    "id": 198,
+    "school": "Tech",
+    "name": "Healing Microbots Heal",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing per tick +20% Charge Cooldown"
+  },
+  {
+    "id": 199,
+    "school": "Tech",
+    "name": "Lockdown Duration",
+    "type": "prismatic",
+    "desc": "-25% Root Duration -25% Cooldown"
+  },
+  {
+    "id": 200,
+    "school": "Tech",
+    "name": "Reconstruction Healing",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing +20% Cooldown"
+  },
+  {
+    "id": 201,
+    "school": "Tech",
+    "name": "Arcane Converter Damage",
+    "type": "prismatic",
+    "desc": "+20% Bonus Damage +20% Cooldown"
+  }
 ]

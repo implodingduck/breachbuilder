@@ -922,5 +922,29 @@
     "talent": "Killing an enemy with Firebolt now refunds a charge of Firebolt.",
     "levels": [1, 2, 3],
     "school": "Arcane"
+  },
+  {
+    "id": 147,
+    "talent": "Lockdown now applies a 25% Slow for 4s.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 148,
+    "talent": "Reconstruction no longer heals. Each consumed Healing Microbots will increase the heal over time for your next Healing Microbots by 25%.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 149,
+    "talent": "Arcane Converter now applies +40% Bonus Damage to allies after consuming Healing Microbots. The buff lasts 4s.",
+    "levels": [3, 4],
+    "school": "Tech"
+  },
+  {
+    "id": 150,
+    "talent": "Healing Microbots now removes Root and Slow when applied.",
+    "levels": [4],
+    "school": "Tech"
   }
 ]
