@@ -96,7 +96,7 @@ export default {
       }
       
     },
-    mouseleave(e){
+    mouseleave(){
       this.desc = '';
     }
   }

@@ -24,7 +24,7 @@ export default {
     abilityClicked: function(e) {
       this.$emit('abilityClicked', e)
     },
-    mouseover: function(e){
+    mouseover: function(){
       this.$emit('mouseover', this.ability )
     },
     mouseleave: function(e){
