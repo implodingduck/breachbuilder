@@ -7,11 +7,14 @@ Vue.config.productionTip = false
 
 Vue.use(VueRouter)
 
+let savedid_ele = document.getElementById('savedid')
+let default_id = (savedid_ele && savedid_ele.innerText != '') ? savedid_ele.innerText : '01010203040b02030o000000000000' 
+
 const router = new VueRouter({
   routes: [
   {
     path: '/',
-    redirect: '/01010203040b02030o000000000000'
+    redirect: '/' + default_id
   },
   {    
     path: '/:id',

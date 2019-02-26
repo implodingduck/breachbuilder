@@ -1,5 +1,5 @@
 <template>
-  <div class="hotbarAbility">
+  <div class="hotbarAbility" @mouseover="mouseover" @mouseleave="mouseleave">
     <button @click.prevent="abilityClicked"><img :src="ability.icon" :alt="ability.name" /></button>
     <div class="abilityName">{{ability.name}}</div>
   </div>
@@ -23,6 +23,12 @@ export default {
   methods: {
     abilityClicked: function(e) {
       this.$emit('abilityClicked', e)
+    },
+    mouseover: function(){
+      this.$emit('mouseover', this.ability )
+    },
+    mouseleave: function(e){
+      this.$emit('mouseleave', e )
     }
   }
   
