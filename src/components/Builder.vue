@@ -91,7 +91,7 @@ export default {
       return retVal;
     });
     
-    axios.get('/spells.html').then((results) => {
+    axios.get(process.env.BASE_URL +'spells.html').then((results) => {
       let parser = new DOMParser();
       let spelldoc = parser.parseFromString(results.data, 'text/html');
       let spelltrs = spelldoc.querySelectorAll('table tbody tr');

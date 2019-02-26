@@ -1,8 +1,7 @@
 <template>
   <div style="position: relative;">
-    
-    <fieldset><legend>Abilities</legend>
     <div class="tooltip" v-if="desc" v-html="desc"></div>
+    <fieldset><legend>Abilities</legend>
     <div class="hotbar">
       <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot1), 1, $event)" @mouseover="mouseover" @mouseleave="mouseleave"></HotbarAbility>
       <HotbarAbility :class="{ selected: selectedSlot == 2 }" :ability="getAbility(selectedSlot2)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot2), 2, $event)" @mouseover="mouseover" @mouseleave="mouseleave"></HotbarAbility>
