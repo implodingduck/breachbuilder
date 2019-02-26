@@ -12,7 +12,7 @@
         </select>
       </fieldset>
       <pre style="display: none;">{{JSON.stringify(selectedHero, undefined, 2)}}</pre>
-      <Hotbar v-if="heroes.length > 0" :abilities="abilities" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
+      <Hotbar v-if="heroes.length > 0" :abilities="abilities" :spelldescs="spelldescs" :selectedSlot1="selectedSlot1" :selectedSlot2="selectedSlot2" :selectedSlot3="selectedSlot3" :selectedSlot4="selectedSlot4" :signature="selectedHero.signature" @slotchange="handleSlotChange"></Hotbar>
       <Talents :talentList="talents" :selectedHero="selectedHero" :selectedLvl1="selectedLvl1" :selectedLvl2="selectedLvl2" :selectedLvl3="selectedLvl3" :selectedLvl4="selectedLvl4" @talentChange='handleTalentChange'></Talents>
       <Gems :gemList="gems" :selectedHero="selectedHero" :selectedSapp1="selectedSapp1" :selectedSapp2="selectedSapp2" :selectedRuby1="selectedRuby1" :selectedRuby2="selectedRuby2" :selectedPris1="selectedPris1" :selectedPris2="selectedPris2" @gemChange="handleGemChange" ></Gems>
       <div>
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import Hotbar from './Hotbar.vue'
 import Talents from './Talents.vue'
 import Gems from './Gems.vue'
@@ -61,6 +62,7 @@ export default {
       selectedPris2: this.parseRouterId(routerId, 14, 0),
       heroes: [],
       abilities: AbilitiesJson,
+      spelldescs: {},
       talents: TalentsJson,
       gems: GemsJson,
       showShare: false,
@@ -88,6 +90,19 @@ export default {
       }
       return retVal;
     });
+    
+    axios.get('/spells.html').then((results) => {
+      let parser = new DOMParser();
+      let spelldoc = parser.parseFromString(results.data, 'text/html');
+      let spelltrs = spelldoc.querySelectorAll('table tbody tr');
+      for(let spelltr of spelltrs){
+        let spelltds = spelltr.getElementsByTagName('td');
+        if (spelltds.length > 3){
+          $vm.spelldescs[spelltds[1].innerText] = spelltds[2].innerHTML
+        }
+        
+      }
+    })
     
   },
   computed: {
