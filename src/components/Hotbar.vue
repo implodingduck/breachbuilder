@@ -1,6 +1,6 @@
 <template>
   <div style="position: relative;">
-    <div class="tooltip" v-if="desc" v-html="desc"></div>
+    <div class="abilitydesc" v-if="desc" v-html="desc"></div>
     <fieldset><legend>Abilities</legend>
     <div class="hotbar">
       <HotbarAbility :class="{ selected: selectedSlot == 1 }" :ability="getAbility(selectedSlot1)" @abilityClicked="toggleAbilityList(getAbility(selectedSlot1), 1, $event)" @mouseover="mouseover" @mouseleave="mouseleave"></HotbarAbility>
@@ -131,7 +131,7 @@ export default {
     position: absolute;
   }
   
-  .tooltip {
+  .abilitydesc {
     position:absolute;
     z-index: 90;
     border: 1px solid #B3B4B7;

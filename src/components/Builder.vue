@@ -93,7 +93,7 @@ export default {
     let spellsurl = (location.host == 'breach.gamepedia.com') ? 'https://breach.gamepedia.com/api.php?action=parse&format=json&page=Spells' : process.env.BASE_URL +'spells.html'
     axios.get(spellsurl).then((results) => {
       let parser = new DOMParser();
-      let htmlstr = (location.host == 'breach.gamepedia.com') ? results.data.parse.text : results.data
+      let htmlstr = (location.host == 'breach.gamepedia.com') ? results.data.parse.text['*'] : results.data
       let spelldoc = parser.parseFromString(htmlstr, 'text/html');
       let spelltrs = spelldoc.querySelectorAll('table tbody tr');
       for(let spelltr of spelltrs){
