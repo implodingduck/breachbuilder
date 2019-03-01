@@ -52,7 +52,7 @@
   },
   {
     "id":9,
-    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "mage",
     "stats": {
@@ -157,7 +157,7 @@
   },
   {
     "id":25,
-    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "mage",
     "stats": {
@@ -478,7 +478,7 @@
   },
   {
     "id":78,
-    "talent":"You gain 50% Lifesteal on targets bearing your Marked Shot.",
+    "talent":"You gain 25% Lifesteal on targets bearing your Marked Shot.",
     "levels": [1, 2, 3],
     "school": "Hedge"
   },
@@ -658,7 +658,7 @@
   },
   {
     "id":108,
-    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
@@ -667,7 +667,7 @@
   },
   {
     "id":109,
-    "talent":"Cooldown and charge accrual for breach spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for breach spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
@@ -676,7 +676,7 @@
   },
   {
     "id":110,
-    "talent":"Cooldown and charge accrual for conjuring spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for conjuring spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
@@ -685,7 +685,7 @@
   },
   {
     "id":111,
-    "talent":"Cooldown and charge accrual for dominion spells reduced by 15%. Stacks with similar talents. maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for dominion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
@@ -694,7 +694,7 @@
   },
   {
     "id":112,
-    "talent":"Cooldown and charge accrual for minion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for minion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
@@ -832,7 +832,7 @@
   },
   {
     "id":134,
-    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
@@ -841,7 +841,7 @@
   },
   {
     "id":135,
-    "talent":"Cooldown and charge accrual for breach spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for breach spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
@@ -850,7 +850,7 @@
   },
   {
     "id":136,
-    "talent":"Cooldown and charge accrual for conjuring spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for conjuring spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
@@ -859,7 +859,7 @@
   },
   {
     "id":137,
-    "talent":"Cooldown and charge accrual for dominion spells reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for dominion spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
@@ -868,7 +868,7 @@
   },
   {
     "id":138,
-    "talent":"Cooldown and charge accrual for minion spells while possessing reduced by 30%. Stacks with similar talents. Maximum bonus is 50% from all sources.",
+    "talent":"Cooldown and charge accrual for minion spells while possessing reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
@@ -913,7 +913,7 @@
   },
   {
     "id": 145,
-    "talent": "Combust now also heals the caster for 100 health per Burn stack consumed.",
+    "talent": "Combust now grants 0.5s Charge Cooldown towards your next Firebolt per Burn stack consumed.",
     "levels": [1, 2, 3],
     "school": "Arcane"
   },

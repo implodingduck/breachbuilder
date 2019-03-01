@@ -19,7 +19,8 @@ const router = new VueRouter({
   {    
     path: '/:id',
     component: Builder
-  }]
+  }
+  ]
 })
 
 new Vue({

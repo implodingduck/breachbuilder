@@ -1,8 +1,23 @@
 <template>
   <div class="hello">
+  
     
-    <button style="float: right; margin-bottom: 1em; background-color: rgb(221, 221, 221);" @click.prevent="toggleShare">Share</button>
-    <a v-if="showShare" class="sharelink" :href="'#/' + computedId">{{shareLinkUrl}}#/{{computedId}}</a>
+    <button style="float: right; margin-bottom: 1em;" @click.prevent="toggleShare">Share</button>
+    <a v-if="showShare" class="sharelink" :href="'#/' + computedId" style="margin-bottom: 1em;">{{shareLinkUrl}}#/{{computedId}}</a>
+    <button v-if="!showExport" @click.prevent="gotoExport" style="clear: right; float: right; margin-bottom: 1em;">
+      Export
+    </button>
+    <div v-if="showExport" style="clear: right;">
+      <fieldset>
+        <legend>Export</legend>
+        <label for="buildname" style="width: 6em; margin-top: 0;">Build Name:</label><input id="buildname" type="text" v-model="exportName">
+        <div style="width: 100%; margin-top: 1em;">
+          <button style="margin: 1em" @click.prevent="doExport">Export</button><button style="margin: 1em" @click.prevent="cancelExport">Cancel</button>
+        </div>
+      </fieldset>
+      
+     
+    </div>
     <div>
       
       <fieldset style="clear: right; ">
@@ -70,7 +85,9 @@ export default {
         "Health": 2500,
         "Dodges": 2,
       },
-      level: 4
+      level: 4,
+      showExport: false,
+      exportName: ""
     }
   },
   components: {
@@ -99,7 +116,7 @@ export default {
       for(let spelltr of spelltrs){
         let spelltds = spelltr.getElementsByTagName('td');
         if (spelltds.length > 3){
-          $vm.spelldescs[spelltds[1].innerText] = spelltds[2].innerHTML
+          $vm.spelldescs[spelltds[1].innerText] = spelltds[2].innerHTML.replace(/<p>/g, '').replace(/<\/p>/g, '')
         }
         
       }
@@ -207,7 +224,11 @@ export default {
       return xString
     },
     fromBase32(xString){
-      return parseInt(xString, 32);
+      try {
+        return parseInt(xString, 32);
+      }catch(e){
+        return 0;
+      }
     },
     setDefaultSelectedSlots() {
       let thisHero = this.selectedHero
@@ -343,6 +364,15 @@ export default {
         }
       }
       return retVal;
+    },
+    gotoExport(){
+      this.showExport = true;
+    },
+    doExport(){
+      window.location=`https://breach.gamepedia.com/${this.exportName}?action=edit&section=new&nosummary=true&preload=PreloadCharacterBuild&preloadparams%5b%5d=${this.computedId}&preloadparams%5b%5d=${this.selectedHero.name}`
+    },
+    cancelExport(){
+      this.showExport = false;
     }
   }
 }
@@ -391,5 +421,8 @@ label {
 
 fieldset {
   margin-top: 2em;
+}
+button {
+  background-color: rgb(221, 221, 221);
 }
 </style>
