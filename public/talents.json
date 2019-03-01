@@ -46,7 +46,7 @@
   },
   {
     "id":8,
-    "talent":"Breaches cannot be placed within 5m of you.",
+    "talent":"Breaches cannot be placed within 2m of you.",
     "levels": [1, 2, 3, 4],
     "school": "mage"
   },
