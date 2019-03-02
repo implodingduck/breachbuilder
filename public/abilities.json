@@ -46,7 +46,7 @@
     "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/4/4c/Mending_Wave.png/100px-Mending_Wave.png",
     "stats": {
       "Health": 500,
-      "Potions": 0
+      "Potions": 1
     }
   },
   {
@@ -1070,7 +1070,7 @@
     "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/c/c0/Healing_Microbots.png/100px-Healing_Microbots.png",
     "stats": {
       "Health": 500,
-      "Potions": 0
+      "Potions": 1
     }
   }
   
