@@ -1130,7 +1130,7 @@
 		"school": "Shadow",
 		"name": "Assassinate Health Based Damage",
 		"type": "prismatic",
-		"desc": "Assassinate Now deals Damage based on 30% of your current Health instead of how low your target's Health is."
+		"desc": "Now deals 300 Damage + 30% Damage based on your current Health instead of how low your target's Health is."
 	},
 	{
 		"id": 120,
