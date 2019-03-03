@@ -369,7 +369,7 @@ export default {
       this.showExport = true;
     },
     doExport(){
-      window.location=`https://breach.gamepedia.com/${this.exportName}?action=edit&section=new&nosummary=true&preload=PreloadCharacterBuild&preloadparams%5b%5d=${this.computedId}&preloadparams%5b%5d=${this.selectedHero.name}`
+      window.location=`https://breach.gamepedia.com/Build:${this.exportName}?action=edit&section=new&nosummary=true&preload=Template:PreloadCharacterBuild&preloadparams%5b%5d=${this.computedId}&preloadparams%5b%5d=${this.selectedHero.name}`
     },
     cancelExport(){
       this.showExport = false;
