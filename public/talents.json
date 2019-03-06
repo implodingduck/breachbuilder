@@ -794,7 +794,7 @@
   {
     "id":128,
     "talent":"+1 Dodge charges while possessing.",
-    "levels": [1],
+    "levels": [1, 2, 3, 4],
     "school": "Veil Demon"
   },
   {
