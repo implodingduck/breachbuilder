@@ -764,7 +764,7 @@
     "school": "Veil Demon",
     "name": "Dark Lethal Conjuring Sapphire",
     "type": "sapphire",
-    "desc": "+3.25% Bonus Breach Damage",
+    "desc": "+3.25% Bonus Conjuring Damage",
     "stats":{
       "Bonus Breach Damage": 3.25
     }
@@ -774,7 +774,7 @@
     "school": "Veil Demon",
     "name": "Dark Lethal Conjuring Ruby",
     "type": "ruby",
-    "desc": "+6.25% Bonus Breach Damage",
+    "desc": "+6.25% Bonus Conjuring Damage",
     "stats":{
       "Bonus Breach Damage": 6.25
     }
@@ -784,7 +784,7 @@
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Conjuring Sapphire",
     "type": "sapphire",
-    "desc": "+1% Bonus Breach Damage per Team Level",
+    "desc": "+1% Bonus Conjuring Damage per Team Level",
     "stats":{
       "Bonus Breach Damage": 1
     }
@@ -794,7 +794,7 @@
     "school": "Veil Demon",
     "name": "Empowering Dark Lethal Conjuring Ruby",
     "type": "ruby",
-    "desc": "+2% Bonus Breach Damage per Team Level",
+    "desc": "+2% Bonus Conjuring Damage per Team Level",
     "stats":{
       "Bonus Breach Damage": 2
     }
