@@ -214,7 +214,7 @@
   },
   {
     "id":34,
-    "talent":"Guardian Sprite now applies to all allies with a Damage Shield that blocks up to 3000 damage but the duration is reduced to 3s.",
+    "talent":"Guardian Sprite now applies to all allies with a Damage Shield that blocks up to 1000 damage but the duration is reduced to 3s.",
     "levels": [1, 2, 3],
     "school": "Arcane"
   },
