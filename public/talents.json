@@ -145,7 +145,7 @@
   },
   {
     "id":23,
-    "talent":"After not attacking for 8s gain stealth for up to 7s you are unrevealable for the first 1s.",
+    "talent":"After not attacking for 16s gain stealth for up to 7s you are unrevealable for the first 1s.",
     "levels": [4],
     "school": "mage"
   },
@@ -781,7 +781,7 @@
   },
   {
     "id":126,
-    "talent":"Watcher also afflicts enemies with a 50% Slow.",
+    "talent":"Watcher also afflicts enemies with a 30% Slow.",
     "levels": [1, 2, 3],
     "school": "Veil Demon"
   },
