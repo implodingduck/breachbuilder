@@ -217,7 +217,7 @@ export default {
       }
     },
     toBase32(x){
-      let xString = x.toString(32);
+      let xString = (x) ? x.toString(32) : '0';
       if (xString.length % 2) {
         xString = '0' + xString;
       }
