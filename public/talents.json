@@ -794,13 +794,13 @@
   {
     "id":128,
     "talent":"+1 Dodge charges while possessing.",
-    "levels": [1, 2, 3, 4],
+    "levels": [1, 2, 3],
     "school": "Veil Demon"
   },
   {
     "id":129,
     "talent":"Gain a summon elite charge and increase its charge rate by 25%.",
-    "levels": [3],
+    "levels": [3, 4],
     "school": "Veil Demon",
     "stats": {
       "Elite Charge Rate": 25
@@ -944,7 +944,7 @@
   {
     "id": 150,
     "talent": "Healing Microbots now removes Root and Slow when applied.",
-    "levels": [4],
+    "levels": [3, 4],
     "school": "Tech"
   }
 ]
