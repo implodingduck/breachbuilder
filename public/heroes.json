@@ -310,5 +310,17 @@
       "4": 129
     },
     "signature": 130
+  },
+  {
+    "id": 27,
+    "name": "Shadow Master",
+    "school": "Veil Demon",
+    "abilities": {
+      "1": 131,
+      "2": 132,
+      "3": 133,
+      "4": 134
+    },
+    "signature": 135
   }
 ]

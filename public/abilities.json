@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "name":"Haste",
+    "name":"Accelerate",
     "school": "Arcane",
     "type": "general",
     "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/35/Haste.png/100px-Haste.png"
@@ -1071,6 +1071,43 @@
     "stats": {
       "Health": 500,
       "Potions": 1
+    }
+  },
+  {
+    "id": 131,
+    "name": "Spiteful Shade",
+    "school": "Veil Demon",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/a/a8/Spiteful_Shade.png/100px-Spiteful_Shade.png"
+  },
+  {
+    "id": 132,
+    "name": "Spirit Shade",
+    "school": "Veil Demon",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/e/e6/Spirit_Shade.png/100px-Spirit_Shade.png"
+  },
+  {
+    "id": 133,
+    "name": "Shade Portal",
+    "school": "Veil Demon",
+    "type": "general",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/2/2f/Shade_Portal.png/100px-Shade_Portal.png"
+  },
+  {
+    "id": 134,
+    "name": "Coordinated Attack",
+    "school": "Veil Demon",
+    "type": "ultimate",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/3/30/Coordinated_Attack.png/100px-Coordinated_Attack.png"
+  },
+  {
+    "id": 135,
+    "name": "Shadow Clone",
+    "school": "Veil Demon",
+    "type": "signature",
+    "icon": "https://gamepedia.cursecdn.com/breach_gamepedia_en/thumb/7/7b/Shadow_Clone.png/100px-Shadow_Clone.png",
+    "stats": {
     }
   }
   
