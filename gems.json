@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 1,
+    "school": "Universal",
+    "name": "Sapphire of Recurrence",
+    "type": "sapphire",
+    "desc": "-2.25% Cooldown and charge cooldown For All Spells",
+    "stats": {
+      "Cooldown and charge cooldown For All Spells": -2.25
+    }
+  },
+  {
+    "id": 2,
+    "school": "Universal",
+    "name": "Ruby of Recurrence",
+    "type": "ruby",
+    "desc": "-4.5% Cooldown and charge cooldown For All Spells",
+    "stats": {
+      "Cooldown and charge cooldown For All Spells": -4.5
+    }
+  },
+  {
+    "id": 3,
+    "school": "Universal",
+    "name": "Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+2.5% Bonus Damage",
+    "stats": {
+      "Bonus Damage": 2.5
+    }
+  },
+  {
+    "id": 4,
+    "school": "Universal",
+    "name": "Lethality Ruby ",
+    "type": "ruby",
+    "desc": "+5% Bonus Damage",
+    "stats": {
+      "Bonus Damage": 5
+    }
+  },
+  {
+    "id": 5,
+    "school": "Universal",
+    "name": "Empowering Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+0.75% Bonus Damage per Team Level",
+    "stats": {
+      "Bonus Damage": 0.75
+    }
+  },
+  {
+    "id": 6,
+    "school": "Universal",
+    "name": "Empowering Lethality Ruby",
+    "type": "ruby",
+    "desc": "+1.75% Bonus Damage per Team Level",
+    "stats": {
+      "Bonus Damage": 1.75
+    }
+  },
+  {
+    "id": 7,
+    "school": "Universal",
+    "name": "Radial Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+3.75% Bonus AoE Damage",
+    "stats": {
+      "Bonus AoE Damage": 3.75
+    }
+  },
+  {
+    "id": 8,
+    "school": "Universal",
+    "name": "Radial Lethality Ruby",
+    "type": "ruby",
+    "desc": "+7.5% Bonus AoE Damage",
+    "stats": {
+      "Bonus AoE Damage": 7.5
+    }
+  },
+  {
+    "id": 9,
+    "school": "Universal",
+    "name": "Empowering Radial Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+1.25% Bonus AoE Damage per Team Level",
+    "stats": {
+      "Bonus AoE Damage": 1.25
+    }
+  },
+  {
+    "id": 10,
+    "school": "Universal",
+    "name": "Empowering Radial Lethality Ruby",
+    "type": "ruby",
+    "desc": "+2.5% Bonus AoE Damage per Team Level",
+    "stats": {
+      "Bonus AoE Damage": 2.5
+    }
+  },
+  {
+    "id": 11,
+    "school": "Universal",
+    "name": "Sapphire of the Wolf",
+    "type": "sapphire",
+    "desc": "+5% Bonus Damage to CC'd Targets",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 5
+    }
+  },
+  {
+    "id": 12,
+    "school": "Universal",
+    "name": "Ruby of the Wolf",
+    "type": "ruby",
+    "desc": "+10% Bonus Damage to CC'd Targets",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 10
+    }
+  },
+  {
+    "id": 13,
+    "school": "Universal",
+    "name": "Empowering Sapphire of the Wolf",
+    "type": "sapphire",
+    "desc": "+1.75% Bonus Damage to CC'd Targets per Team Level",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 1.75
+    }
+  },
+  {
+    "id": 14,
+    "school": "Universal",
+    "name": "Empowering Ruby of the Wolf",
+    "type": "ruby",
+    "desc": "+3.25% Bonus Damage to CC'd Targets per Team Level",
+    "stats": {
+      "Bonus Damage to CC'd Targets": 3.25
+    }
+  },
+  {
+    "id": 15,
+    "school": "Universal",
+    "name": "Focused Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+3.75% Bonus Targeted Damage",
+    "stats": {
+      "Bonus Targeted Damage": 3.75
+    }
+  },
+  {
+    "id": 16,
+    "school": "Universal",
+    "name": "Focused Lethality Ruby",
+    "type": "ruby",
+    "desc": "+7.5% Bonus Targeted Damage",
+    "stats": {
+      "Bonus Targeted Damage": 7.5
+    }
+  },
+  {
+    "id": 17,
+    "school": "Universal",
+    "name": "Empowering Focused Lethality Sapphire",
+    "type": "sapphire",
+    "desc": "+1.25% Bonus Targeted Damage per Team Level",
+    "stats": {
+      "Bonus Targeted Damage": 1.25
+    }
+  },
+  {
+    "id": 18,
+    "school": "Universal",
+    "name": "Empowering Focused Lethality Ruby",
+    "type": "ruby",
+    "desc": "+2.5% Bonus Targeted Damage per Team Level",
+    "stats": {
+      "Bonus Targeted Damage": 2.5
+    }
+  },
+  {
+    "id": 19,
+    "school": "Universal",
+    "name": "Sapphire of Recovery",
+    "type": "sapphire",
+    "desc": "+5% Bonus Healing",
+    "stats": {
+      "Bonus Healing": 5
+    }
+  },
+  {
+    "id": 20,
+    "school": "Universal",
+    "name": "Ruby of Recovery",
+    "type": "ruby",
+    "desc": "+2.5% Bonus Healing",
+    "stats": {
+      "Bonus Healing": 2.5
+    }
+  },
+  {
+    "id": 21,
+    "school": "Universal",
+    "name": "Empowering Sapphire of Recovery",
+    "type": "sapphire",
+    "desc": "+1.75% Bonus Healing per Team Level",
+    "stats": {
+      "Bonus Healing": 1.75
+    }
+  },
+  {
+    "id": 22,
+    "school": "Universal",
+    "name": "Empowering Ruby of Recovery",
+    "type": "ruby",
+    "desc": "+0.75% Bonus Healing per Team Level",
+    "stats": {
+      "Bonus Healing": 0.75
+    }
+  },
+  {
+    "id": 23,
+    "school": "Universal",
+    "name": "Radial Recovery Sapphire",
+    "type": "sapphire",
+    "desc": "+7.5% Bonus AoE Healing",
+    "stats": {
+      "Bonus AoE Healing": 7.5
+    }
+  },
+  {
+    "id": 24,
+    "school": "Universal",
+    "name": "Radial Recovery Ruby",
+    "type": "ruby",
+    "desc": "+3.75% Bonus AoE Healing",
+    "stats": {
+      "Bonus AoE Healing": 3.75
+    }
+  },
+  {
+    "id": 25,
+    "school": "Universal",
+    "name": "Empowering Radial Recovery Sapphire",
+    "type": "sapphire",
+    "desc": "+2.5% Bonus AoE Healing per Team Level",
+    "stats": {
+      "Bonus AoE Healing": 2.5
+    }
+  },
+  {
+    "id": 26,
+    "school": "Universal",
+    "name": "Empowering Radial Recovery Ruby",
+    "type": "ruby",
+    "desc": "+1.25% Bonus AoE Healing per Team Level",
+    "stats": {
+      "Bonus AoE Healing": 1.25
+    }
+  },
+  {
+    "id": 27,
+    "school": "Universal",
+    "name": "Focused Recovery Sapphire",
+    "type": "sapphire",
+    "desc": "+7.5% Bonus Targeted Healing",
+    "stats": {
+      "Bonus Targeted Healing": 7.5
+    }
+  },
+  {
+    "id": 28,
+    "school": "Universal",
+    "name": "Focused Recovery Ruby",
+    "type": "ruby",
+    "desc": "+3.75% Bonus Targeted Healing",
+    "stats": {
+      "Bonus Targeted Healing": 3.75
+    }
+  },
+  {
+    "id": 29,
+    "school": "Universal",
+    "name": "Empowering Focused Recovery Sapphire",
+    "type": "sapphire",
+    "desc": "+2.5% Bonus Targeted Healing per Team Level",
+    "stats": {
+      "Bonus Targeted Healing": 2.5
+    }
+  },
+  {
+    "id": 30,
+    "school": "Universal",
+    "name": "Empowering Focused Recovery Ruby",
+    "type": "ruby",
+    "desc": "+1.25% Bonus Targeted Healing per Team Level",
+    "stats": {
+      "Bonus Targeted Healing": 1.25
+    }
+  },
+  {
+    "id": 31,
+    "school": "Universal",
+    "name": "Sapphire of the Cheetah",
+    "type": "sapphire",
+    "desc": "+5% Movement Speed",
+    "stats": {
+      "Movement Speed": 5
+    }
+  },
+  {
+    "id": 32,
+    "school": "Universal",
+    "name": "Ruby of the Cheetah",
+    "type": "ruby",
+    "desc": "+10% Movement Speed",
+    "stats": {
+      "Movement Speed": 10
+    }
+  },
+  {
+    "id": 33,
+    "school": "Universal",
+    "name": "Sapphire of the Vulture",
+    "type": "sapphire",
+    "desc": "+2.5% CC Effect Duration",
+    "stats": {
+      "CC Effect Duration": 2.5
+    }
+  },
+  {
+    "id": 34,
+    "school": "Universal",
+    "name": "Ruby of the Vulture",
+    "type": "ruby",
+    "desc": "+5% CC Effect Duration",
+    "stats": {
+      "CC Effect Duration": 5
+    }
+  },
+  {
+    "id": 35,
+    "school": "Hero",
+    "name": "Light Sapphire of the Tiger",
+    "type": "sapphire",
+    "desc": "+3.25% Bonus Melee Damage",
+    "stats": {
+      "Bonus Melee Damage": 3.25
+    }
+  },
+  {
+    "id": 36,
+    "school": "Hero",
+    "name": "Light Ruby of the Tiger",
+    "type": "ruby",
+    "desc": "+6.25% Bonus Melee Damage",
+    "stats": {
+      "Bonus Melee Damage": 6.25
+    }
+  },
+  {
+    "id": 37,
+    "school": "Hero",
+    "name": "Empowering Light Sapphire of the Tiger",
+    "type": "sapphire",
+    "desc": "+1% Bonus Melee Damage per Team Level",
+    "stats": {
+      "Bonus Melee Damage": 1
+    }
+  },
+  {
+    "id": 38,
+    "school": "Hero",
+    "name": "Empowering Light Ruby of the Tiger",
+    "type": "ruby",
+    "desc": "+2% Bonus Melee Damage per Team Level",
+    "stats": {
+      "Bonus Melee Damage": 2
+    }
+  },
+  {
+    "id": 39,
+    "school": "Hero",
+    "name": "Light Sapphire of the Hawk",
+    "type": "sapphire",
+    "desc": "+3.25% Bonus Ranged Damage",
+    "stats": {
+      "Bonus Ranged Damage": 3.25
+    }
+  },
+  {
+    "id": 40,
+    "school": "Hero",
+    "name": "Light Ruby of the Hawk",
+    "type": "ruby",
+    "desc": "+6.25% Bonus Ranged Damage",
+    "stats": {
+      "Bonus Ranged Damage": 6.25
+    }
+  },
+  {
+    "id": 41,
+    "school": "Hero",
+    "name": "Empowering Light Sapphire of the Hawk",
+    "type": "sapphire",
+    "desc": "+1% Bonus Ranged Damage per Team Level",
+    "stats": {
+      "Bonus Ranged Damage": 1
+    }
+  },
+  {
+    "id": 42,
+    "school": "Hero",
+    "name": "Empowering Light Ruby of the Hawk",
+    "type": "ruby",
+    "desc": "+2% Bonus Ranged Damage per Team Level",
+    "stats": {
+      "Bonus Ranged Damage": 2
+    }
+  },
+  {
+    "id": 43,
+    "school": "Hero",
+    "name": "Vigilant Light Sapphire",
+    "type": "sapphire",
+    "desc": "+3.75% Haste",
+    "stats": {
+      "Haste": 3.75
+    }
+  },
+  {
+    "id": 44,
+    "school": "Hero",
+    "name": "Vigilant Light Ruby",
+    "type": "ruby",
+    "desc": "+7.5% Haste",
+    "stats": {
+      "Haste": 7.5
+    }
+  },
+  {
+    "id": 45,
+    "school": "Hero",
+    "name": "Draining Light Sapphire",
+    "type": "sapphire",
+    "desc": "+2.5% Lifesteal",
+    "stats": {
+      "Lifesteal": 2.5
+    }
+  },
+  {
+    "id": 46,
+    "school": "Hero",
+    "name": "Draining Light Ruby",
+    "type": "ruby",
+    "desc": "+1.25% Lifesteal",
+    "stats": {
+      "Lifesteal": 1.25
+    }
+  },
+  {
+    "id": 47,
+    "school": "Hero",
+    "name": "Vitality Sapphire",
+    "type": "sapphire",
+    "desc": "+730 Health",
+    "stats": {
+      "Health": 730
+    }
+  },
+  {
+    "id": 48,
+    "school": "Hero",
+    "name": "Vitality Ruby",
+    "type": "ruby",
+    "desc": "+365 Health",
+    "stats": {
+      "Health": 365
+    }
+  },
+  {
+    "id": 49,
+    "school": "Hero",
+    "name": "Defensive Sapphire",
+    "type": "sapphire",
+    "desc": "+4.75% Damage Resistance",
+    "stats": {
+      "Damage Resistance": 4.75
+    }
+  },
+  {
+    "id": 50,
+    "school": "Hero",
+    "name": "Defensive Ruby",
+    "type": "ruby",
+    "desc": "+2.5% Damage Resistance",
+    "stats": {
+      "Damage Resistance": 2.5
+    }
+  },
+  {
+    "id": 51,
+    "school": "Hero",
+    "name": "Empowering Defensive Sapphire",
+    "type": "sapphire",
+    "desc": "+1.5% Damage Resistance per Team Level",
+    "stats": {
+      "Damage Resistance": 1.5
+    }
+  },
+  {
+    "id": 52,
+    "school": "Hero",
+    "name": "Empowering Defensive Ruby",
+    "type": "ruby",
+    "desc": "+0.75% Damage Resistance per Team Level",
+    "stats": {
+      "Damage Resistance": 0.75
+    }
+  },
+  {
+    "id": 53,
+    "school": "Hero",
+    "name": "Healing Sapphire",
+    "type": "sapphire",
+    "desc": "+7.25% Bonus Healing Received",
+    "stats": {
+      "Bonus Healing Received": 7.25
+    }
+  },
+  {
+    "id": 54,
+    "school": "Hero",
+    "name": "Healing Ruby",
+    "type": "ruby",
+    "desc": "+3.5% Bonus Healing Received",
+    "stats": {
+      "Bonus Healing Received": 3.5
+    }
+  },
+  {
+    "id": 55,
+    "school": "Hero",
+    "name": "Empowering Healing Sapphire",
+    "type": "sapphire",
+    "desc": "+2.5% Bonus Healing Received per Team Level",
+    "stats": {
+      "Bonus Healing Received": 2.5
+    }
+  },
+  {
+    "id": 56,
+    "school": "Hero",
+    "name": "Empowering Healing Ruby",
+    "type": "ruby",
+    "desc": "+1.25% Bonus Healing Received per Team Level",
+    "stats": {
+      "Bonus Healing Received": 1.25
+    }
+  },
+  {
+    "id": 57,
+    "school": "Hero",
+    "name": "Light Sapphire of Advancement",
+    "type": "sapphire",
+    "desc": "+7.5% Ultimate Accrual Rate",
+    "stats": {
+      "Ultimate Accrual": 7.5
+    }
+  },
+  {
+    "id": 58,
+    "school": "Hero",
+    "name": "Light Ruby of Advancement",
+    "type": "ruby",
+    "desc": "+15.25% Ultimate Accrual Rate",
+    "stats": {
+      "Ultimate Accrual": 15.25
+    }
+  },
+  {
+    "id": 59,
+    "school": "Hero",
+    "name": "Empowering Light Sapphire of Advancement",
+    "type": "sapphire",
+    "desc": "+2.5% Ultimate Accrual Rate per Team Level",
+    "stats": {
+      "Ultimate Accrual": 2.5
+    }
+  },
+  {
+    "id": 60,
+    "school": "Hero",
+    "name": "Empowering Light Ruby of Advancement",
+    "type": "ruby",
+    "desc": "+5% Ultimate Accrual Rate per Team Level",
+    "stats": {
+      "Ultimate Accrual": 5
+    }
+  },
+  {
+    "id": 61,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Recurrence",
+    "type": "sapphire",
+    "desc": "-2.75% Cooldown and charge cooldown for minion spells while possessing",
+    "stats":{
+      "Cooldown and charge cooldown For Minion Spells": -2.75
+    }
+  },
+  {
+    "id": 62,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Recurrence",
+    "type": "ruby",
+    "desc": "-5.5% Cooldown and charge cooldown for minion spells while possessing",
+    "stats":{
+      "Cooldown and charge cooldown For Minion Spells": -5.5
+    }
+  },
+  {
+    "id": 63,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Breach Recurrence",
+    "type": "sapphire",
+    "desc": "-2.75% Cooldown and charge cooldown for Breach spells",
+    "stats":{
+      "Cooldown and charge cooldown For Breach Spells": -2.75
+    }
+  },
+  {
+    "id": 64,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Breach Recurrence",
+    "type": "ruby",
+    "desc": "-5.5% Cooldown and charge cooldown for Breach spells",
+    "stats":{
+      "Cooldown and charge cooldown For Breach Spells": -5.5
+    }
+  },
+  {
+    "id": 65,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Conjuring Recurrence",
+    "type": "sapphire",
+    "desc": "-2.75% Cooldown and charge cooldown for Conjuring spells",
+    "stats":{
+      "Cooldown and charge cooldown For Conjuring Spells": -2.75
+    }
+  },
+  {
+    "id": 66,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Conjuring Recurrence",
+    "type": "ruby",
+    "desc": "-5.5% Cooldown and charge cooldown for Conjuring spells",
+    "stats":{
+      "Cooldown and charge cooldown For Conjuring Spells": -5.5
+    }
+  },
+  {
+    "id": 67,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Dominion Recurrence",
+    "type": "sapphire",
+    "desc": "-2.75% Cooldown and charge cooldown for Breach spells",
+    "stats":{
+      "Cooldown and charge cooldown For Breach Spells": -2.75
+    }
+  },
+  {
+    "id": 68,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Dominion Recurrence",
+    "type": "ruby",
+    "desc": "-5.5% Cooldown and charge cooldown for Breach spells",
+    "stats":{
+      "Cooldown and charge cooldown For Breach Spells": -5.5
+    }
+  },
+  {
+    "id": 69,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Advancement",
+    "type": "sapphire",
+    "desc": "+3.75% Summon Elite Accrual Rate",
+    "stats":{
+      "Elite Charge Rate": 3.75
+    }
+  },
+  {
+    "id": 70,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Advancement",
+    "type": "ruby",
+    "desc": "+7.5% Summon Elite Accrual Rate",
+    "stats":{
+      "Elite Charge Rate": 7.5
+    }
+  },
+  {
+    "id": 71,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Sapphire of Advancement",
+    "type": "sapphire",
+    "desc": "+1.25% Summon Elite Accrual Rate per Team Level",
+    "stats":{
+      "Elite Charge Rate": 1.25
+    }
+  },
+  {
+    "id": 72,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Ruby of Advancement",
+    "type": "ruby",
+    "desc": "+2.5% Summon Elite Accrual Rate per Team Level",
+    "stats":{
+      "Elite Charge Rate": 2.5
+    }
+  },
+  {
+    "id": 73,
+    "school": "Veil Demon",
+    "name": "Dark Lethal Breach Sapphire",
+    "type": "sapphire",
+    "desc": "+3.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 3.25
+    }
+  },
+  {
+    "id": 74,
+    "school": "Veil Demon",
+    "name": "Dark Lethal Breach Ruby",
+    "type": "ruby",
+    "desc": "+6.25% Bonus Breach Damage",
+    "stats":{
+      "Bonus Breach Damage": 6.25
+    }
+  },
+  {
+    "id": 75,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Lethal Breach Sapphire",
+    "type": "sapphire",
+    "desc": "+1% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 1
+    }
+  },
+  {
+    "id": 76,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Lethal Breach Ruby",
+    "type": "ruby",
+    "desc": "+2% Bonus Breach Damage per Team Level",
+    "stats":{
+      "Bonus Breach Damage": 2
+    }
+  },
+  {
+    "id": 77,
+    "school": "Veil Demon",
+    "name": "Dark Lethal Conjuring Sapphire",
+    "type": "sapphire",
+    "desc": "+3.25% Bonus Conjuring Damage",
+    "stats":{
+      "Bonus Conjuring Damage": 3.25
+    }
+  },
+  {
+    "id": 78,
+    "school": "Veil Demon",
+    "name": "Dark Lethal Conjuring Ruby",
+    "type": "ruby",
+    "desc": "+6.25% Bonus Conjuring Damage",
+    "stats":{
+      "Bonus Conjuring Damage": 6.25
+    }
+  },
+  {
+    "id": 79,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Lethal Conjuring Sapphire",
+    "type": "sapphire",
+    "desc": "+1% Bonus Conjuring Damage per Team Level",
+    "stats":{
+      "Bonus Conjuring Damage": 1
+    }
+  },
+  {
+    "id": 80,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Lethal Conjuring Ruby",
+    "type": "ruby",
+    "desc": "+2% Bonus Conjuring Damage per Team Level",
+    "stats":{
+      "Bonus Conjuring Damage": 2
+    }
+  },
+  {
+    "id": 81,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of the Tiger",
+    "type": "sapphire",
+    "desc": "+3.75% Bonus Melee Damage while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 3.75
+    }
+  },
+  {
+    "id": 82,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of the Tiger",
+    "type": "ruby",
+    "desc": "+7.5% Bonus Melee Damage while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 7.5
+    }
+  },
+  {
+    "id": 83,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Sapphire of the Tiger",
+    "type": "sapphire",
+    "desc": "+1.25% Bonus Melee Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 1.25
+    }
+  },
+  {
+    "id": 84,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Ruby of the Tiger",
+    "type": "ruby",
+    "desc": "+2.5% Bonus Melee Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Melee Damage While Possessing": 2.5
+    }
+  },
+  {
+    "id": 85,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of the Hawk",
+    "type": "sapphire",
+    "desc": "+3.75% Bonus Ranged Damage while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 3.75
+    }
+  },
+  {
+    "id": 86,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of the Hawk",
+    "type": "ruby",
+    "desc": "+7.5% Bonus Ranged Damage while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 7.5
+    }
+  },
+  {
+    "id": 87,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Sapphire of the Hawk",
+    "type": "sapphire",
+    "desc": "+1.25% Bonus Ranged Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 1.25
+    }
+  },
+  {
+    "id": 88,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Ruby of the Hawk",
+    "type": "ruby",
+    "desc": "+2.5% Bonus Ranged Damage per Team Level while possessing",
+    "stats":{
+      "Bonus Ranged Damage While Possessing": 2.5
+    }
+  },
+  {
+    "id": 89,
+    "school": "Veil Demon",
+    "name": "Dark Sapphire of Recovery",
+    "type": "sapphire",
+    "desc": "+15.25% Bonus Healing while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 15.25
+    }
+  },
+  {
+    "id": 90,
+    "school": "Veil Demon",
+    "name": "Dark Ruby of Recovery",
+    "type": "ruby",
+    "desc": "+7.5% Bonus Healing while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 7.5
+    }
+  },
+  {
+    "id": 91,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Sapphire of Recovery",
+    "type": "sapphire",
+    "desc": "+5% Bonus Healing per Team Level while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 5
+    }
+  },
+  {
+    "id": 92,
+    "school": "Veil Demon",
+    "name": "Empowering Dark Ruby of Recovery",
+    "type": "ruby",
+    "desc": "+2.5% Bonus Healing per Team Level while possessing",
+    "stats":{
+      "Bonus Healing While Possessing": 2.5
+    }
+  },
+  {
+    "id": 93,
+    "school": "Veil Demon",
+    "name": "Vigilant Dark Sapphire",
+    "type": "sapphire",
+    "desc": "+3.75% Haste while possessing",
+    "stats":{
+      "Haste While Possessing": 3.75
+    }
+  },
+  {
+    "id": 94,
+    "school": "Veil Demon",
+    "name": "Vigilant Dark Ruby",
+    "type": "ruby",
+    "desc": "+7.5% Haste while possessing",
+    "stats":{
+      "Haste While Possessing": 7.5
+    }
+  },
+  {
+    "id": 95,
+    "school": "Veil Demon",
+    "name": "Draining Dark Sapphire",
+    "type": "sapphire",
+    "desc": "+3.25% Lifesteal while possessing",
+    "stats":{
+      "Lifesteal While Possessing": 3.25
+    }
+  },
+  {
+    "id": 96,
+    "school": "Veil Demon",
+    "name": "Draining Dark Ruby",
+    "type": "ruby",
+    "desc": "+1.5% Lifesteal while possessing",
+    "stats":{
+      "Lifesteal While Possessing": 1.5
+    }
+  },
+  {
+    "id": 97,
+    "school": "Veil Demon",
+    "name": "Defensive Dark Sapphire",
+    "type": "sapphire",
+    "desc": "+6% Damage Resistance while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 6
+    }
+  },
+  {
+    "id": 98,
+    "school": "Veil Demon",
+    "name": "Defensive Dark Ruby",
+    "type": "ruby",
+    "desc": "+3% Damage Resistance while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 3
+    }
+  },
+  {
+    "id": 99,
+    "school": "Veil Demon",
+    "name": "Empowering Defensive Dark Sapphire",
+    "type": "sapphire",
+    "desc": "+2% Damage Resistance per Team Level while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 2
+    }
+  },
+  {
+    "id": 100,
+    "school": "Veil Demon",
+    "name": "Empowering Defensive Dark Ruby",
+    "type": "ruby",
+    "desc": "+1% Damage Resistance per Team Level while possessing",
+    "stats":{
+      "Damage Resistance While Possessing": 1
+    }
+  },
+    {
+		"id": 101,
+		"school": "Universal",
+		"name": "Reverse Knockback",
+		"type": "prismatic",
+		"desc": "Impact that would have knocked your target back now knocks down instead."
+	},
+	{
+		"id": 102,
+		"school": "Universal",
+		"name": "Reverse Knockdown",
+		"type": "prismatic",
+		"desc": "Impact that would have knocked your target down now knocks back instead."
+	},
+	{
+		"id": 103,
+		"school": "Battle",
+		"name": "Arcane Charge Cooldown",
+		"type": "prismatic",
+		"desc": "Arcane Charge -50% Bonus Damage -30% Cooldown"
+	},
+	{
+		"id": 104,
+		"school": "Battle",
+		"name": "Bastard Cleave Charge Rate",
+		"type": "prismatic",
+		"desc": "Bastard Cleave +50% Bastard Cleave Stack Accrual -50% Bonus Damage Per Stack"
+	},
+	{
+		"id": 105,
+		"school": "Battle",
+		"name": "Cleave Damage",
+		"type": "prismatic",
+		"desc": "Cleave +55% Bonus Damage +50% Cooldown"
+	},
+	{
+		"id": 106,
+		"school": "Battle",
+		"name": "Cyclone Blade Damage",
+		"type": "prismatic",
+		"desc": "Cyclone Blade +40% Bonus Damage +25% Cooldown"
+	},
+	{
+		"id": 107,
+		"school": "Battle",
+		"name": "Guard Damage",
+		"type": "prismatic",
+		"desc": "Guard +10% Ally Damage Resistance +10% Caster Damage Taken"
+	},
+	{
+		"id": 108,
+		"school": "Battle",
+		"name": "Resolute Block Cooldown",
+		"type": "prismatic",
+		"desc": "Resolute Block -35% Max Conversion -35% Cooldown"
+	},
+	{
+		"id": 109,
+		"school": "Battle",
+		"name": "Intervene Cooldown",
+		"type": "prismatic",
+		"desc": "Intervene -30% Bonus Damage -30% Cooldown"
+	},
+	{
+		"id": 110,
+		"school": "Battle",
+		"name": "Mana Strike Damage",
+		"type": "prismatic",
+		"desc": "Mana Strike -25% Max Damage Shield +60% Bonus Damage"
+	},
+	{
+		"id": 111,
+		"school": "Battle",
+		"name": "Zephyr Strike Damage",
+		"type": "prismatic",
+		"desc": "Zephyr Strike +30% Bonus Damage +30% Cooldown"
+	},
+	{
+		"id": 112,
+		"school": "Shadow",
+		"name": "Ambush Damage",
+		"type": "prismatic",
+		"desc": "Ambush +40% Bonus Damage +30% Cooldown"
+	},
+	{
+		"id": 113,
+		"school": "Shadow",
+		"name": "Bird of Prey Damage",
+		"type": "prismatic",
+		"desc": "Bird of Prey +140% Bonus Damage +30% Cooldown"
+	},
+	{
+		"id": 114,
+		"school": "Shadow",
+		"name": "Talon Frenzy Cooldown",
+		"type": "prismatic",
+		"desc": "Talon Frenzy -25% Bonus Damage -25% Cooldown"
+	},
+	{
+		"id": 115,
+		"school": "Shadow",
+		"name": "Cursed Strike Life Steal",
+		"type": "prismatic",
+		"desc": "Cursed Strike +20% Lifesteal +20% Cooldown"
+	},
+	{
+		"id": 116,
+		"school": "Shadow",
+		"name": "Deathroot Damage Damage",
+		"type": "prismatic",
+		"desc": "Deathroot Damage +75% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 117,
+		"school": "Shadow",
+		"name": "Debilitating Wound Damage",
+		"type": "prismatic",
+		"desc": "Debilitating Wound +200% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 118,
+		"school": "Shadow",
+		"name": "Dive-Bomb Damage",
+		"type": "prismatic",
+		"desc": "Dive-Bomb +35% Bonus Damage +35% Cooldown"
+	},
+	{
+		"id": 119,
+		"school": "Shadow",
+		"name": "Assassinate Health Based Damage",
+		"type": "prismatic",
+		"desc": "Now deals 300 Damage + 30% Damage based on your current Health instead of how low your target's Health is."
+	},
+	{
+		"id": 120,
+		"school": "Shadow",
+		"name": "Fleeting Talon Root",
+		"type": "prismatic",
+		"desc": "Fleeting Talon +2s Root 0 Damage"
+	},
+	{
+		"id": 121,
+		"school": "Shadow",
+		"name": "Lacerate Cooldown",
+		"type": "prismatic",
+		"desc": "Lacerate -20% Bonus Damage -20% Cooldown"
+	},
+	{
+		"id": 122,
+		"school": "Shadow",
+		"name": "Lethal Strike Damage",
+		"type": "prismatic",
+		"desc": "Lethal Strike +50% Bonus Damage +50% Cooldown"
+	},
+	{
+		"id": 123,
+		"school": "Tech",
+		"name": "Boom Shot Cooldown",
+		"type": "prismatic",
+		"desc": "Boom Shot -20% Bonus Damage -20% Cooldown"
+	},
+	{
+		"id": 124,
+		"school": "Tech",
+		"name": "Confusion Gas Grenade",
+		"type": "prismatic",
+		"desc": "Confusion Gas Grenade +40% Bonus Damage Per tick +20% Cooldown"
+	},
+	{
+		"id": 125,
+		"school": "Tech",
+		"name": "Quick Feet Cooldown",
+		"type": "prismatic",
+		"desc": "Quick Feet No bonus Movement Speed -20% Cooldown"
+	},
+	{
+		"id": 126,
+		"school": "Tech",
+		"name": "Flash Grenade Damage",
+		"type": "prismatic",
+		"desc": "Flash Grenade +90% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 127,
+		"school": "Tech",
+		"name": "Tactical Shot Duration",
+		"type": "prismatic",
+		"desc": "Tactical Shot -80% Hinder Duration -20% Cooldown"
+	},
+	{
+		"id": 128,
+		"school": "Tech",
+		"name": "Snare Trap Duration",
+		"type": "prismatic",
+		"desc": "Snare Trap +20% Root Duration +20% Charge Cooldown"
+	},
+	{
+		"id": 129,
+		"school": "Tech",
+		"name": "Rapid Fire Clip Charges",
+		"type": "prismatic",
+		"desc": "Rapid Fire Clip +4 Charges +20% Cooldown"
+	},
+	{
+		"id": 130,
+		"school": "Tech",
+		"name": "Recall Dart Damage",
+		"type": "prismatic",
+		"desc": "Recall Dart +80% Bonus Damage +20% Charge Cooldown"
+	},
+	{
+		"id": 131,
+		"school": "Tech",
+		"name": "Ricochet Shot Range",
+		"type": "prismatic",
+		"desc": "Ricochet Shot Increase bounce range +20% Cooldown"
+	},
+	{
+		"id": 132,
+		"school": "Tech",
+		"name": "Snipe Damage",
+		"type": "prismatic",
+		"desc": "Snipe -20% Bonus Damage -20% Cooldown"
+	},
+	{
+		"id": 133,
+		"school": "Tech",
+		"name": "Turret Health",
+		"type": "prismatic",
+		"desc": "Turret -20% Health of Turret -20% Cooldown"
+	},
+	{
+		"id": 134,
+		"school": "Tech",
+		"name": "Vortex Slug Push Away",
+		"type": "prismatic",
+		"desc": "Vortex Slug Now pushes enemies away"
+	},
+	{
+		"id": 135,
+		"school": "Hedge",
+		"name": "Banishing Relic Damage Debuff",
+		"type": "prismatic",
+		"desc": "Banishing Relic No longer applies Banish to target enemy, instead it applies a movement barb that deals 25 damage every 0.25s the target is moving."
+	},
+	{
+		"id": 136,
+		"school": "Hedge",
+		"name": "Incendiary Shots Damage",
+		"type": "prismatic",
+		"desc": "Incendiary Shots +20% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 137,
+		"school": "Hedge",
+		"name": "Sticky Grenade Damage",
+		"type": "prismatic",
+		"desc": "Sticky Grenade +20% Bonus Damage +20% Charge Cooldown"
+	},
+	{
+		"id": 138,
+		"school": "Hedge",
+		"name": "Exorcism Damage",
+		"type": "prismatic",
+		"desc": "Exorcism +40% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 139,
+		"school": "Hedge",
+		"name": "Explosive Shell Damage",
+		"type": "prismatic",
+		"desc": "Explosive Shell -20% Bonus Damage -20% Cooldown"
+	},
+	{
+		"id": 140,
+		"school": "Hedge",
+		"name": "Confound Damage",
+		"type": "prismatic",
+		"desc": "Confound +140% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 141,
+		"school": "Hedge",
+		"name": "Marked Shot Duration",
+		"type": "prismatic",
+		"desc": "Marked Shot +50% debuff duration +20% Cooldown"
+	},
+	{
+		"id": 142,
+		"school": "Hedge",
+		"name": "Hallowed Spike Rend",
+		"type": "prismatic",
+		"desc": "Hallowed Spike No longer applies Bleed +300 Bonus Damage"
+	},
+	{
+		"id": 143,
+		"school": "Hedge",
+		"name": "Hellfire Duration",
+		"type": "prismatic",
+		"desc": "Hellfire -20% Duration -20% Cooldown"
+	},
+	{
+		"id": 144,
+		"school": "Hedge",
+		"name": "Projectile Ward Duration",
+		"type": "prismatic",
+		"desc": "Projectile Ward -20% Duration -20% Cooldown"
+	},
+	{
+		"id": 145,
+		"school": "Hedge",
+		"name": "Tar Jar Duration",
+		"type": "prismatic",
+		"desc": "Tar Jar +20% Duration +20% Cooldown"
+	},
+	{
+		"id": 146,
+		"school": "Dark",
+		"name": "Death's Beckon Damage",
+		"type": "prismatic",
+		"desc": "Death's Beckon +20% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 147,
+		"school": "Dark",
+		"name": "Grasp of Death Damage",
+		"type": "prismatic",
+		"desc": "Grasp of Death +40% Bonus Damage Per Tick +20% Cooldown"
+	},
+	{
+		"id": 148,
+		"school": "Dark",
+		"name": "Phylactery Duration",
+		"type": "prismatic",
+		"desc": "Phylactery Now has a 60s duration -20% Cooldown"
+	},
+	{
+		"id": 149,
+		"school": "Dark",
+		"name": "Haunting Wraiths Damage",
+		"type": "prismatic",
+		"desc": "Haunting Wraiths +20% Bonus Damage +20% Cooldown"
+	},
+	{
+		"id": 150,
+		"school": "Dark",
+		"name": "Reap Damage",
+		"type": "prismatic",
+		"desc": "Reap -20% Bonus Healing +20% Bonus Damage"
+	},
+	{
+		"id": 151,
+		"school": "Dark",
+		"name": "Frenzied Shambler Damage",
+		"type": "prismatic",
+		"desc": "Frenzied Shambler +20% Bonus Damage +20% Charge Cooldown"
+	},
+	{
+		"id": 152,
+		"school": "Dark",
+		"name": "Sow Duration",
+		"type": "prismatic",
+		"desc": "Sow +20% Debuff duration +20% Charge Cooldown"
+	},
+	{
+		"id": 153,
+		"school": "Dark",
+		"name": "Command Minion Damage",
+		"type": "prismatic",
+		"desc": "Command Minion +20% Bonus Damage for minions, lasts 10s No speed boost for minions"
+	},
+	{
+		"id": 154,
+		"school": "Arcane",
+		"name": "Aqueous Globe Damage",
+		"type": "prismatic",
+		"desc": "Aqueous Globe -50% Bubble Duration -50% Cooldown"
+	},
+	{
+		"id": 155,
+		"school": "Arcane",
+		"name": "Chronoleap Duration",
+		"type": "prismatic",
+		"desc": "Chronoleap +3s Duration No Longer Cleanses"
+	},
+	{
+		"id": 156,
+		"school": "Arcane",
+		"name": "Meteor Cooldown",
+		"type": "prismatic",
+		"desc": "Meteor -35% Bonus Damage -35% Cooldown"
+	},
+	{
+		"id": 157,
+		"school": "Arcane",
+		"name": "Glacial Armor Shield",
+		"type": "prismatic",
+		"desc": "Glacial Armor +50% Damage Shield +50% Cooldown"
+	},
+	{
+		"id": 158,
+		"school": "Arcane",
+		"name": "Guardian Sprite Shield",
+		"type": "prismatic",
+		"desc": "Guardian Sprite -20% Bonus Healing Received +20% Damage Shield"
+	},
+	{
+		"id": 159,
+		"school": "Arcane",
+		"name": "Mending Wave Healing",
+		"type": "prismatic",
+		"desc": "Mending Wave +50% Bonus Healing +50% Charge Cooldown"
+	},
+	{
+		"id": 160,
+		"school": "Arcane",
+		"name": "Purification Debuff Immunity",
+		"type": "prismatic",
+		"desc": "Purification +2s Debuff Immunity +25% Cooldown"
+	},
+	{
+		"id": 161,
+		"school": "Arcane",
+		"name": "Quake Cooldown",
+		"type": "prismatic",
+		"desc": "Quake -30% Bonus Damage -30% Cooldown"
+	},
+	{
+		"id": 162,
+		"school": "Arcane",
+		"name": "Stasis Beam Damage",
+		"type": "prismatic",
+		"desc": "Stasis Beam -40% Slow +40% Bonus Damage"
+	},
+	{
+		"id": 163,
+		"school": "Arcane",
+		"name": "Temporal Field Duration",
+		"type": "prismatic",
+		"desc": "Temporal Field +5s Duration +50% Cooldown"
+	},
+	{
+		"id": 164,
+		"school": "Arcane",
+		"name": "Hasted Accelerate",
+		"type": "prismatic",
+		"desc": "Haste -10% Bonus Damage +10% Haste"
+	},
+	{
+		"id": 165,
+		"school": "Arcane",
+		"name": "Transcendent Blast Charge Rate",
+		"type": "prismatic",
+		"desc": "Transcendent Blast +25% Transcendent Blast Stack Accrual -25% Bonus Damage Per Stack"
+	},
+  {
+		"id": 166,
+		"school": "Veil Demon",
+		"name": "Reverse Knockback",
+		"type": "prismatic",
+		"desc": "Impact that would have knocked your target back now knocks down instead."
+	},
+	{
+		"id": 167,
+		"school": "Veil Demon",
+		"name": "Reverse Knockdown",
+		"type": "prismatic",
+		"desc": "Impact that would have knocked your target down now knocks back instead."
+	},
+	{
+		"id": 168,
+		"school": "Veil Demon",
+		"name": "Reverse Possessed Knockback",
+		"type": "prismatic",
+		"desc": "Impact while possessing that would have knocked your target back now knocks down instead."
+	},
+	{
+		"id": 169,
+		"school": "Veil Demon",
+		"name": "Reverse Possessed Knockdown",
+		"type": "prismatic",
+		"desc": "Impact while possessing that would have knocked your target down now knocks back instead."
+	},
+	{
+		"id": 170,
+		"school": "Veil Demon",
+		"name": "Breach Restrict Room",
+		"type": "prismatic",
+		"desc": "Breach Max Charges increased by 1 and Cooldown and charge cooldown for Breach spells reduced by 10%. Stacks with similar gems and talents. Maximum bonus is 50% from all sources. Copies of this gem do not stack. Breaches can no longer be placed in the same room as enemies except for the boss room."
+	},
+	{
+		"id": 171,
+		"school": "Veil Demon",
+		"name": "Aether Coil Bonus Damage",
+		"type": "prismatic",
+		"desc": "Aether Coil +50% Cooldown +110% Bonus Damage"
+	},
+	{
+		"id": 172,
+		"school": "Veil Demon",
+		"name": "Grael Cage Health Bonus",
+		"type": "prismatic",
+		"desc": "Grael Cage +25% Charge Cooldown +25% Health"
+	},
+	{
+		"id": 173,
+		"school": "Veil Demon",
+		"name": "Burning Soul Bonus Damage",
+		"type": "prismatic",
+		"desc": "Burning Soul +25% Bonus Damage Lasts 30s or until posession ends."
+	},
+	{
+		"id": 174,
+		"school": "Veil Demon",
+		"name": "Cerberus Core Bonus Damage",
+		"type": "prismatic",
+		"desc": "Cerberus Core +25% Charge Cooldown +25% Bonus Damage"
+	},
+	{
+		"id": 175,
+		"school": "Veil Demon",
+		"name": "Command Bonus Damage",
+		"type": "prismatic",
+		"desc": "Increase Cooldown by 50%, but will now reduce enemy target's Damage Resistance by 15%"
+	},
+	{
+		"id": 176,
+		"school": "Veil Demon",
+		"name": "Shadow Soul Quick Charge",
+		"type": "prismatic",
+		"desc": "Shadow Soul -50% Charge Cooldown -25% Bonus Damage"
+	},
+	{
+		"id": 177,
+		"school": "Veil Demon",
+		"name": "Soul Infusion Bonus Damage",
+		"type": "prismatic",
+		"desc": "Soul Infusion -15% Lifesteal +0.75% Bonus Damage per stack up to a max of 15%"
+	},
+	{
+		"id": 178,
+		"school": "Veil Demon",
+		"name": "Frost of Elivagar Bonus Damage",
+		"type": "prismatic",
+		"desc": "Frost of Elivagar +20% Charge Cooldown +50% Bonus Damage"
+	},
+	{
+		"id": 179,
+		"school": "Veil Demon",
+		"name": "Fungal Spore Toxin",
+		"type": "prismatic",
+		"desc": "Fungal Spore -6 Max Charges +100% Charge Cooldown Applies Toxin instead of Poison. Toxin deals 300 damage plus 300 poison damage per additional stack over 30s."
+	},
+	{
+		"id": 180,
+		"school": "Veil Demon",
+		"name": "Grael Bedrock Health Bonus",
+		"type": "prismatic",
+		"desc": "Grael Bedrock +25% Charge Cooldown +25% Health"
+	},
+	{
+		"id": 181,
+		"school": "Veil Demon",
+		"name": "Grael Heart Bonus Health",
+		"type": "prismatic",
+		"desc": "Grael Heart +50% Charge Cooldown +50% Health"
+	},
+	{
+		"id": 182,
+		"school": "Veil Demon",
+		"name": "Chronos Gem Bonus Slow",
+		"type": "prismatic",
+		"desc": "Chronos Gem +20% Charge Cooldown +10% Slow"
+	},
+	{
+		"id": 183,
+		"school": "Veil Demon",
+		"name": "Pain Conduit Bonus Damage",
+		"type": "prismatic",
+		"desc": "Pain Conduit -20% Duration +25% Bonus Damage"
+	},
+	{
+		"id": 184,
+		"school": "Veil Demon",
+		"name": "Paralyzing Field Damage Bonus",
+		"type": "prismatic",
+		"desc": "Paralyzing Field -20% Stun Duration +50% Bonus Damage"
+	},
+	{
+		"id": 185,
+		"school": "Veil Demon",
+		"name": "Cerberus Inferno Bonus Damage",
+		"type": "prismatic",
+		"desc": "Cerberus Inferno +50% Charge Cooldown +50% Bonus Damage"
+	},
+	{
+		"id": 186,
+		"school": "Veil Demon",
+		"name": "Sacrifice Bonus Damage",
+		"type": "prismatic",
+		"desc": "Sacrifice +25% Charge Cooldown +50% Bonus Damage"
+	},
+	{
+		"id": 187,
+		"school": "Veil Demon",
+		"name": "Shards of Cerberus Bonus Damage",
+		"type": "prismatic",
+		"desc": "Cerberus +20% Charge Cooldown +20% Bonus Damage"
+	},
+	{
+		"id": 188,
+		"school": "Veil Demon",
+		"name": "Sheaths of Sorrow Bonus Damage",
+		"type": "prismatic",
+		"desc": "Sheaths of Sorrow +20% Charge Cooldown +35% Bonus Damage"
+	},
+	{
+		"id": 189,
+		"school": "Veil Demon",
+		"name": "Veil Sight Curse Quick Charge",
+		"type": "prismatic",
+		"desc": "Veil Sight -40% Charge Cooldown -40% Duration"
+	},
+	{
+		"id": 190,
+		"school": "Veil Demon",
+		"name": "Translocate Low Health Heal",
+		"type": "prismatic",
+		"desc": "Translocate -20% Bonus Healing Allies below 20% health or 100 health receive the heal, whichever value is greater."
+	},
+	{
+		"id": 191,
+		"school": "Veil Demon",
+		"name": "Veil Rift Bonus Damage",
+		"type": "prismatic",
+		"desc": "Veil Rift +20% Cooldown +20% Bonus Damage"
+	},
+	{
+		"id": 192,
+		"school": "Veil Demon",
+		"name": "Veil Shroud Bonus Melee Damage",
+		"type": "prismatic",
+		"desc": "Veil Shroud -12.5% Bonus Ranged Damage +12.5% Bonus Melee Damage"
+	},
+	{
+		"id": 193,
+		"school": "Veil Demon",
+		"name": "Watcher Health Bonus",
+		"type": "prismatic",
+		"desc": "Watcher +33% Charge Cooldown +100% Health"
+	},
+	{
+		"id": 194,
+		"school": "Veil Demon",
+		"name": "Winds of Auros Pushback",
+		"type": "prismatic",
+		"desc": "Winds of Auros +25% Charge Cooldown Pushback is no longer based on distance away."
+	},
+  {
+		"id": 195,
+		"school": "Arcane",
+		"name": "Firebolt Burn Stacks",
+		"type": "prismatic",
+		"desc": "Firebolt -50% Bonus Damage +1 Burn Stacks Applied"
+	},
+  {
+		"id": 196,
+		"school": "Arcane",
+		"name": "Flamestrike Damage",
+		"type": "prismatic",
+		"desc": "Flamestrike -2 Stun +1,060% Bonus Damage"
+	},
+  {
+		"id": 197,
+		"school": "Arcane",
+		"name": "Wildfire Damage",
+		"type": "prismatic",
+		"desc": "Wildfire +540% Bonus Damage +75% Cooldown"
+	},
+  {
+    "id": 198,
+    "school": "Tech",
+    "name": "Healing Microbots Heal",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing per tick +20% Charge Cooldown"
+  },
+  {
+    "id": 199,
+    "school": "Tech",
+    "name": "Lockdown Duration",
+    "type": "prismatic",
+    "desc": "-25% Root Duration -25% Cooldown"
+  },
+  {
+    "id": 200,
+    "school": "Tech",
+    "name": "Reconstruction Healing",
+    "type": "prismatic",
+    "desc": "+20% Bonus Healing +20% Cooldown"
+  },
+  {
+    "id": 201,
+    "school": "Tech",
+    "name": "Arcane Converter Damage",
+    "type": "prismatic",
+    "desc": "+20% Bonus Damage +20% Cooldown"
+  },
+  {
+    "id": 202,
+    "school": "Veil Demon",
+    "name": "Shade Portal Stealth Bonus",
+    "type": "prismatic",
+    "desc": "+50% Cooldown +50% Stealth"
+  },
+  {
+    "id": 203,
+    "school": "Veil Demon",
+    "name": "Spirit Shade Cooldown Bonus",
+    "type": "prismatic",
+    "desc": "-33% Cooldown -33% Bonus Healing"
+  },
+  {
+    "id": 204,
+    "school": "Veil Demon",
+    "name": "Spiteful Shade Bonus Damage",
+    "type": "prismatic",
+    "desc": "+25% Cooldown +25% Bonus Damage"
+  }
+]
