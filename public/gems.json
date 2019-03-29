@@ -4,9 +4,9 @@
     "school": "Universal",
     "name": "Sapphire of Recurrence",
     "type": "sapphire",
-    "desc": "-2.25% Cooldown And Charge Accrual For All Spells",
+    "desc": "-2.25% Cooldown and charge cooldown For All Spells",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -2.25
+      "Cooldown and charge cooldown For All Spells": -2.25
     }
   },
   {
@@ -14,9 +14,9 @@
     "school": "Universal",
     "name": "Ruby of Recurrence",
     "type": "ruby",
-    "desc": "-4.5% Cooldown And Charge Accrual For All Spells",
+    "desc": "-4.5% Cooldown and charge cooldown For All Spells",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -4.5
+      "Cooldown and charge cooldown For All Spells": -4.5
     }
   },
   {
@@ -604,9 +604,9 @@
     "school": "Veil Demon",
     "name": "Dark Sapphire of Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for minion spells while possessing",
+    "desc": "-2.75% Cooldown and charge cooldown for minion spells while possessing",
     "stats":{
-      "Cooldown And Charge Accrual For Minion Spells": -2.75
+      "Cooldown and charge cooldown For Minion Spells": -2.75
     }
   },
   {
@@ -614,9 +614,9 @@
     "school": "Veil Demon",
     "name": "Dark Ruby of Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for minion spells while possessing",
+    "desc": "-5.5% Cooldown and charge cooldown for minion spells while possessing",
     "stats":{
-      "Cooldown And Charge Accrual For Minion Spells": -5.5
+      "Cooldown and charge cooldown For Minion Spells": -5.5
     }
   },
   {
@@ -624,9 +624,9 @@
     "school": "Veil Demon",
     "name": "Dark Sapphire of Breach Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells",
+    "desc": "-2.75% Cooldown and charge cooldown for Breach spells",
     "stats":{
-      "Cooldown And Charge Accrual For Breach Spells": -2.75
+      "Cooldown and charge cooldown For Breach Spells": -2.75
     }
   },
   {
@@ -634,9 +634,9 @@
     "school": "Veil Demon",
     "name": "Dark Ruby of Breach Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells",
+    "desc": "-5.5% Cooldown and charge cooldown for Breach spells",
     "stats":{
-      "Cooldown And Charge Accrual For Breach Spells": -5.5
+      "Cooldown and charge cooldown For Breach Spells": -5.5
     }
   },
   {
@@ -644,9 +644,9 @@
     "school": "Veil Demon",
     "name": "Dark Sapphire of Conjuring Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Conjuring spells",
+    "desc": "-2.75% Cooldown and charge cooldown for Conjuring spells",
     "stats":{
-      "Cooldown And Charge Accrual For Conjuring Spells": -2.75
+      "Cooldown and charge cooldown For Conjuring Spells": -2.75
     }
   },
   {
@@ -654,9 +654,9 @@
     "school": "Veil Demon",
     "name": "Dark Ruby of Conjuring Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Conjuring spells",
+    "desc": "-5.5% Cooldown and charge cooldown for Conjuring spells",
     "stats":{
-      "Cooldown And Charge Accrual For Conjuring Spells": -5.5
+      "Cooldown and charge cooldown For Conjuring Spells": -5.5
     }
   },
   {
@@ -664,9 +664,9 @@
     "school": "Veil Demon",
     "name": "Dark Sapphire of Dominion Recurrence",
     "type": "sapphire",
-    "desc": "-2.75% Cooldown and Charge Accrual for Breach spells",
+    "desc": "-2.75% Cooldown and charge cooldown for Breach spells",
     "stats":{
-      "Cooldown And Charge Accrual For Breach Spells": -2.75
+      "Cooldown and charge cooldown For Breach Spells": -2.75
     }
   },
   {
@@ -674,9 +674,9 @@
     "school": "Veil Demon",
     "name": "Dark Ruby of Dominion Recurrence",
     "type": "ruby",
-    "desc": "-5.5% Cooldown and Charge Accrual for Breach spells",
+    "desc": "-5.5% Cooldown and charge cooldown for Breach spells",
     "stats":{
-      "Cooldown And Charge Accrual For Breach Spells": -5.5
+      "Cooldown and charge cooldown For Breach Spells": -5.5
     }
   },
   {
@@ -766,7 +766,7 @@
     "type": "sapphire",
     "desc": "+3.25% Bonus Conjuring Damage",
     "stats":{
-      "Bonus Breach Damage": 3.25
+      "Bonus Conjuring Damage": 3.25
     }
   },
   {
@@ -776,7 +776,7 @@
     "type": "ruby",
     "desc": "+6.25% Bonus Conjuring Damage",
     "stats":{
-      "Bonus Breach Damage": 6.25
+      "Bonus Conjuring Damage": 6.25
     }
   },
   {
@@ -786,7 +786,7 @@
     "type": "sapphire",
     "desc": "+1% Bonus Conjuring Damage per Team Level",
     "stats":{
-      "Bonus Breach Damage": 1
+      "Bonus Conjuring Damage": 1
     }
   },
   {
@@ -796,7 +796,7 @@
     "type": "ruby",
     "desc": "+2% Bonus Conjuring Damage per Team Level",
     "stats":{
-      "Bonus Breach Damage": 2
+      "Bonus Conjuring Damage": 2
     }
   },
   {
@@ -1443,7 +1443,7 @@
 	{
 		"id": 164,
 		"school": "Arcane",
-		"name": "Hasted Haste",
+		"name": "Hasted Accelerate",
 		"type": "prismatic",
 		"desc": "Haste -10% Bonus Damage +10% Haste"
 	},
@@ -1487,7 +1487,7 @@
 		"school": "Veil Demon",
 		"name": "Breach Restrict Room",
 		"type": "prismatic",
-		"desc": "Breach Max Charges increased by 1 and Cooldown and Charge Accrual for Breach spells reduced by 10%. Stacks with similar gems and talents. Maximum bonus is 50% from all sources. Copies of this gem do not stack. Breaches can no longer be placed in the same room as enemies except for the boss room."
+		"desc": "Breach Max Charges increased by 1 and Cooldown and charge cooldown for Breach spells reduced by 10%. Stacks with similar gems and talents. Maximum bonus is 50% from all sources. Copies of this gem do not stack. Breaches can no longer be placed in the same room as enemies except for the boss room."
 	},
 	{
 		"id": 171,
@@ -1522,7 +1522,7 @@
 		"school": "Veil Demon",
 		"name": "Command Bonus Damage",
 		"type": "prismatic",
-		"desc": "Command Reduce max charges to 1, but will now reduce enemy target's Damage Resistance by 15%."
+		"desc": "Increase Cooldown by 50%, but will now reduce enemy target's Damage Resistance by 15%"
 	},
 	{
 		"id": 176,
@@ -1705,5 +1705,26 @@
     "name": "Arcane Converter Damage",
     "type": "prismatic",
     "desc": "+20% Bonus Damage +20% Cooldown"
+  },
+  {
+    "id": 202,
+    "school": "Veil Demon",
+    "name": "Shade Portal Stealth Bonus",
+    "type": "prismatic",
+    "desc": "+50% Cooldown +50% Stealth"
+  },
+  {
+    "id": 203,
+    "school": "Veil Demon",
+    "name": "Spirit Shade Cooldown Bonus",
+    "type": "prismatic",
+    "desc": "-33% Cooldown -33% Bonus Healing"
+  },
+  {
+    "id": 204,
+    "school": "Veil Demon",
+    "name": "Spiteful Shade Bonus Damage",
+    "type": "prismatic",
+    "desc": "+25% Cooldown +25% Bonus Damage"
   }
 ]

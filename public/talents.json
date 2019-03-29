@@ -17,7 +17,7 @@
   {
     "id":3,
     "talent":"A second Dodge is free if used within 3s of the first.",
-    "levels": [1, 2, 3],
+    "levels": [1, 2, 3, 4],
     "school": "mage"
   },
   {
@@ -52,16 +52,16 @@
   },
   {
     "id":9,
-    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "mage",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -12.5
+      "Cooldown and charge cooldown For All Spells": -12.5
     }
   },
   {
     "id":10,
-    "talent":"Dealing damage to a possessed enemy with basic attacks applies a 10% Slow for 10s. Stacks up to 4 times. Can only occur once every 1s.",
+    "talent":"Dealing damage to a possessed enemy with basic attacks applies a 5% Slow for 10s. Stacks up to 4 times. Can only occur once every 1s.",
     "levels": [1, 2, 3],
     "school": "mage"
   },
@@ -145,7 +145,7 @@
   },
   {
     "id":23,
-    "talent":"After not attacking for 16s gain stealth for up to 7s you are unrevealable for the first 1s.",
+    "talent":"After not attacking for 8s gain stealth for up to 7s you are unrevealable for the first 1s.",
     "levels": [4],
     "school": "mage"
   },
@@ -157,11 +157,11 @@
   },
   {
     "id":25,
-    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "mage",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -25
+      "Cooldown and charge cooldown For All Spells": -25
     }
   },
   {
@@ -364,13 +364,13 @@
   },
   {
     "id":59,
-    "talent":"Max charges of Frenzied Shambler increased by 2.",
+    "talent":"Max charges of Frenzied Shambler increased by 2. Each non-Grunt minion kill with Frenzied Shambler returns 0.5 charges.",
     "levels": [1, 2, 3],
     "school": "Dark"
   },
   {
     "id":60,
-    "talent":"Maximum number of active Shamblers increased by 1.",
+    "talent":"Maximum number of active Shamblers and number of Shamblers spawned per kill increased by 1.",
     "levels": [1, 2, 3],
     "school": "Dark"
   },
@@ -485,7 +485,7 @@
   {
     "id":79,
     "talent":"Confound now applies to nearby enemies.",
-    "levels": [4],
+    "levels": [3, 4],
     "school": "Hedge"
   },
   {
@@ -538,7 +538,7 @@
   },
   {
     "id":88,
-    "talent":"Mob of Ravens now creates an additional shadow ally.",
+    "talent":"Mob of Ravens now creates an additional shadow ally and gains 33% Bonus Damage.",
     "levels": [1, 2, 3],
     "school": "Shadow"
   },
@@ -658,47 +658,47 @@
   },
   {
     "id":108,
-    "talent":"Cooldown and charge accrual for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for all spells reduced by 12.5%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -12.5
+      "Cooldown and charge cooldown For All Spells": -12.5
     }
   },
   {
     "id":109,
-    "talent":"Cooldown and charge accrual for breach spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for breach spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Breach Spells": -15
+      "Cooldown and charge cooldown For Breach Spells": -15
     }
   },
   {
     "id":110,
-    "talent":"Cooldown and charge accrual for conjuring spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for conjuring spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Conjuring Spells": -15
+      "Cooldown and charge cooldown For Conjuring Spells": -15
     }
   },
   {
     "id":111,
-    "talent":"Cooldown and charge accrual for dominion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for dominion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Dominion Spells": -15
+      "Cooldown and charge cooldown For Dominion Spells": -15
     }
   },
   {
     "id":112,
-    "talent":"Cooldown and charge accrual for minion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for minion spells reduced by 15%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [1, 2, 3],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Minion Spells": -15
+      "Cooldown and charge cooldown For Minion Spells": -15
     }
   },
   {
@@ -757,7 +757,7 @@
   },
   {
     "id":122,
-    "talent":"Sacrifice now explodes instantly but can only be used on grunt minion allies",
+    "talent":"Sacrifice max charges increased by 1 and Charge Cooldown reduced by 25%.",
     "levels": [1, 2, 3],
     "school": "Veil Demon"
   },
@@ -832,47 +832,47 @@
   },
   {
     "id":134,
-    "talent":"Cooldown and charge accrual for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for all spells reduced by 25%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For All Spells": -25
+      "Cooldown and charge cooldown For All Spells": -25
     }
   },
   {
     "id":135,
-    "talent":"Cooldown and charge accrual for breach spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for breach spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Breach Spells": -30
+      "Cooldown and charge cooldown For Breach Spells": -30
     }
   },
   {
     "id":136,
-    "talent":"Cooldown and charge accrual for conjuring spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for conjuring spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Conjuring Spells": -30
+      "Cooldown and charge cooldown For Conjuring Spells": -30
     }
   },
   {
     "id":137,
-    "talent":"Cooldown and charge accrual for dominion spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for dominion spells reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Dominion Spells": -30
+      "Cooldown and charge cooldown For Dominion Spells": -30
     }
   },
   {
     "id":138,
-    "talent":"Cooldown and charge accrual for minion spells while possessing reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
+    "talent":"Cooldown and charge cooldown for minion spells while possessing reduced by 30%. Stacks with similar talents. Maximum bonus is 33% from all sources.",
     "levels": [4],
     "school": "Veil Demon",
     "stats": {
-      "Cooldown And Charge Accrual For Minion Spells": -30
+      "Cooldown and charge cooldown For Minion Spells": -30
     }
   },
   {
@@ -946,5 +946,401 @@
     "talent": "Healing Microbots now removes Root and Slow when applied.",
     "levels": [3, 4],
     "school": "Tech"
+  },
+  {
+    "id": 151,
+    "talent": "Accelerate now applies 20% Haste for 8s to all allies near your target ally, does not trigger when used on yourself.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 152,
+    "talent": "Aqueous Globe now grants a 25% Bonus Ranged Damage for all allies within it.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 153,
+    "talent": "Chronoleap now refreshes the cooldown for Stasis Beam.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 154,
+    "talent": "Flamestrike now burns hotter, removing all Damage Shield from enemies hit.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 155,
+    "talent": "Inferno now purges all Buff effects from enemies hit.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 156,
+    "talent": "Mending Wave now applies a 25% Bonus Damage for 4s to all allies who were actively healed.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 157,
+    "talent": "Temporal Field now also applies -25% Damage Resistance to enemies inside.",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 158,
+    "talent": "Transcendent Blast now applies Burn stacks based on the number of Transcendent Blast stacks consumed, if used at 2 or more stacks",
+    "levels": [1, 2, 3],
+    "school": "Arcane"
+  },
+  {
+    "id": 159,
+    "talent": "Cease Continuum now also applies Hinder.",
+    "levels": [3],
+    "school": "Arcane"
+  },
+  {
+    "id": 160,
+    "talent": "Greater Heal now also cleanses Slow, then applies a 4s Slow immunity to your target ally.",
+    "levels": [3],
+    "school": "Arcane"
+  },
+  {
+    "id": 161,
+    "talent": "Wildfire now leaves a burning area behind, dealing an additional 300 fire damage over 6s.",
+    "levels": [3],
+    "school": "Arcane"
+  },
+  {
+    "id": 162,
+    "talent": "Auros Grasp now also pulls targets near your target.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 163,
+    "talent": "Cleave extra damage is always dealt. It no longer requires a Taunted target.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 164,
+    "talent": "Downburst will reset its cooldown if used on a destructible. Cannot occur more than once every 30s.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 165,
+    "talent": "If Titan's Fist hits at least one target and if all targets hit are Grunt targets, refresh it.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 166,
+    "talent": "Mana Strike now considers destructible objects as targets when applying the shield.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 167,
+    "talent": "Strike of the Aegis now deals extreme impact and will knock targets back instead of down.",
+    "levels": [1, 2, 3],
+    "school": "Battle"
+  },
+  {
+    "id": 168,
+    "talent": "Gladiator's Wrath now deals extreme impact on the final slam and will knock nearby targets back instead of down.",
+    "levels": [3],
+    "school": "Battle"
+  },
+  {
+    "id": 169,
+    "talent": "Crippling Rake next damage bonus increased to 50% and anyone can trigger it.",
+    "levels": [1, 2, 3],
+    "school": "Dark"
+  },
+  {
+    "id": 170,
+    "talent": "Death Touch maximum cast time reduced by 50%.",
+    "levels": [1, 2, 3],
+    "school": "Dark"
+  },
+  {
+    "id": 171,
+    "talent": "Grim Reaper Form makes you immune to Stun, but you can no longer revive allies.",
+    "levels": [1, 2, 3],
+    "school": "Dark"
+  },
+  {
+    "id": 172,
+    "talent": "Overwhelming Power now Roots you in place. You become immune to impact and aura damage increased to 200.",
+    "levels": [3],
+    "school": "Dark"
+  },
+  {
+    "id": 173,
+    "talent": "Shamblers summoned by Raise Dead automatically trigger Sacrifice Minion at low health or when the timer is up.",
+    "levels": [3],
+    "school": "Dark"
+  },
+  {
+    "id": 174,
+    "talent": "Banishing Relic now explodes at the end dealing 450 damage to nearby enemies.",
+    "levels": [1, 2, 3],
+    "school": "Hedge"
+  },
+  {
+    "id": 175,
+    "talent": "Hallowed Spike can be retrieved to reset the cooldown. Can only occur once every 10s.",
+    "levels": [1, 2, 3],
+    "school": "Hedge"
+  },
+  {
+    "id": 176,
+    "talent": "If Projectile Ward kills or downs the enemy, the cooldown is reset. This can only occur once every 10s.",
+    "levels": [1, 2, 3],
+    "school": "Hedge"
+  },
+  {
+    "id": 177,
+    "talent": "Sticky Grenade now applies Tar.",
+    "levels": [1, 2, 3],
+    "school": "Hedge"
+  },
+  {
+    "id": 178,
+    "talent": "Immune to damage while channeling Siphoning Skull.",
+    "levels": [3],
+    "school": "Hedge"
+  },
+  {
+    "id": 179,
+    "talent": "Debilitating Wound now applies a 3s Silence the the target you successfully Interrupt.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 180,
+    "talent": "Deathroot Dagger now applies Bleed and deals 50% more damage.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 181,
+    "talent": "Increase the Bonus Damage bonus for Ambush to 60%, and increase the reset window to 8.56s.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 182,
+    "talent": "Increase the Bonus Damage bonus for Ambush to 60%, and increase the reset window to 8.56s.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 183,
+    "talent": "Killing an enemy with Assassinate now heals you for 50% of the damage dealt.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 184,
+    "talent": "Talon Frenzy now applies a 6s Damage Resistance Ailment to your enemy.",
+    "levels": [1, 2, 3],
+    "school": "Shadow"
+  },
+  {
+    "id": 185,
+    "talent": "Basic Attacks now apply Bleed while in Bloodlust.",
+    "levels": [3],
+    "school": "Shadow"
+  },
+  {
+    "id": 186,
+    "talent": "Enemies caught in Mass Ambush incur a 25% Slow and Hinder while inside.",
+    "levels": [3],
+    "school": "Shadow"
+  },
+  {
+    "id": 187,
+    "talent": "Using Dive-Bomb on a destructible object refunds the cost of Dive-Bomb. This cannot occur more than once every 13s.",
+    "levels": [3],
+    "school": "Shadow"
+  },
+  {
+    "id": 188,
+    "talent": "Flash Grenade now applies 2 stacks of Burn.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 189,
+    "talent": "Lead Storm now applies +25% Slow to enemies hit and heals you for 20% of the damage dealt. You no longer have impact immunity.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 190,
+    "talent": "Precision Barrage now applies Root to targets affected by Bleed.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 191,
+    "talent": "Vortex Slug now detonates a second time.",
+    "levels": [1, 2, 3],
+    "school": "Tech"
+  },
+  {
+    "id": 192,
+    "talent": "Kinetic Absorption Field now pulls enemies towards its center.",
+    "levels": [3],
+    "school": "Tech"
+  },
+  {
+    "id": 193,
+    "talent": "Microbots Triage now applies the Healing Microbots Buff while within the area.",
+    "levels": [4],
+    "school": "Tech"
+  },
+  {
+    "id": 194,
+    "talent": "Rapid Fire Clip now deals increased impact.",
+    "levels": [4],
+    "school": "Tech"
+  },
+  {
+    "id": 195,
+    "talent": "Aethyr Coil now pulls the target and enemies nearby.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 196,
+    "talent": "Burning Soul will deal 200 damage and purge Buff effects on targets affected consecutively for 10s.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 197,
+    "talent": "Cerberus Core also afflicts enemies with Burn.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 198,
+    "talent": "Cerberus Inferno also applies Burn.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 199,
+    "talent": "Cursed Siphoning now also applies to possessed minion allies. Does not stack if possessing an Elite ally.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 200,
+    "talent": "Frosts of Elivagar applies Frost Snap upon end or on enemy leaving the area.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 201,
+    "talent": "Fungal Spore also applies a -50% Bonus Healing Received Ailment.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 202,
+    "talent": "Grael Heart will now break CC effects on the target.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 203,
+    "talent": "Grael Vitals also grants +1 Dodge charges.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 204,
+    "talent": "Hasten Death now also grants 2.5% Damage Resistance and your summoned Elite gains 2 stacks per Breach triggered.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 205,
+    "talent": "Inspiring Presence grants an additional 25% Bonus Damage.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 206,
+    "talent": "Pain Conduit will grant the target 50% Lifesteal if applied while the target is below 100 or 20% health, whichever value is greater.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 207,
+    "talent": "Paralyzing Field lasts for 60s, max charges increased to 3 and grants all charges.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 208,
+    "talent": "Shadow Soul now automatically applies. Cannot be applies to the same ally more than once every 10s.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 209,
+    "talent": "Spirit Shade now also heals nearby allies.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 210,
+    "talent": "Spiteful Shade always applies at 50% Bonus Damage.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 211,
+    "talent": "Translocate will now break CC effects on the target.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 212,
+    "talent": "Upon ending, Shade Portal grants 50% Damage Resistance for 5s.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 213,
+    "talent": "Veil Sight Curse applies a -50% Bonus Healing Received Ailment.",
+    "levels": [1, 2, 3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 214,
+    "talent": "Chronos Gem affects nearby enemies.",
+    "levels": [3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 215,
+    "talent": "Enemies take 150 damage every 1s while affected by Veil Rift.",
+    "levels": [3],
+    "school": "Veil Demon"
+  },
+  {
+    "id": 216,
+    "talent": "Shadow Clone gains use of the Ultimate, but no longer has access to depossess.",
+    "levels": [3],
+    "school": "Veil Demon"
   }
 ]
